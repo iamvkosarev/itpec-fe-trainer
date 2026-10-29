@@ -1,0 +1,228 @@
+{
+ "exams": [
+  {
+   "examId": "2015A-A",
+   "code": "2015A",
+   "part": "A",
+   "year": "2015",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2015S-A",
+   "code": "2015S",
+   "part": "A",
+   "year": "2015",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2016A-A",
+   "code": "2016A",
+   "part": "A",
+   "year": "2016",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2016S-A",
+   "code": "2016S",
+   "part": "A",
+   "year": "2016",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2017A-A",
+   "code": "2017A",
+   "part": "A",
+   "year": "2017",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2017S-A",
+   "code": "2017S",
+   "part": "A",
+   "year": "2017",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2018A-A",
+   "code": "2018A",
+   "part": "A",
+   "year": "2018",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2018S-A",
+   "code": "2018S",
+   "part": "A",
+   "year": "2018",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2019A-A",
+   "code": "2019A",
+   "part": "A",
+   "year": "2019",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2019S-A",
+   "code": "2019S",
+   "part": "A",
+   "year": "2019",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2020A-A",
+   "code": "2020A",
+   "part": "A",
+   "year": "2020",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2020S-A",
+   "code": "2020S",
+   "part": "A",
+   "year": "2020",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2021A-A",
+   "code": "2021A",
+   "part": "A",
+   "year": "2021",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2021S-A",
+   "code": "2021S",
+   "part": "A",
+   "year": "2021",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2022A-A",
+   "code": "2022A",
+   "part": "A",
+   "year": "2022",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2022S-A",
+   "code": "2022S",
+   "part": "A",
+   "year": "2022",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2023A-A",
+   "code": "2023A",
+   "part": "A",
+   "year": "2023",
+   "session": "October",
+   "count": 80
+  },
+  {
+   "examId": "2023S-A",
+   "code": "2023S",
+   "part": "A",
+   "year": "2023",
+   "session": "April",
+   "count": 80
+  },
+  {
+   "examId": "2024A-A",
+   "code": "2024A",
+   "part": "A",
+   "year": "2024",
+   "session": "October",
+   "count": 60
+  },
+  {
+   "examId": "2024A-B",
+   "code": "2024A",
+   "part": "B",
+   "year": "2024",
+   "session": "October",
+   "count": 20
+  },
+  {
+   "examId": "2024S-A",
+   "code": "2024S",
+   "part": "A",
+   "year": "2024",
+   "session": "April",
+   "count": 60
+  },
+  {
+   "examId": "2024S-B",
+   "code": "2024S",
+   "part": "B",
+   "year": "2024",
+   "session": "April",
+   "count": 20
+  },
+  {
+   "examId": "2025A-A",
+   "code": "2025A",
+   "part": "A",
+   "year": "2025",
+   "session": "October",
+   "count": 60
+  },
+  {
+   "examId": "2025A-B",
+   "code": "2025A",
+   "part": "B",
+   "year": "2025",
+   "session": "October",
+   "count": 20
+  },
+  {
+   "examId": "2025S-A",
+   "code": "2025S",
+   "part": "A",
+   "year": "2025",
+   "session": "April",
+   "count": 60
+  },
+  {
+   "examId": "2025S-B",
+   "code": "2025S",
+   "part": "B",
+   "year": "2025",
+   "session": "April",
+   "count": 20
+  },
+  {
+   "examId": "2026S-A",
+   "code": "2026S",
+   "part": "A",
+   "year": "2026",
+   "session": "April",
+   "count": 60
+  },
+  {
+   "examId": "2026S-B",
+   "code": "2026S",
+   "part": "B",
+   "year": "2026",
+   "session": "April",
+   "count": 20
+  }
+ ]
+}

@@ -1,0 +1,6012 @@
+{
+ "version": 1,
+ "topics": [
+  [
+   "hw",
+   "Компьютер и железо"
+  ],
+  [
+   "algo",
+   "ОС и алгоритмы"
+  ],
+  [
+   "db",
+   "Базы данных"
+  ],
+  [
+   "net",
+   "Сеть и веб"
+  ],
+  [
+   "sec",
+   "Безопасность"
+  ],
+  [
+   "dev",
+   "Разработка и стандарты"
+  ],
+  [
+   "mgmt",
+   "Проекты и сервис"
+  ],
+  [
+   "strat",
+   "Стратегия и бизнес"
+  ]
+ ],
+ "items": [
+  {
+   "id": "IP",
+   "abbr": "IP",
+   "topic": "net",
+   "full": "Internet Protocol",
+   "ru": "межсетевой протокол — адресация и маршрутизация пакетов",
+   "note": "Сетевой уровень (L3): доставляет пакеты по IP-адресам без гарантии доставки, надёжность добавляет TCP. IPv4 — 32 бита, IPv6 — 128 бит; частные адреса выходят в Интернет через NAT/NAPT.",
+   "decoys": [
+    "Interface Protocol",
+    "Internetwork Packet",
+    "Integrated Packet"
+   ],
+   "qids": [
+    "2015A-A-31",
+    "2015A-A-33",
+    "2015S-A-47",
+    "2016A-A-32",
+    "2016A-A-33",
+    "2016A-A-35",
+    "2016S-A-35",
+    "2016S-A-36",
+    "2016S-A-38",
+    "2017A-A-31",
+    "2017A-A-32",
+    "2017A-A-33",
+    "2017S-A-32",
+    "2017S-A-34",
+    "2017S-A-35",
+    "2017S-A-36",
+    "2018A-A-32",
+    "2018A-A-34",
+    "2018A-A-36",
+    "2018S-A-31",
+    "2018S-A-32",
+    "2018S-A-33",
+    "2018S-A-45",
+    "2019S-A-31",
+    "2019S-A-32",
+    "2019S-A-36",
+    "2019S-A-45",
+    "2020A-A-32",
+    "2020A-A-33",
+    "2020A-A-41",
+    "2020S-A-34",
+    "2020S-A-38",
+    "2020S-A-39",
+    "2021A-A-31",
+    "2021A-A-33",
+    "2021S-A-32",
+    "2021S-A-33",
+    "2021S-A-43",
+    "2022A-A-30",
+    "2022A-A-31",
+    "2022A-A-32",
+    "2022S-A-30",
+    "2022S-A-33",
+    "2022S-A-35",
+    "2022S-A-36",
+    "2023A-A-30",
+    "2023A-A-31",
+    "2023A-A-32",
+    "2023A-A-41",
+    "2023S-A-31",
+    "2023S-A-34",
+    "2024A-A-23",
+    "2025A-A-24",
+    "2025A-A-29",
+    "2025S-A-23",
+    "2025S-A-24",
+    "2025S-A-25",
+    "2025S-A-33",
+    "2025S-B-17",
+    "2026S-A-24",
+    "2026S-A-26",
+    "2026S-A-33",
+    "2026S-B-17",
+    "2015S-A-34",
+    "2019S-A-33",
+    "2019S-A-34",
+    "2020S-A-33",
+    "2022A-A-34",
+    "2023A-A-34"
+   ],
+   "spellings": [
+    "IPv4",
+    "IPv6",
+    "TCP/IP"
+   ]
+  },
+  {
+   "id": "CPU",
+   "abbr": "CPU",
+   "topic": "hw",
+   "full": "Central Processing Unit",
+   "ru": "центральный процессор — выполняет инструкции программ",
+   "note": "Состоит из устройства управления, АЛУ и регистров. Время CPU = число инструкций × CPI / тактовая частота. DMA и прерывания разгружают CPU: он занят другой работой, пока идёт ввод-вывод.",
+   "decoys": [
+    "Core Processing Unit",
+    "Central Program Unit",
+    "Computer Peripheral Unit"
+   ],
+   "qids": [
+    "2015A-A-12",
+    "2015A-A-19",
+    "2015S-A-11",
+    "2015S-A-18",
+    "2016A-A-15",
+    "2016S-A-11",
+    "2016S-A-14",
+    "2016S-A-17",
+    "2016S-A-22",
+    "2017A-A-09",
+    "2017A-A-16",
+    "2017A-A-37",
+    "2017A-A-58",
+    "2017S-A-12",
+    "2018A-A-14",
+    "2018A-A-17",
+    "2018A-A-71",
+    "2019A-A-10",
+    "2019A-A-18",
+    "2019A-A-23",
+    "2020A-A-10",
+    "2020A-A-18",
+    "2020S-A-20",
+    "2020S-A-21",
+    "2021A-A-17",
+    "2021S-A-12",
+    "2021S-A-13",
+    "2022A-A-15",
+    "2022A-A-18",
+    "2022S-A-17",
+    "2022S-A-57",
+    "2023A-A-11",
+    "2023A-A-12",
+    "2023A-A-18",
+    "2023S-A-11",
+    "2023S-A-17",
+    "2023S-A-18",
+    "2023S-A-69",
+    "2024A-A-08",
+    "2024A-A-09",
+    "2024A-A-13",
+    "2024A-A-15",
+    "2024S-A-08",
+    "2025A-A-08",
+    "2025S-A-08",
+    "2025S-A-09",
+    "2025S-A-14",
+    "2026S-A-10",
+    "2026S-A-14",
+    "2026S-A-15"
+   ]
+  },
+  {
+   "id": "SQL",
+   "abbr": "SQL",
+   "topic": "db",
+   "full": "Structured Query Language",
+   "ru": "язык структурированных запросов — стандартный язык реляционных БД",
+   "note": "Делится на DDL (CREATE, ALTER, DROP), DML (SELECT, INSERT, UPDATE, DELETE) и DCL (GRANT, REVOKE). В экзамене — чтение запросов с JOIN, GROUP BY/HAVING, подзапросами, а также SQL injection.",
+   "decoys": [
+    "Standard Query Logic",
+    "Sequential Query Language",
+    "Simple Query Layer"
+   ],
+   "qids": [
+    "2015A-A-30",
+    "2015A-A-39",
+    "2015S-A-32",
+    "2016A-A-28",
+    "2016S-A-29",
+    "2016S-A-48",
+    "2017S-A-31",
+    "2018A-A-40",
+    "2018A-A-45",
+    "2018S-A-29",
+    "2018S-A-39",
+    "2019A-A-29",
+    "2019A-A-40",
+    "2019A-A-46",
+    "2019S-A-26",
+    "2019S-A-27",
+    "2019S-A-37",
+    "2020A-A-26",
+    "2020A-A-38",
+    "2020S-A-29",
+    "2020S-A-43",
+    "2021A-A-26",
+    "2021A-A-43",
+    "2021S-A-27",
+    "2021S-A-41",
+    "2022A-A-19",
+    "2022A-A-27",
+    "2022S-A-26",
+    "2022S-A-27",
+    "2022S-A-36",
+    "2023A-A-27",
+    "2023A-A-28",
+    "2023A-A-35",
+    "2024A-A-20",
+    "2024S-A-21",
+    "2024S-B-17",
+    "2024S-B-19",
+    "2025A-A-21",
+    "2025S-A-21",
+    "2026S-A-22",
+    "2026S-A-34",
+    "2026S-B-19"
+   ]
+  },
+  {
+   "id": "TCP",
+   "abbr": "TCP",
+   "topic": "net",
+   "full": "Transmission Control Protocol",
+   "ru": "протокол управления передачей — надёжная доставка с установлением соединения",
+   "note": "Транспортный уровень: соединение (тройное рукопожатие), подтверждения, повторная передача, порядок сегментов. Противоположность — UDP без соединения. Соединение определяют IP-адрес и номер порта.",
+   "decoys": [
+    "Transport Connection Protocol",
+    "Traffic Control Protocol",
+    "Terminal Communication Protocol"
+   ],
+   "qids": [
+    "2015A-A-31",
+    "2015A-A-33",
+    "2015S-A-47",
+    "2016A-A-33",
+    "2016A-A-34",
+    "2016S-A-35",
+    "2016S-A-37",
+    "2016S-A-38",
+    "2016S-A-40",
+    "2016S-A-48",
+    "2017A-A-33",
+    "2017A-A-44",
+    "2017S-A-35",
+    "2017S-A-36",
+    "2018A-A-34",
+    "2018A-A-40",
+    "2018S-A-31",
+    "2018S-A-32",
+    "2018S-A-43",
+    "2019S-A-35",
+    "2020A-A-32",
+    "2021A-A-33",
+    "2021S-A-32",
+    "2022A-A-31",
+    "2022A-A-33",
+    "2023S-A-31",
+    "2023S-A-34",
+    "2023S-A-40",
+    "2024S-A-26",
+    "2024S-B-20",
+    "2026S-A-26"
+   ],
+   "spellings": [
+    "TCP/IP"
+   ]
+  },
+  {
+   "id": "DNS",
+   "abbr": "DNS",
+   "topic": "net",
+   "full": "Domain Name System",
+   "ru": "система доменных имён — преобразует доменное имя в IP-адрес",
+   "note": "Распределённая база, переводящая доменное имя (FQDN) в IP-адрес; запросы обычно идут по UDP, порт 53. Атака DNS cache poisoning подменяет запись в кэш-сервере. Не путать с DHCP (выдаёт IP) и ARP (IP → MAC).",
+   "decoys": [
+    "Dynamic Network Service",
+    "Distributed Node System",
+    "Data Network Switching"
+   ],
+   "qids": [
+    "2015A-A-31",
+    "2015A-A-34",
+    "2016S-A-36",
+    "2016S-A-40",
+    "2017A-A-31",
+    "2017S-A-35",
+    "2017S-A-36",
+    "2018A-A-34",
+    "2018S-A-38",
+    "2018S-A-43",
+    "2019S-A-36",
+    "2020A-A-32",
+    "2020A-A-35",
+    "2020A-A-41",
+    "2020S-A-39",
+    "2021A-A-31",
+    "2021A-A-33",
+    "2022A-A-37",
+    "2023A-A-32",
+    "2023S-A-31",
+    "2023S-A-32",
+    "2024A-A-32",
+    "2024S-A-30",
+    "2024S-B-20",
+    "2025A-A-29",
+    "2025S-A-27",
+    "2026S-A-26",
+    "2026S-A-33"
+   ]
+  },
+  {
+   "id": "OS",
+   "abbr": "OS",
+   "topic": "algo",
+   "full": "Operating System",
+   "ru": "операционная система — управляет ресурсами компьютера и задачами",
+   "note": "Распределяет процессор, память, файлы и ввод-вывод между программами. В экзамене: планирование задач (RTOS с вытесняющим приоритетным планированием), права доступа к файлам, виртуальная память.",
+   "decoys": [
+    "Online Scheduler",
+    "Object Supervisor",
+    "Operation Sequencer"
+   ],
+   "qids": [
+    "2015A-A-18",
+    "2015A-A-45",
+    "2015A-A-80",
+    "2015S-A-47",
+    "2016A-A-16",
+    "2016A-A-43",
+    "2016S-A-46",
+    "2018S-A-19",
+    "2018S-A-80",
+    "2019A-A-17",
+    "2019A-A-18",
+    "2019A-A-80",
+    "2019S-A-20",
+    "2020A-A-18",
+    "2021A-A-80",
+    "2021S-A-17",
+    "2022A-A-18",
+    "2022A-A-80",
+    "2022S-A-17",
+    "2022S-A-18",
+    "2023A-A-17",
+    "2024A-A-13",
+    "2024A-A-14",
+    "2024A-A-15",
+    "2024A-B-17",
+    "2024S-A-33",
+    "2025A-B-18",
+    "2025S-A-11"
+   ]
+  },
+  {
+   "id": "UML",
+   "abbr": "UML",
+   "topic": "dev",
+   "full": "Unified Modeling Language",
+   "ru": "унифицированный язык моделирования — стандартные диаграммы для ООП",
+   "note": "UML 2.x: 14 диаграмм — структурные (классов, компонентов, развёртывания) и поведенческие (вариантов использования, деятельности, последовательности, состояний). Часто спрашивают о связях классов: агрегация, композиция, обобщение.",
+   "decoys": [
+    "Unified Markup Language",
+    "Universal Modular Language",
+    "Uniform Model Library"
+   ],
+   "qids": [
+    "2015A-A-47",
+    "2015A-A-48",
+    "2015S-A-48",
+    "2016A-A-27",
+    "2016A-A-46",
+    "2016S-A-54",
+    "2017S-A-63",
+    "2018A-A-28",
+    "2019S-A-46",
+    "2019S-A-62",
+    "2020A-A-27",
+    "2020A-A-45",
+    "2020S-A-46",
+    "2021A-A-45",
+    "2021S-A-45",
+    "2022A-A-45",
+    "2022A-A-46",
+    "2022A-A-63",
+    "2022S-A-46",
+    "2023S-A-28",
+    "2023S-A-50",
+    "2024A-A-34",
+    "2025A-A-34",
+    "2025S-A-20",
+    "2025S-A-35",
+    "2025S-A-39",
+    "2025S-A-47",
+    "2026S-A-35"
+   ]
+  },
+  {
+   "id": "ISO/IEC",
+   "abbr": "ISO/IEC",
+   "topic": "dev",
+   "full": "International Organization for Standardization / International Electrotechnical Commission",
+   "ru": "ISO и IEC (МЭК) — международные организации по стандартизации",
+   "note": "Совместный комитет JTC 1 выпускает ИТ-стандарты: 12207 (процессы ЖЦ ПО), 20000 (ИТ-услуги), 25010 (качество), 27001 (ISMS). «ISO» — не аббревиатура, а от греческого isos — «равный».",
+   "decoys": [
+    "International Organization for Systematization / International Electronics Committee",
+    "International Organization for Security / International Engineering Council",
+    "International Organization for Specifications / International Energy Commission"
+   ],
+   "qids": [
+    "2015A-A-58",
+    "2015A-A-59",
+    "2015A-A-65",
+    "2015S-A-38",
+    "2016S-A-49",
+    "2016S-A-59",
+    "2017A-A-50",
+    "2017S-A-56",
+    "2018S-A-56",
+    "2018S-A-57",
+    "2019A-A-41",
+    "2020S-A-58",
+    "2021A-A-36",
+    "2021A-A-40",
+    "2022S-A-42",
+    "2026S-A-29",
+    "2021A-A-23",
+    "2021S-A-51",
+    "2023S-A-80",
+    "2026S-A-60"
+   ],
+   "spellings": [
+    "ISO"
+   ]
+  },
+  {
+   "id": "MAC#media",
+   "abbr": "MAC",
+   "topic": "net",
+   "full": "Media Access Control",
+   "ru": "управление доступом к среде — подуровень L2; физический адрес сетевой карты",
+   "note": "MAC-адрес — 48-битный аппаратный адрес сетевой карты; по нему коммутатор и мост пересылают кадры, ARP находит его по IP. В безопасности MAC — Message Authentication Code или Mandatory Access Control.",
+   "decoys": [
+    "Managed Adapter Configuration",
+    "Media Allocation Channel",
+    "Main Addressing Component"
+   ],
+   "qids": [
+    "2016A-A-32",
+    "2017A-A-33",
+    "2017S-A-36",
+    "2018A-A-32",
+    "2019S-A-32",
+    "2020S-A-38",
+    "2021A-A-37",
+    "2022A-A-30",
+    "2022A-A-31",
+    "2022S-A-35",
+    "2023A-A-30",
+    "2023A-A-31",
+    "2024A-A-23",
+    "2024S-A-23",
+    "2025A-A-24",
+    "2025S-A-23",
+    "2025S-A-25",
+    "2026S-A-31"
+   ]
+  },
+  {
+   "id": "NAND",
+   "abbr": "NAND",
+   "topic": "hw",
+   "full": "Not AND",
+   "ru": "И-НЕ — инверсия AND: 0 только когда все входы 1",
+   "note": "Выход 0 только при всех входах 1. Универсальный элемент: из одних NAND можно собрать любую логическую схему. В IPA-текстах — negative logical product; NAND-flash названа по схеме соединения ячеек.",
+   "decoys": [
+    "Nested AND",
+    "Normal AND",
+    "Null AND"
+   ],
+   "qids": [
+    "2015A-A-21",
+    "2016A-A-01",
+    "2016S-A-25",
+    "2017A-A-22",
+    "2017S-A-01",
+    "2017S-A-25",
+    "2018S-A-03",
+    "2018S-A-22",
+    "2019A-A-22",
+    "2019A-A-24",
+    "2020A-A-20",
+    "2020A-A-22",
+    "2021S-A-21",
+    "2022A-A-01",
+    "2023A-A-20",
+    "2024A-A-28",
+    "2025S-A-01",
+    "2026S-A-17"
+   ]
+  },
+  {
+   "id": "OSI",
+   "abbr": "OSI",
+   "topic": "net",
+   "full": "Open Systems Interconnection",
+   "ru": "взаимодействие открытых систем — 7-уровневая эталонная модель ISO",
+   "note": "Эталонная модель ISO из 7 уровней: физический, канальный, сетевой, транспортный, сеансовый, представления, прикладной. Повторитель — L1, мост и коммутатор — L2, маршрутизатор — L3, шлюз — L4–L7.",
+   "decoys": [
+    "Open Standards Integration",
+    "Operational Systems Interface",
+    "Optical Signal Interconnection"
+   ],
+   "qids": [
+    "2015A-A-32",
+    "2015S-A-33",
+    "2015S-A-35",
+    "2016A-A-32",
+    "2016S-A-23",
+    "2017A-A-30",
+    "2017S-A-33",
+    "2018A-A-33",
+    "2019A-A-32",
+    "2019A-A-74",
+    "2020A-A-19",
+    "2020A-A-31",
+    "2020S-A-31",
+    "2021A-A-30",
+    "2024A-A-23",
+    "2025A-A-25",
+    "2025S-A-24"
+   ]
+  },
+  {
+   "id": "HTML",
+   "abbr": "HTML",
+   "topic": "net",
+   "full": "HyperText Markup Language",
+   "ru": "язык гипертекстовой разметки — структура веб-страниц через теги",
+   "note": "Описывает структуру веб-страницы тегами; оформление задаёт CSS, поведение — JavaScript. Основан на SGML; XHTML — его строгая XML-версия. HTML отображает браузер на клиенте, на сервере он не исполняется.",
+   "decoys": [
+    "HyperText Modeling Language",
+    "HyperTable Markup Layer",
+    "HyperText Media Layout"
+   ],
+   "qids": [
+    "2015A-A-24",
+    "2016A-A-08",
+    "2017A-A-15",
+    "2017A-A-24",
+    "2018A-A-40",
+    "2019A-A-40",
+    "2019A-A-46",
+    "2019S-A-37",
+    "2020A-A-34",
+    "2020S-A-35",
+    "2020S-A-43",
+    "2021A-A-10",
+    "2022A-A-19",
+    "2023A-A-10",
+    "2023S-A-35",
+    "2025A-A-26"
+   ]
+  },
+  {
+   "id": "LAN",
+   "abbr": "LAN",
+   "topic": "net",
+   "full": "Local Area Network",
+   "ru": "локальная сеть — сеть в пределах здания или кампуса",
+   "note": "Сеть в пределах офиса, здания или кампуса, обычно Ethernet или Wi-Fi. Противоположность — WAN (глобальная сеть между удалёнными площадками); логическое деление одной LAN на сегменты — VLAN.",
+   "decoys": [
+    "Limited Access Network",
+    "Logical Addressing Network",
+    "Line Aggregation Network"
+   ],
+   "qids": [
+    "2016A-A-31",
+    "2017A-A-31",
+    "2017A-A-42",
+    "2018A-A-16",
+    "2018A-A-36",
+    "2018S-A-32",
+    "2019S-A-32",
+    "2021S-A-31",
+    "2022A-A-44",
+    "2022S-A-43",
+    "2023A-A-31",
+    "2023A-A-32",
+    "2023S-A-40",
+    "2024A-B-17",
+    "2025A-A-12",
+    "2025A-A-25"
+   ]
+  },
+  {
+   "id": "DBMS",
+   "abbr": "DBMS",
+   "topic": "db",
+   "full": "Database Management System",
+   "ru": "система управления базами данных (СУБД) — хранение данных и доступ к ним",
+   "note": "ПО, которое хранит данные и даёт к ним доступ: обрабатывает SQL, транзакции со свойствами ACID, блокировки, восстановление после сбоев по журналу (rollback, roll-forward).",
+   "decoys": [
+    "Database Mirroring Service",
+    "Database Migration Suite",
+    "Database Modeling Standard"
+   ],
+   "qids": [
+    "2015A-A-39",
+    "2015S-A-30",
+    "2016A-A-49",
+    "2016S-A-29",
+    "2017A-A-25",
+    "2018A-A-30",
+    "2019A-A-27",
+    "2019S-A-28",
+    "2020A-A-38",
+    "2023A-A-25",
+    "2025S-A-18",
+    "2026S-A-23",
+    "2026S-A-38",
+    "2016S-A-45",
+    "2021S-A-28"
+   ],
+   "spellings": [
+    "DB"
+   ]
+  },
+  {
+   "id": "HTTPS",
+   "abbr": "HTTPS",
+   "topic": "net",
+   "full": "HyperText Transfer Protocol Secure",
+   "ru": "защищённый HTTP — HTTP поверх SSL/TLS с шифрованием (порт 443)",
+   "note": "HTTP, обёрнутый в SSL/TLS: шифрует трафик и по сертификату подтверждает подлинность сервера, порт 443. В вопросах пишется как «HTTP over SSL/TLS»; на вопрос «что используется вместе с HTTP в HTTPS» ответ — TLS.",
+   "decoys": [
+    "HyperText Transaction Protocol Secure",
+    "HyperText Tunneling Protocol Service",
+    "HyperTerminal Transport Protocol Secure"
+   ],
+   "qids": [
+    "2016A-A-42",
+    "2016S-A-40",
+    "2016S-A-48",
+    "2018S-A-43",
+    "2020S-A-42",
+    "2021S-A-42",
+    "2022A-A-39",
+    "2024A-B-20",
+    "2024S-B-18",
+    "2024S-B-19",
+    "2024S-B-20",
+    "2025A-A-33",
+    "2025S-A-31",
+    "2025S-B-17",
+    "2026S-B-20"
+   ]
+  },
+  {
+   "id": "HTTP",
+   "abbr": "HTTP",
+   "topic": "net",
+   "full": "HyperText Transfer Protocol",
+   "ru": "протокол передачи гипертекста — обмен веб-страницами (порт 80)",
+   "note": "Прикладной протокол поверх TCP, порт 80; сам не хранит состояние между запросами, поэтому для сессий используют cookie. Защищённый вариант — HTTPS (HTTP поверх SSL/TLS, порт 443).",
+   "decoys": [
+    "HyperText Transaction Protocol",
+    "HyperText Tunneling Protocol",
+    "HyperTerminal Transport Protocol"
+   ],
+   "qids": [
+    "2015A-A-34",
+    "2015S-A-37",
+    "2016A-A-42",
+    "2016S-A-35",
+    "2016S-A-48",
+    "2017A-A-15",
+    "2018S-A-35",
+    "2020S-A-42",
+    "2022A-A-39",
+    "2024S-B-17",
+    "2024S-B-20",
+    "2025A-A-33",
+    "2025S-A-31",
+    "2025S-A-32"
+   ]
+  },
+  {
+   "id": "DHCP",
+   "abbr": "DHCP",
+   "topic": "net",
+   "full": "Dynamic Host Configuration Protocol",
+   "ru": "протокол динамической настройки узла — автоматическая выдача IP-адреса",
+   "note": "При подключении ПК сервер DHCP автоматически выдаёт ему IP-адрес, маску подсети, шлюз по умолчанию и адрес DNS-сервера; работает по UDP. Не путать с DNS (имя → IP) и NAPT (общий глобальный IP).",
+   "decoys": [
+    "Distributed Host Control Protocol",
+    "Dynamic Hardware Connection Protocol",
+    "Domain Host Configuration Protocol"
+   ],
+   "qids": [
+    "2016S-A-35",
+    "2016S-A-36",
+    "2017A-A-31",
+    "2018A-A-34",
+    "2018A-A-36",
+    "2018S-A-31",
+    "2019S-A-35",
+    "2020S-A-38",
+    "2021A-A-31",
+    "2021A-A-33",
+    "2021S-A-33",
+    "2022S-A-30",
+    "2023A-A-32"
+   ]
+  },
+  {
+   "id": "SLA",
+   "abbr": "SLA",
+   "topic": "mgmt",
+   "full": "Service Level Agreement",
+   "ru": "соглашение об уровне услуг — договор о качестве ИТ-услуги",
+   "note": "Фиксирует измеримые цели: доступность, время отклика и восстановления. Допустимый простой = часы обслуживания × (1 − доступность): 14 ч × 30 дн. × 0,5% = 2,1 ч. Внутреннее соглашение — OLA.",
+   "decoys": [
+    "Service Level Assessment",
+    "System Load Analysis",
+    "Support Line Allocation"
+   ],
+   "qids": [
+    "2015A-A-57",
+    "2015A-A-58",
+    "2017A-A-60",
+    "2019A-A-56",
+    "2019A-A-61",
+    "2020S-A-56",
+    "2021S-A-55",
+    "2022S-A-56",
+    "2023A-A-55",
+    "2024A-A-43",
+    "2025A-A-43",
+    "2025S-A-43",
+    "2026S-A-45"
+   ]
+  },
+  {
+   "id": "XOR",
+   "abbr": "XOR",
+   "topic": "hw",
+   "full": "Exclusive OR",
+   "ru": "исключающее ИЛИ (сложение по модулю 2) — 1, если входы различны",
+   "note": "0⊕0=0, 0⊕1=1, 1⊕1=0. XOR с маской инвертирует биты, где в маске 1; A XOR A = 0. В IPA-текстах — exclusive logical sum.",
+   "decoys": [
+    "Extended OR",
+    "Exact OR",
+    "Exchange OR"
+   ],
+   "qids": [
+    "2016A-A-01",
+    "2017A-A-22",
+    "2017S-A-01",
+    "2017S-A-25",
+    "2018S-A-22",
+    "2020A-A-04",
+    "2020S-A-23",
+    "2021S-A-21",
+    "2022A-A-01",
+    "2024A-A-28",
+    "2025S-A-01",
+    "2025S-B-06",
+    "2026S-A-17"
+   ]
+  },
+  {
+   "id": "RFID",
+   "abbr": "RFID",
+   "topic": "hw",
+   "full": "Radio Frequency Identification",
+   "ru": "радиочастотная идентификация — бесконтактное чтение IC-меток",
+   "note": "Метка — крошечная микросхема (IC) с антенной; читается по радио без контакта и прямой видимости, даже сквозь упаковку. Пассивные метки питаются от поля считывателя; GPS не используют.",
+   "decoys": [
+    "Remote Field Identity",
+    "Radio Frame Identifier",
+    "Reader Feedback Identification"
+   ],
+   "qids": [
+    "2015S-A-73",
+    "2016A-A-70",
+    "2018A-A-35",
+    "2018S-A-72",
+    "2019S-A-22",
+    "2020A-A-72",
+    "2020S-A-41",
+    "2021A-A-34",
+    "2022S-A-72",
+    "2023A-A-74",
+    "2024S-A-28",
+    "2025A-A-54"
+   ]
+  },
+  {
+   "id": "ARP",
+   "abbr": "ARP",
+   "topic": "net",
+   "full": "Address Resolution Protocol",
+   "ru": "протокол разрешения адресов — находит MAC-адрес по IP-адресу",
+   "note": "По известному IP-адресу широковещательным запросом узнаёт MAC-адрес узла в той же сети; команда arp -a показывает кэш соответствий. Обратная задача — RARP (MAC → IP). Не путать с DNS (имя → IP).",
+   "decoys": [
+    "Address Routing Protocol",
+    "Automatic Registration Protocol",
+    "Access Request Protocol"
+   ],
+   "qids": [
+    "2017S-A-35",
+    "2018A-A-34",
+    "2018S-A-31",
+    "2018S-A-34",
+    "2021A-A-33",
+    "2022A-A-31",
+    "2022A-A-33",
+    "2022S-A-35",
+    "2023S-A-34",
+    "2025A-A-24",
+    "2025S-A-25"
+   ]
+  },
+  {
+   "id": "DMZ",
+   "abbr": "DMZ",
+   "topic": "sec",
+   "full": "Demilitarized Zone",
+   "ru": "демилитаризованная зона — сегмент между Интернетом и внутренней сетью",
+   "note": "Сегмент для публичных серверов (Web, почта, DNS), отделённый firewall и от Интернета, и от внутренней LAN: взломав такой сервер, атакующий не попадает сразу во внутреннюю сеть.",
+   "decoys": [
+    "Demarcated Zone",
+    "Domain Monitoring Zone",
+    "Data-Mirroring Zone"
+   ],
+   "qids": [
+    "2015A-A-43",
+    "2016S-A-45",
+    "2017S-A-46",
+    "2020A-A-42",
+    "2021A-A-42",
+    "2022S-A-44",
+    "2022S-A-45",
+    "2023A-A-42",
+    "2024S-B-19",
+    "2024S-B-20",
+    "2025A-B-18"
+   ]
+  },
+  {
+   "id": "DRAM",
+   "abbr": "DRAM",
+   "topic": "hw",
+   "full": "Dynamic Random Access Memory",
+   "ru": "динамическая память — конденсаторы, нужна регенерация (refresh)",
+   "note": "Ячейка — конденсатор и транзистор; заряд утекает, поэтому нужен периодический refresh. Дешёвая и ёмкая, идёт на основную память ПК. Противоположность — SRAM (flip-flop, без refresh, быстрее, для кэша).",
+   "decoys": [
+    "Direct Read Access Memory",
+    "Distributed Random Access Memory",
+    "Dynamic Register Address Memory"
+   ],
+   "qids": [
+    "2015A-A-21",
+    "2015S-A-25",
+    "2016A-A-21",
+    "2017A-A-11",
+    "2017A-A-23",
+    "2017S-A-23",
+    "2019S-A-10",
+    "2020A-A-20",
+    "2020S-A-11",
+    "2022A-A-14",
+    "2022A-A-22"
+   ]
+  },
+  {
+   "id": "IC",
+   "abbr": "IC",
+   "topic": "hw",
+   "full": "Integrated Circuit",
+   "ru": "интегральная схема (микросхема) — основа чип-карт и меток",
+   "note": "Микросхема на кристалле. IC-карта (смарт-карта) хранит данные и ключи на чипе и используется вместе с PIN; IC-метка (RFID) — чип с антенной, читаемый по радио без контакта.",
+   "decoys": [
+    "Intelligent Chip",
+    "Information Carrier",
+    "Internal Circuit"
+   ],
+   "qids": [
+    "2015A-A-40",
+    "2015S-A-66",
+    "2015S-A-73",
+    "2016A-A-70",
+    "2018S-A-42",
+    "2019A-A-66",
+    "2020A-A-72",
+    "2023A-A-74",
+    "2023S-A-61",
+    "2025A-A-54",
+    "2025S-A-30"
+   ]
+  },
+  {
+   "id": "IoT",
+   "abbr": "IoT",
+   "topic": "strat",
+   "full": "Internet of Things",
+   "ru": "интернет вещей — устройства с датчиками, подключённые к сети",
+   "note": "Датчики, техника и оборудование подключены к сети: собирают данные, передают их на анализ и управляются удалённо. Цепочка в задачах: сбор (датчик) → передача (сеть) → анализ → использование.",
+   "decoys": [
+    "Intranet of Terminals",
+    "Integration of Telemetry",
+    "Interconnection of Transmitters"
+   ],
+   "qids": [
+    "2017S-A-71",
+    "2018A-A-35",
+    "2018A-A-73",
+    "2019S-A-42",
+    "2019S-A-71",
+    "2021A-A-34",
+    "2022S-A-70",
+    "2022S-A-73",
+    "2023A-A-70",
+    "2023S-A-74",
+    "2025A-A-53"
+   ]
+  },
+  {
+   "id": "SCM",
+   "abbr": "SCM",
+   "topic": "strat",
+   "full": "Supply Chain Management",
+   "ru": "управление цепочкой поставок — от закупки компонентов до продажи",
+   "note": "Участники цепочки (поставщики, производители, дистрибьюторы, магазины) обмениваются данными в реальном времени, чтобы снизить запасы и сократить lead time. В разработке ПО SCM — Software Configuration Management.",
+   "decoys": [
+    "Sales Channel Management",
+    "Stock Control Method",
+    "Supplier Cost Monitoring"
+   ],
+   "qids": [
+    "2015S-A-71",
+    "2018A-A-70",
+    "2019A-A-62",
+    "2019S-A-64",
+    "2020A-A-71",
+    "2022A-A-74",
+    "2023A-A-63",
+    "2023A-A-69",
+    "2023S-A-72",
+    "2025A-A-55",
+    "2025S-A-52"
+   ]
+  },
+  {
+   "id": "SMTP",
+   "abbr": "SMTP",
+   "topic": "net",
+   "full": "Simple Mail Transfer Protocol",
+   "ru": "простой протокол передачи почты — отправка и пересылка писем",
+   "note": "Отправляет письма от клиента на сервер и пересылает их между серверами (порт 25; для клиентов 587 с SMTP-AUTH). Получение с сервера — POP3 или IMAP, вложения кодирует MIME.",
+   "decoys": [
+    "Secure Mail Transport Protocol",
+    "Standard Message Transfer Protocol",
+    "Simple Mailbox Tracking Protocol"
+   ],
+   "qids": [
+    "2016A-A-33",
+    "2016S-A-36",
+    "2018S-A-31",
+    "2019A-A-36",
+    "2020A-A-34",
+    "2020S-A-35",
+    "2021S-A-44",
+    "2023S-A-35",
+    "2023S-A-45",
+    "2024A-A-25",
+    "2025A-A-26"
+   ]
+  },
+  {
+   "id": "MTBF",
+   "abbr": "MTBF",
+   "topic": "mgmt",
+   "full": "Mean Time Between Failures",
+   "ru": "средняя наработка на отказ — среднее время работы между сбоями",
+   "note": "Доступность = MTBF / (MTBF + MTTR). Последовательно: A1 × A2, параллельно: 1 − (1 − A1)(1 − A2). Пример: 45 / (45 + 5) = 0,9; два таких устройства последовательно — 0,81.",
+   "decoys": [
+    "Maximum Time Before Failover",
+    "Minimum Tolerance Before Fault",
+    "Mean Throughput Between Faults"
+   ],
+   "qids": [
+    "2015A-A-15",
+    "2015S-A-17",
+    "2016A-A-13",
+    "2016S-A-18",
+    "2017S-A-17",
+    "2018S-A-15",
+    "2019A-A-16",
+    "2021S-A-16",
+    "2022A-A-57",
+    "2024A-A-44"
+   ]
+  },
+  {
+   "id": "NOR",
+   "abbr": "NOR",
+   "topic": "hw",
+   "full": "Not OR",
+   "ru": "ИЛИ-НЕ — инверсия OR: 1 только когда все входы 0",
+   "note": "Тоже универсальный элемент. Выход 1 при обоих входах 0 дают NOR и XNOR — частый вопрос. В IPA-текстах — negative logical sum; NOR-flash — тип flash-памяти.",
+   "decoys": [
+    "Nested OR",
+    "Numeric OR",
+    "Neutral OR"
+   ],
+   "qids": [
+    "2015A-A-21",
+    "2016S-A-25",
+    "2017A-A-22",
+    "2017S-A-25",
+    "2018S-A-22",
+    "2020A-A-20",
+    "2020A-A-22",
+    "2021S-A-21",
+    "2022S-A-01",
+    "2022S-A-21"
+   ]
+  },
+  {
+   "id": "SWOT",
+   "abbr": "SWOT",
+   "topic": "strat",
+   "full": "Strengths, Weaknesses, Opportunities and Threats",
+   "ru": "анализ сильных и слабых сторон, возможностей и угроз",
+   "note": "S и W — внутренние факторы компании, O и T — внешние. Ответ на вопрос о факторах, которые помогают или мешают целям организации. Не путать с PEST (только внешняя среда), 3C и five forces.",
+   "decoys": [
+    "Strategies, Workflows, Objectives and Targets",
+    "Sales, Workforce, Operations and Technology",
+    "Stakeholders, Workforce, Outcomes and Trends"
+   ],
+   "qids": [
+    "2015A-A-67",
+    "2015A-A-68",
+    "2015S-A-69",
+    "2016A-A-67",
+    "2018A-A-68",
+    "2019A-A-68",
+    "2019A-A-70",
+    "2020S-A-68",
+    "2021A-A-66",
+    "2023A-A-68"
+   ]
+  },
+  {
+   "id": "VPN",
+   "abbr": "VPN",
+   "topic": "net",
+   "full": "Virtual Private Network",
+   "ru": "виртуальная частная сеть — защищённый туннель через публичную сеть",
+   "note": "Создаёт зашифрованный туннель через Интернет, так что удалённые сотрудники работают как в частной сети компании (IPsec, SSL-VPN). Для деления сети по отделам ответ — VLAN, для публичных серверов — DMZ.",
+   "decoys": [
+    "Virtual Proxy Network",
+    "Verified Packet Network",
+    "Variable Path Network"
+   ],
+   "qids": [
+    "2015A-A-43",
+    "2017S-A-46",
+    "2018A-A-45",
+    "2021A-A-42",
+    "2021A-A-44",
+    "2021S-A-41",
+    "2022A-A-39",
+    "2023A-A-42",
+    "2024A-B-20",
+    "2026S-B-20"
+   ]
+  },
+  {
+   "id": "LRU",
+   "abbr": "LRU",
+   "topic": "algo",
+   "full": "Least Recently Used",
+   "ru": "«давно не использовавшаяся» — вытесняется страница без обращений дольше всех",
+   "note": "Алгоритм замены страниц и кэша: выгружается страница, к которой дольше всех не обращались. Не путать с LFU (меньше всего обращений) и FIFO (раньше всех загружена).",
+   "decoys": [
+    "Least Referenced Unit",
+    "Last Replaced Unit",
+    "Lowest Retention Usage"
+   ],
+   "qids": [
+    "2015A-A-17",
+    "2016A-A-18",
+    "2017S-A-19",
+    "2018A-A-21",
+    "2019S-A-19",
+    "2020S-A-17",
+    "2020S-A-18",
+    "2021S-A-18",
+    "2025A-A-15"
+   ]
+  },
+  {
+   "id": "MRP",
+   "abbr": "MRP",
+   "topic": "strat",
+   "full": "Material Requirements Planning",
+   "ru": "планирование потребности в материалах — что, сколько и когда заказать",
+   "note": "По графику производства, спецификации BOM и запасам рассчитывает объёмы и сроки заказа материалов с учётом lead time: чистая потребность = валовая − запас − уже заказанное. MRP II — Manufacturing Resource Planning.",
+   "decoys": [
+    "Material Replenishment Process",
+    "Machine Routing Plan",
+    "Manufacturing Requisition Procedure"
+   ],
+   "qids": [
+    "2017S-A-74",
+    "2018A-A-74",
+    "2018S-A-71",
+    "2019A-A-73",
+    "2021A-A-72",
+    "2022A-A-70",
+    "2022S-A-71",
+    "2024A-A-54",
+    "2025S-A-54"
+   ]
+  },
+  {
+   "id": "PMBOK",
+   "abbr": "PMBOK",
+   "topic": "mgmt",
+   "full": "Project Management Body of Knowledge",
+   "ru": "Свод знаний по управлению проектами — руководство PMI",
+   "note": "В 6-м издании 10 областей знаний (интеграция, содержание, сроки, стоимость, качество, ресурсы, коммуникации, риски, закупки, заинтересованные стороны) и 5 групп процессов; на них построены вопросы экзамена.",
+   "decoys": [
+    "Project Monitoring Book of Knowledge",
+    "Program Management Basis of Knowledge",
+    "Portfolio Methods Book of Knowledge"
+   ],
+   "qids": [
+    "2015S-A-56",
+    "2016A-A-51",
+    "2016A-A-54",
+    "2017A-A-51",
+    "2017S-A-52",
+    "2017S-A-53",
+    "2018S-A-53",
+    "2020A-A-51",
+    "2020S-A-51"
+   ]
+  },
+  {
+   "id": "RAID",
+   "abbr": "RAID",
+   "topic": "hw",
+   "full": "Redundant Array of Independent Disks",
+   "ru": "избыточный массив независимых дисков — надёжность и скорость",
+   "note": "RAID 0 — striping без избыточности, RAID 1 — зеркалирование (от 2 дисков), RAID 5 — распределённая чётность (от 3), RAID 6 — двойная чётность. Исходно «Inexpensive Disks» — тоже верно.",
+   "decoys": [
+    "Replicated Array of Integrated Drives",
+    "Reliable Allocation of Indexed Disks",
+    "Rapid Access to Interleaved Data"
+   ],
+   "qids": [
+    "2017A-A-13",
+    "2017S-A-16",
+    "2020A-A-15",
+    "2020S-A-14",
+    "2021A-A-15",
+    "2021S-A-15",
+    "2023A-A-16",
+    "2023S-A-15",
+    "2026S-A-12"
+   ]
+  },
+  {
+   "id": "USB",
+   "abbr": "USB",
+   "topic": "hw",
+   "full": "Universal Serial Bus",
+   "ru": "универсальная последовательная шина — подключение периферии",
+   "note": "Последовательный интерфейс: до 127 устройств через хабы, горячее подключение, питание по шине; USB 3.0 добавил SuperSpeed 5 Гбит/с. В безопасности USB-флешки — путь заражения и утечки данных.",
+   "decoys": [
+    "Unified Storage Bus",
+    "Universal Signal Bridge",
+    "Uniform Serial Buffer"
+   ],
+   "qids": [
+    "2015A-A-36",
+    "2017A-A-38",
+    "2018A-A-13",
+    "2020S-A-58",
+    "2021A-A-14",
+    "2021A-A-38",
+    "2021S-A-14",
+    "2024S-A-10",
+    "2025A-A-27"
+   ]
+  },
+  {
+   "id": "WTO",
+   "abbr": "WTO",
+   "topic": "strat",
+   "full": "World Trade Organization",
+   "ru": "Всемирная торговая организация (ВТО) — правила мировой торговли",
+   "note": "Международная организация, задающая правила торговли; её соглашение TRIPS регулирует охрану интеллектуальной собственности, включая ПО. Не путать с WIPO — Всемирной организацией интеллектуальной собственности.",
+   "decoys": [
+    "Worldwide Trademark Office",
+    "World Tariff Observatory",
+    "World Technology Organization"
+   ],
+   "qids": [
+    "2015A-A-80",
+    "2015S-A-80",
+    "2018S-A-80",
+    "2021A-A-80",
+    "2021S-A-80",
+    "2022A-A-80",
+    "2023A-A-80",
+    "2023S-A-80",
+    "2026S-A-60"
+   ]
+  },
+  {
+   "id": "AES",
+   "abbr": "AES",
+   "topic": "sec",
+   "full": "Advanced Encryption Standard",
+   "ru": "стандарт симметричного блочного шифрования, преемник DES",
+   "note": "Симметричный блочный шифр: блок 128 бит, ключ 128/192/256 бит, один ключ для шифрования и расшифровки. Заменил DES. Не путать с RSA (открытый ключ) и SHA-256 (хеш-функция).",
+   "decoys": [
+    "Asymmetric Encryption Scheme",
+    "Authenticated Exchange Standard",
+    "Applied Encryption System"
+   ],
+   "qids": [
+    "2016A-A-36",
+    "2017S-A-41",
+    "2019S-A-40",
+    "2020A-A-36",
+    "2021S-A-38",
+    "2022A-A-36",
+    "2022A-A-44",
+    "2024S-A-29"
+   ]
+  },
+  {
+   "id": "E-R",
+   "abbr": "E-R",
+   "topic": "db",
+   "full": "Entity-Relationship",
+   "ru": "«сущность–связь» — модель данных из сущностей, атрибутов и связей",
+   "note": "E-R диаграмма (ERD) показывает сущности, их атрибуты и связи с кардинальностью 1:1, 1:N, M:N; основа концептуального проектирования БД. Построение ERD по готовой БД — reverse engineering.",
+   "decoys": [
+    "Event-Response",
+    "Element-Reference",
+    "Entity-Record"
+   ],
+   "qids": [
+    "2018S-A-50",
+    "2021A-A-27",
+    "2023A-A-50",
+    "2024S-A-19",
+    "2017S-A-30",
+    "2022S-A-25",
+    "2024A-A-19",
+    "2025A-A-48"
+   ],
+   "spellings": [
+    "ER",
+    "ERD"
+   ]
+  },
+  {
+   "id": "ICMP",
+   "abbr": "ICMP",
+   "topic": "net",
+   "full": "Internet Control Message Protocol",
+   "ru": "протокол управляющих сообщений — ошибки доставки и диагностика (ping)",
+   "note": "Работает вместе с IP на сетевом уровне: сообщает об ошибках (Destination Unreachable, Time Exceeded) и служит для диагностики — ping (Echo/Echo Reply), traceroute. Лавина ICMP-пакетов в спокойное время — признак DoS.",
+   "decoys": [
+    "Internet Connection Management Protocol",
+    "Interface Control Monitoring Protocol",
+    "Internal Channel Message Protocol"
+   ],
+   "qids": [
+    "2015A-A-33",
+    "2015S-A-35",
+    "2018A-A-39",
+    "2022A-A-31",
+    "2022A-A-33",
+    "2022S-A-35",
+    "2023S-A-34",
+    "2024S-B-20"
+   ]
+  },
+  {
+   "id": "ITIL",
+   "abbr": "ITIL",
+   "topic": "mgmt",
+   "full": "Information Technology Infrastructure Library",
+   "ru": "библиотека инфраструктуры ИТ — лучшие практики управления ИТ-услугами",
+   "note": "Свод практик ITSM: service desk, управление инцидентами, проблемами, изменениями, конфигурацией (CI, CMDB), уровнем услуг (SLA). Сертифицируемый стандарт на её основе — ISO/IEC 20000.",
+   "decoys": [
+    "Information Technology Integration Lifecycle",
+    "Integrated Technology Infrastructure Licensing",
+    "Information Technology Incident Log"
+   ],
+   "qids": [
+    "2015S-A-55",
+    "2016S-A-61",
+    "2017A-A-59",
+    "2017S-A-57",
+    "2018S-A-55",
+    "2019S-A-57",
+    "2020S-A-55",
+    "2024S-A-43"
+   ]
+  },
+  {
+   "id": "MTTR",
+   "abbr": "MTTR",
+   "topic": "mgmt",
+   "full": "Mean Time to Repair",
+   "ru": "среднее время восстановления — сколько в среднем длится ремонт",
+   "note": "Доступность = MTBF / (MTBF + MTTR): чем меньше MTTR (удалённое обслуживание, запчасти), тем выше доступность; профилактика повышает MTBF. Также расшифровывают Mean Time to Recovery / Restore.",
+   "decoys": [
+    "Maximum Time to Reboot",
+    "Minimum Time to Replicate",
+    "Mean Timeout to Reconnect"
+   ],
+   "qids": [
+    "2015A-A-15",
+    "2015S-A-17",
+    "2016A-A-13",
+    "2017S-A-17",
+    "2018S-A-15",
+    "2019A-A-16",
+    "2021S-A-16",
+    "2024A-A-44"
+   ]
+  },
+  {
+   "id": "SRAM",
+   "abbr": "SRAM",
+   "topic": "hw",
+   "full": "Static Random Access Memory",
+   "ru": "статическая память — на триггерах (flip-flop), без регенерации",
+   "note": "Ячейка — flip-flop, refresh не нужен; быстрая, но дорогая и малой ёмкости, поэтому используется как кэш-память. Частый вопрос «какая память на flip-flop» — ответ SRAM, не DRAM и не SDRAM.",
+   "decoys": [
+    "Sequential Read Access Memory",
+    "Shared Random Access Memory",
+    "Secure Register Array Memory"
+   ],
+   "qids": [
+    "2015S-A-25",
+    "2016A-A-21",
+    "2017A-A-11",
+    "2017A-A-23",
+    "2019S-A-10",
+    "2020S-A-11",
+    "2022A-A-14",
+    "2022A-A-22"
+   ]
+  },
+  {
+   "id": "SaaS",
+   "abbr": "SaaS",
+   "topic": "dev",
+   "full": "Software as a Service",
+   "ru": "ПО как услуга — готовое приложение через Интернет",
+   "note": "Провайдер управляет всем, включая приложение; клиент только пользуется и настраивает (почта, CRM). PaaS — платформа для своих приложений, IaaS — виртуальные серверы, ОС ставит клиент.",
+   "decoys": [
+    "Server as a Service",
+    "Support as a Service",
+    "System as a Service"
+   ],
+   "qids": [
+    "2015A-A-64",
+    "2018A-A-43",
+    "2018S-A-62",
+    "2019A-A-65",
+    "2019S-A-64",
+    "2023A-A-63",
+    "2025S-A-11",
+    "2025S-A-29"
+   ]
+  },
+  {
+   "id": "TRIPS",
+   "abbr": "TRIPS",
+   "topic": "strat",
+   "full": "Trade-Related Aspects of Intellectual Property Rights",
+   "ru": "соглашение ТРИПС (ВТО) — торговые аспекты прав интеллектуальной собственности",
+   "note": "Программы охраняются авторским правом как литературные произведения, базы данных — как компиляции. Алгоритмы, языки программирования и идеи авторским правом не охраняются.",
+   "decoys": [
+    "Technology-Related Aspects of Intellectual Property Rights",
+    "Trade-Regulated Aspects of Industrial Property Rights",
+    "Treaty-Related Aspects of International Patent Rights"
+   ],
+   "qids": [
+    "2015A-A-80",
+    "2015S-A-80",
+    "2017S-A-80",
+    "2018S-A-80",
+    "2019A-A-80",
+    "2021A-A-80",
+    "2022A-A-80",
+    "2023A-A-80"
+   ]
+  },
+  {
+   "id": "WAF",
+   "abbr": "WAF",
+   "topic": "sec",
+   "full": "Web Application Firewall",
+   "ru": "файрвол веб-приложений — фильтрует HTTP-запросы к веб-приложению",
+   "note": "Анализирует содержимое HTTP-запросов и блокирует атаки на уязвимости веб-приложения: SQL injection, XSS и т. п. Обычный firewall смотрит на IP-адреса и порты и такие атаки не видит.",
+   "decoys": [
+    "Web Access Filter",
+    "Wireless Authentication Framework",
+    "Web Audit Facility"
+   ],
+   "qids": [
+    "2016A-A-36",
+    "2016S-A-46",
+    "2018A-A-45",
+    "2021S-A-41",
+    "2022A-A-44",
+    "2025A-A-33",
+    "2025A-B-18",
+    "2025S-A-32"
+   ]
+  },
+  {
+   "id": "WBS",
+   "abbr": "WBS",
+   "topic": "mgmt",
+   "full": "Work Breakdown Structure",
+   "ru": "иерархическая структура работ — декомпозиция проекта до пакетов работ",
+   "note": "Иерархическая декомпозиция объёма проекта по результатам до пакетов работ; создаётся в управлении содержанием (scope). Порядок и сроки работ показывает не WBS, а PERT/CPM и диаграмма Ганта.",
+   "decoys": [
+    "Workload Balancing Schedule",
+    "Work Budget Summary",
+    "Weighted Baseline Schedule"
+   ],
+   "qids": [
+    "2015A-A-53",
+    "2016S-A-55",
+    "2017A-A-56",
+    "2020S-A-51",
+    "2020S-A-54",
+    "2022A-A-53",
+    "2022S-A-52",
+    "2024A-A-41"
+   ]
+  },
+  {
+   "id": "CIO",
+   "abbr": "CIO",
+   "topic": "strat",
+   "full": "Chief Information Officer",
+   "ru": "директор по информационным технологиям — отвечает за ИТ-стратегию",
+   "note": "Топ-менеджер, который планирует информационную стратегию в связке с бизнес-стратегией и оптимизирует эффект ИТ-инвестиций по всей компании. Не путать с CTO (технологии и R&D) и CISO (безопасность).",
+   "decoys": [
+    "Chief Inspection Officer",
+    "Chief Interface Officer",
+    "Central Infrastructure Office"
+   ],
+   "qids": [
+    "2016A-A-74",
+    "2017A-A-79",
+    "2019S-A-75",
+    "2020A-A-76",
+    "2021A-A-77",
+    "2023A-A-75",
+    "2025A-A-57"
+   ]
+  },
+  {
+   "id": "FIFO",
+   "abbr": "FIFO",
+   "topic": "algo",
+   "full": "First In, First Out",
+   "ru": "«первым пришёл — первым ушёл» — принцип очереди; метод оценки запасов",
+   "note": "Первым извлекается элемент, добавленный раньше всех. В экзамене: очередь, замена страниц (выгружается самая давно загруженная), оценка запасов (списываются ранние партии). Противоположность — LIFO.",
+   "decoys": [
+    "Fast Input, Fast Output",
+    "Fixed Index, Floating Order",
+    "First Indexed, First Ordered"
+   ],
+   "qids": [
+    "2015S-A-07",
+    "2016S-A-78",
+    "2017S-A-19",
+    "2017S-A-78",
+    "2019S-A-19",
+    "2022A-A-17",
+    "2023A-A-78"
+   ]
+  },
+  {
+   "id": "IEEE",
+   "abbr": "IEEE",
+   "topic": "dev",
+   "full": "Institute of Electrical and Electronics Engineers",
+   "ru": "Институт инженеров электротехники и электроники — стандарты 802.x",
+   "note": "Выпускает стандарты IEEE 802.3 (Ethernet), 802.11 (Wi-Fi; 802.11n — до 600 Мбит/с), 754 (плавающая точка). Не путать с IETF (протоколы Интернета, RFC) и ANSI (национальный орган США).",
+   "decoys": [
+    "Institute of Electronic and Embedded Engineers",
+    "International Electrical and Electronics Exchange",
+    "Institute of Energy and Electrical Equipment"
+   ],
+   "qids": [
+    "2019A-A-33",
+    "2019A-A-35",
+    "2020A-A-80",
+    "2023A-A-33",
+    "2023S-A-80",
+    "2025A-A-01",
+    "2026S-A-27"
+   ]
+  },
+  {
+   "id": "MIME",
+   "abbr": "MIME",
+   "topic": "net",
+   "full": "Multipurpose Internet Mail Extensions",
+   "ru": "многоцелевые расширения почты — вложения и не-ASCII текст в письмах",
+   "note": "Расширяет формат заголовков письма (Content-Type, кодирование Base64), чтобы передавать не только ASCII-текст, но и изображения, аудио, видео. S/MIME добавляет шифрование и подпись. Дистракторы: SMTP, MHS, HTML.",
+   "decoys": [
+    "Multimedia Internet Message Encoding",
+    "Mixed Information Mail Exchange",
+    "Multipart Internet Message Encapsulation"
+   ],
+   "qids": [
+    "2016A-A-33",
+    "2020A-A-34",
+    "2020S-A-35",
+    "2021A-A-44",
+    "2023S-A-35",
+    "2023S-A-45",
+    "2025A-A-26"
+   ]
+  },
+  {
+   "id": "MIPS",
+   "abbr": "MIPS",
+   "topic": "hw",
+   "full": "Million Instructions Per Second",
+   "ru": "миллион инструкций в секунду — производительность процессора",
+   "note": "MIPS = частота (МГц) / CPI; среднее время инструкции = 1 / (MIPS × 10^6), при 50 MIPS — 20 нс. Транзакций в секунду = MIPS × 10^6 × загрузка / инструкций на транзакцию.",
+   "decoys": [
+    "Million Interrupts Per Second",
+    "Memory Instructions Per Second",
+    "Mean Instruction Processing Speed"
+   ],
+   "qids": [
+    "2015S-A-12",
+    "2019A-A-10",
+    "2019S-A-09",
+    "2021S-A-12",
+    "2022A-A-12",
+    "2024A-A-08",
+    "2025S-A-08"
+   ]
+  },
+  {
+   "id": "PKI",
+   "abbr": "PKI",
+   "topic": "sec",
+   "full": "Public Key Infrastructure",
+   "ru": "инфраструктура открытых ключей — CA, сертификаты, их отзыв",
+   "note": "Связывает открытый ключ с владельцем через цифровой сертификат, подписанный удостоверяющим центром (CA); включает выпуск, проверку и отзыв сертификатов (CRL). PKI — не алгоритм шифрования.",
+   "decoys": [
+    "Private Key Integration",
+    "Protected Key Interchange",
+    "Public Key Identification"
+   ],
+   "qids": [
+    "2018A-A-42",
+    "2019A-A-39",
+    "2021S-A-38",
+    "2022S-A-38",
+    "2023A-A-40",
+    "2024A-B-20",
+    "2024S-B-18"
+   ]
+  },
+  {
+   "id": "RFI",
+   "abbr": "RFI",
+   "topic": "strat",
+   "full": "Request for Information",
+   "ru": "запрос информации — сбор сведений о решениях вендоров до RFP",
+   "note": "Заказчик просит у потенциальных поставщиков сведения о технологиях, продуктах и опыте, чтобы подготовить RFP. RFI идёт до RFP; в RFP запрашивают уже конкретные предложения.",
+   "decoys": [
+    "Report for Investment",
+    "Review for Integration",
+    "Requirement for Installation"
+   ],
+   "qids": [
+    "2017A-A-68",
+    "2017S-A-67",
+    "2020S-A-66",
+    "2022A-A-65",
+    "2023A-A-65",
+    "2024S-A-48",
+    "2026S-A-48"
+   ]
+  },
+  {
+   "id": "RFP",
+   "abbr": "RFP",
+   "topic": "strat",
+   "full": "Request for Proposal",
+   "ru": "запрос предложений — требования к системе, разосланные вендорам",
+   "note": "Заказчик рассылает вендорам документ с требованиями и условиями и просит конкретные предложения. Порядок: RFI → RFP → предложения → выбор; критерии оценки и веса задают до рассылки RFP.",
+   "decoys": [
+    "Requirement for Procurement",
+    "Review for Purchase",
+    "Registration for Participation"
+   ],
+   "qids": [
+    "2017A-A-68",
+    "2017S-A-67",
+    "2020S-A-66",
+    "2022A-A-65",
+    "2023A-A-65",
+    "2024S-A-48",
+    "2026S-A-48"
+   ]
+  },
+  {
+   "id": "RSA",
+   "abbr": "RSA",
+   "topic": "sec",
+   "full": "Rivest-Shamir-Adleman",
+   "ru": "алгоритм с открытым ключом (по фамилиям авторов); основа — факторизация",
+   "note": "Асимметричный шифр и подпись: шифруют открытым ключом, расшифровывают закрытым. Стойкость — трудность разложения большого числа на простые множители; так его отличают от AES, DH и DSA.",
+   "decoys": [
+    "Rabin-Schnorr-Agrawal",
+    "Rogaway-Shamir-Anderson",
+    "Rijmen-Schneier-Adleman"
+   ],
+   "qids": [
+    "2016A-A-36",
+    "2019S-A-40",
+    "2020A-A-36",
+    "2021S-A-38",
+    "2022A-A-36",
+    "2024A-B-19",
+    "2024S-A-29"
+   ]
+  },
+  {
+   "id": "SOA",
+   "abbr": "SOA",
+   "topic": "dev",
+   "full": "Service-Oriented Architecture",
+   "ru": "сервис-ориентированная архитектура — система из слабосвязанных сервисов",
+   "note": "Функции ПО оформляются как повторно используемые сервисы со стандартными интерфейсами (web-сервисы, SOAP, ESB) и комбинируются в приложения. Типичные дистракторы — ERP, CRM, BPR, аутсорсинг.",
+   "decoys": [
+    "System-Oriented Analysis",
+    "Software Object Architecture",
+    "Service Operation Agreement"
+   ],
+   "qids": [
+    "2015S-A-63",
+    "2016A-A-64",
+    "2018A-A-63",
+    "2019S-A-63",
+    "2022A-A-61",
+    "2024A-A-47",
+    "2025S-A-34"
+   ]
+  },
+  {
+   "id": "SSL",
+   "abbr": "SSL",
+   "topic": "sec",
+   "full": "Secure Sockets Layer",
+   "ru": "протокол шифрования соединений, предшественник TLS",
+   "note": "Шифрует и аутентифицирует соединение (HTTPS = HTTP over SSL/TLS): ключ сессии передаётся с помощью открытого ключа, данные шифруются симметрично. SSL устарел, сейчас TLS; в экзамене пишут и Secure Socket Layer.",
+   "decoys": [
+    "Secure Session Link",
+    "Server Security Layer",
+    "Signed Session Login"
+   ],
+   "qids": [
+    "2016A-A-36",
+    "2016S-A-48",
+    "2018A-A-45",
+    "2020S-A-45",
+    "2021S-A-41",
+    "2023A-A-44",
+    "2025A-A-33"
+   ],
+   "spellings": [
+    "SSL/TLS"
+   ],
+   "twins": [
+    "TLS"
+   ]
+  },
+  {
+   "id": "CAD",
+   "abbr": "CAD",
+   "topic": "strat",
+   "full": "Computer Aided Design",
+   "ru": "автоматизированное проектирование — чертежи и 3D-модели на компьютере",
+   "note": "Создание чертежей и моделей изделия на компьютере по данным о форме и составе. CAM переводит чертежи в данные для станков, CAE оценивает характеристики без реального образца, MRP считает материалы.",
+   "decoys": [
+    "Component Assembly Drawing",
+    "Capacity Allocation Diagram",
+    "Cost Analysis Database"
+   ],
+   "qids": [
+    "2015A-A-74",
+    "2017S-A-74",
+    "2019A-A-72",
+    "2019A-A-73",
+    "2021A-A-72",
+    "2023A-A-72"
+   ]
+  },
+  {
+   "id": "FCFS",
+   "abbr": "FCFS",
+   "topic": "algo",
+   "full": "First-Come, First-Served",
+   "ru": "«первым пришёл — первым обслужен» — планирование по порядку прибытия",
+   "note": "Невытесняющий алгоритм: процессы выполняются в порядке поступления. Короткие задачи ждут за длинными, поэтому среднее ожидание обычно больше, чем у SJF. В задачах считают время ожидания по диаграмме Ганта.",
+   "decoys": [
+    "First-Created, First-Scheduled",
+    "Fixed-Cycle, Fair-Share",
+    "Fastest-Completion, First-Scheduled"
+   ],
+   "qids": [
+    "2017A-A-16",
+    "2018A-A-17",
+    "2019A-A-18",
+    "2022S-A-17",
+    "2024A-A-15",
+    "2025A-A-13"
+   ]
+  },
+  {
+   "id": "ROI",
+   "abbr": "ROI",
+   "topic": "strat",
+   "full": "Return on Investment",
+   "ru": "рентабельность инвестиций — отношение прибыли к вложениям",
+   "note": "ROI = прибыль (эффект) / сумма инвестиций × 100%. В задачах сравнивают проекты: прибыль за весь период делят на инвестиции. Стоимость денег во времени не учитывает, в отличие от NPV и IRR.",
+   "decoys": [
+    "Revenue on Inventory",
+    "Ratio of Income",
+    "Recovery of Investment"
+   ],
+   "qids": [
+    "2015S-A-65",
+    "2016A-A-66",
+    "2016A-A-71",
+    "2019S-A-79",
+    "2020S-A-79",
+    "2022S-A-63"
+   ]
+  },
+  {
+   "id": "TLS",
+   "abbr": "TLS",
+   "topic": "sec",
+   "full": "Transport Layer Security",
+   "ru": "протокол защиты транспортного уровня — преемник SSL, основа HTTPS",
+   "note": "Шифрует канал, проверяет целостность и подлинность сервера по сертификату. Гибридная схема: ключ сессии — через открытый ключ, данные — симметричным шифром. HTTPS = HTTP over TLS, порт 443.",
+   "decoys": [
+    "Trusted Link Service",
+    "Transmission Line Security",
+    "Tunnel Layer Signature"
+   ],
+   "qids": [
+    "2016A-A-36",
+    "2016S-A-48",
+    "2020S-A-45",
+    "2021A-A-44",
+    "2022A-A-39",
+    "2023A-A-44"
+   ],
+   "spellings": [
+    "SSL/TLS"
+   ],
+   "twins": [
+    "SSL"
+   ]
+  },
+  {
+   "id": "CGM",
+   "abbr": "CGM",
+   "topic": "strat",
+   "full": "Consumer Generated Media",
+   "ru": "медиа, создаваемые потребителями — блоги, отзывы, соцсети",
+   "note": "Контент, который создают и распространяют сами пользователи: отзывы, блоги, соцсети, вики, видео (близко к UGC). Не путать с сайтом компании, рассылкой, онлайн-моллом или аукционом.",
+   "decoys": [
+    "Corporate Generated Media",
+    "Customer Group Marketing",
+    "Content Governance Model"
+   ],
+   "qids": [
+    "2016S-A-72",
+    "2017A-A-73",
+    "2019S-A-72",
+    "2020A-A-73",
+    "2024S-A-55"
+   ]
+  },
+  {
+   "id": "CRM",
+   "abbr": "CRM",
+   "topic": "strat",
+   "full": "Customer Relationship Management",
+   "ru": "управление взаимоотношениями с клиентами — единая база клиентов",
+   "note": "Единая база клиентов для продаж, обслуживания, обработки запросов и жалоб, чтобы строить долгие отношения и повышать лояльность. SFA — часть CRM для продавцов; SCM — про поставки, ERP — про ресурсы.",
+   "decoys": [
+    "Customer Response Monitoring",
+    "Client Revenue Model",
+    "Customer Retail Marketing"
+   ],
+   "qids": [
+    "2020A-A-69",
+    "2020S-A-70",
+    "2021S-A-61",
+    "2022S-A-68",
+    "2024A-A-51"
+   ]
+  },
+  {
+   "id": "CSS",
+   "abbr": "CSS",
+   "topic": "net",
+   "full": "Cascading Style Sheets",
+   "ru": "каскадные таблицы стилей — оформление HTML-страниц",
+   "note": "Задают внешний вид HTML/XHTML-документов: шрифты, цвета, размеры, раскладку; правила применяются каскадно по приоритету. Дистракторы: CMS (система управления контентом), RSS (лента новостей).",
+   "decoys": [
+    "Content Styling Standard",
+    "Common Style Syntax",
+    "Composite Style Schema"
+   ],
+   "qids": [
+    "2015A-A-24",
+    "2016A-A-08",
+    "2017A-A-24",
+    "2021S-A-10",
+    "2022A-A-10"
+   ]
+  },
+  {
+   "id": "GPS",
+   "abbr": "GPS",
+   "topic": "hw",
+   "full": "Global Positioning System",
+   "ru": "глобальная система позиционирования — координаты по спутникам",
+   "note": "Приёмник вычисляет координаты по сигналам нескольких спутников. Ловушка в вопросах про IC-метки (RFID): вариант «метка использует GPS и показывает местоположение» — неверный.",
+   "decoys": [
+    "Geographic Position Sensor",
+    "Global Paging Service",
+    "Geospatial Positioning Satellite"
+   ],
+   "qids": [
+    "2016A-A-70",
+    "2020A-A-72",
+    "2023A-A-74",
+    "2025A-A-50",
+    "2025A-A-54"
+   ]
+  },
+  {
+   "id": "KPI",
+   "abbr": "KPI",
+   "topic": "strat",
+   "full": "Key Performance Indicator",
+   "ru": "ключевой показатель эффективности — измеримая метрика достижения цели",
+   "note": "Количественный показатель хода достижения цели (KGI — итоговая цель). В ITIL для ремонтопригодности KPI — среднее время восстановления (MTRS). В 2019S написано Key Performance Index — это вариант того же.",
+   "decoys": [
+    "Key Process Improvement",
+    "Key Planning Initiative",
+    "Key Priority Issue"
+   ],
+   "qids": [
+    "2016A-A-66",
+    "2016S-A-61",
+    "2019S-A-57",
+    "2020S-A-55",
+    "2021S-A-68"
+   ]
+  },
+  {
+   "id": "LTE",
+   "abbr": "LTE",
+   "topic": "net",
+   "full": "Long Term Evolution",
+   "ru": "стандарт мобильной связи 4G — широкополосный беспроводной доступ",
+   "note": "Стандарт 3GPP для широкополосной мобильной передачи данных (4G), голос в нём передаётся как VoLTE. Дистракторы: IEEE 802.11 (Wi-Fi), NFC (бесконтактная связь на сантиметры), UWB (сверхширокополосная связь).",
+   "decoys": [
+    "Licensed Transmission Extension",
+    "Linked Terminal Exchange",
+    "Layered Transmission Encoding"
+   ],
+   "qids": [
+    "2015S-A-46",
+    "2019A-A-35",
+    "2023A-A-33",
+    "2024S-A-25",
+    "2026S-A-27"
+   ]
+  },
+  {
+   "id": "PDCA",
+   "abbr": "PDCA",
+   "topic": "mgmt",
+   "full": "Plan-Do-Check-Act",
+   "ru": "цикл Деминга: планируй — делай — проверяй — действуй",
+   "note": "Цикл непрерывного улучшения в ISO 9001, 27001, 20000: Plan — цели и процессы, Do — внедрение, Check — мониторинг и измерение, Act — корректирующие действия. Есть вариант Plan-Do-Check-Adjust.",
+   "decoys": [
+    "Plan-Do-Control-Audit",
+    "Plan-Design-Code-Assess",
+    "Prepare-Deploy-Check-Act"
+   ],
+   "qids": [
+    "2015A-A-58",
+    "2015S-A-53",
+    "2018S-A-56",
+    "2021S-A-58",
+    "2022A-A-38"
+   ]
+  },
+  {
+   "id": "PIN",
+   "abbr": "PIN",
+   "topic": "sec",
+   "full": "Personal Identification Number",
+   "ru": "персональный идентификационный номер — короткий цифровой код",
+   "note": "Секретный код к карте: IC-карта + PIN — двухфакторная аутентификация (что имеешь + что знаешь). PIN у каждого пользователя свой; при потере карты её блокируют. Подбор PIN перебором — brute force.",
+   "decoys": [
+    "Primary Identity Name",
+    "Protected Input Notation",
+    "Personal Issuer Number"
+   ],
+   "qids": [
+    "2015A-A-40",
+    "2018S-A-42",
+    "2020S-A-36",
+    "2023A-A-37",
+    "2025S-A-30"
+   ]
+  },
+  {
+   "id": "RDBMS",
+   "abbr": "RDBMS",
+   "topic": "db",
+   "full": "Relational Database Management System",
+   "ru": "реляционная СУБД — данные в таблицах, связанных ключами",
+   "note": "СУБД на реляционной модели: таблицы (отношения), первичные и внешние ключи, SQL, нормализация, соединения (nested loop, sort-merge, hash join). Противопоставляется NoSQL.",
+   "decoys": [
+    "Replicated Database Mirroring Service",
+    "Remote Database Monitoring System",
+    "Redundant Database Mapping Standard"
+   ],
+   "qids": [
+    "2017S-A-28",
+    "2018S-A-28",
+    "2021A-A-29",
+    "2022S-A-28",
+    "2025A-A-20"
+   ]
+  },
+  {
+   "id": "ROM",
+   "abbr": "ROM",
+   "topic": "hw",
+   "full": "Read-Only Memory",
+   "ru": "постоянное запоминающее устройство (ПЗУ) — только чтение",
+   "note": "Энергонезависимая память: данные сохраняются без питания. Mask ROM записывается на заводе при изготовлении и дальше только читается — частый ответ. PROM, EPROM, EEPROM — программируемые варианты.",
+   "decoys": [
+    "Random-Order Memory",
+    "Read-Optimized Module",
+    "Register-Oriented Memory"
+   ],
+   "qids": [
+    "2017A-A-11",
+    "2022A-A-14",
+    "2023A-A-12",
+    "2025A-A-60",
+    "2026S-A-10"
+   ]
+  },
+  {
+   "id": "SHA-256",
+   "abbr": "SHA-256",
+   "topic": "sec",
+   "full": "Secure Hash Algorithm 256-bit",
+   "ru": "хеш-функция семейства SHA-2 с 256-битным значением",
+   "note": "Односторонняя хеш-функция: по 256-битному дайджесту нельзя восстановить данные. Применяется для проверки целостности, подписи, поиска вредоносных файлов по хешу. Ключа нет — это не шифрование.",
+   "decoys": [
+    "Symmetric Hash Algorithm 256-bit",
+    "Signed Hash Authenticator 256-bit",
+    "Secure Hybrid Algorithm 256-bit"
+   ],
+   "qids": [
+    "2016A-A-45",
+    "2019S-A-40",
+    "2021S-A-38",
+    "2022A-A-36",
+    "2022A-A-39"
+   ],
+   "spellings": [
+    "SHA"
+   ]
+  },
+  {
+   "id": "SNS",
+   "abbr": "SNS",
+   "topic": "net",
+   "full": "Social Networking Service",
+   "ru": "социальная сеть — сервис общения и публикаций пользователей",
+   "note": "Онлайн-сервис, где пользователи заводят связи и публикуют сообщения для широкого круга (Facebook, X, LINE); вместе с блогами — пример CGM. В облаке AWS SNS означает другое — Simple Notification Service.",
+   "decoys": [
+    "Shared News Syndication",
+    "Subscriber Network Service",
+    "Social News Stream"
+   ],
+   "qids": [
+    "2017A-A-73",
+    "2020A-A-73",
+    "2021S-A-10",
+    "2022A-A-10",
+    "2024S-A-55"
+   ]
+  },
+  {
+   "id": "UDP",
+   "abbr": "UDP",
+   "topic": "net",
+   "full": "User Datagram Protocol",
+   "ru": "протокол пользовательских датаграмм — передача без соединения и подтверждений",
+   "note": "Транспортный уровень без соединения: нет подтверждений и повторов, зато меньше задержка. Используют DNS-запросы, DHCP, TFTP, SNMP, RTP/VoIP. В отличие от TCP доставка и порядок не гарантируются.",
+   "decoys": [
+    "Universal Datagram Protocol",
+    "Unified Data Protocol",
+    "Unicast Delivery Protocol"
+   ],
+   "qids": [
+    "2015A-A-34",
+    "2016A-A-34",
+    "2016S-A-35",
+    "2022A-A-33",
+    "2024S-B-20"
+   ]
+  },
+  {
+   "id": "URL",
+   "abbr": "URL",
+   "topic": "net",
+   "full": "Uniform Resource Locator",
+   "ru": "единый указатель ресурса — адрес веб-страницы или файла",
+   "note": "Адрес ресурса вида схема://хост/путь, например http://www.example.com/index.html. Хост в URL — FQDN, который DNS переводит в IP; если сайт открывается по IP, а по имени нет — сбой DNS (прикладной уровень).",
+   "decoys": [
+    "Unified Routing Link",
+    "Unique Request Label",
+    "User Resource Lookup"
+   ],
+   "qids": [
+    "2015S-A-33",
+    "2016S-A-38",
+    "2018A-A-41",
+    "2018S-A-36",
+    "2023S-A-40"
+   ]
+  },
+  {
+   "id": "XP",
+   "abbr": "XP",
+   "topic": "dev",
+   "full": "Extreme Programming",
+   "ru": "экстремальное программирование — гибкая методика с короткими итерациями",
+   "note": "Практики XP: парное программирование, test-first (TDD), рефакторинг, непрерывная интеграция, частые малые релизы, коллективное владение кодом. Инспекция кода к практикам XP не относится.",
+   "decoys": [
+    "Extended Programming",
+    "Express Prototyping",
+    "Executable Planning"
+   ],
+   "qids": [
+    "2019A-A-51",
+    "2020A-A-50",
+    "2022A-A-50",
+    "2023A-A-49",
+    "2024A-A-40"
+   ]
+  },
+  {
+   "id": "API",
+   "abbr": "API",
+   "topic": "algo",
+   "full": "Application Programming Interface",
+   "ru": "интерфейс прикладного программирования — функции для вызова из программ",
+   "note": "Набор функций и правил, через которые одна программа обращается к другой; например, JDBC — стандартный API Java для доступа к БД. API-ключи — секреты, их нельзя выкладывать в открытый доступ.",
+   "decoys": [
+    "Application Process Integration",
+    "Automated Protocol Interface",
+    "Advanced Platform Instruction"
+   ],
+   "qids": [
+    "2022A-A-19",
+    "2025A-B-20",
+    "2025S-B-19",
+    "2026S-B-20"
+   ]
+  },
+  {
+   "id": "BPM",
+   "abbr": "BPM",
+   "topic": "strat",
+   "full": "Business Process Management",
+   "ru": "управление бизнес-процессами — непрерывный цикл их улучшения",
+   "note": "Встраивает в процессы цикл «анализ → проектирование → исполнение → мониторинг → улучшение» (как PDCA), чтобы постоянно их пересматривать. Не путать с BPR (разовая радикальная перестройка) и ERP.",
+   "decoys": [
+    "Business Planning Method",
+    "Business Portfolio Matrix",
+    "Budget Process Monitoring"
+   ],
+   "qids": [
+    "2016A-A-61",
+    "2017A-A-64",
+    "2019A-A-64",
+    "2023A-A-62"
+   ]
+  },
+  {
+   "id": "BYOD",
+   "abbr": "BYOD",
+   "topic": "sec",
+   "full": "Bring Your Own Device",
+   "ru": "«принеси своё устройство» — личные устройства сотрудников для работы",
+   "note": "Сотрудник работает на своём смартфоне или ноутбуке. Риски: утечка данных при потере, смешение личного и рабочего, заражение. Контроль — через MDM. Выдача корпоративного устройства — это не BYOD.",
+   "decoys": [
+    "Backup Your Own Data",
+    "Build Your Own Dashboard",
+    "Bind Your Own Domain"
+   ],
+   "qids": [
+    "2015S-A-45",
+    "2018A-A-44",
+    "2018S-A-65",
+    "2020S-A-64"
+   ]
+  },
+  {
+   "id": "CPI#cost",
+   "abbr": "CPI",
+   "topic": "mgmt",
+   "full": "Cost Performance Index",
+   "ru": "индекс выполнения стоимости — отношение EV / AC",
+   "note": "CPI < 1 — перерасход. Прогноз: EAC = BAC / CPI, осталось EAC − AC. Пример: потрачено 60 000, сделано 40% от 100 000 → CPI ≈ 0,67, EAC = 150 000, осталось 90 000. Не путать с CPI — Cycles Per Instruction.",
+   "decoys": [
+    "Cost Planning Indicator",
+    "Contract Performance Index",
+    "Cost Projection Index"
+   ],
+   "qids": [
+    "2016A-A-53",
+    "2019S-A-53",
+    "2021A-A-52",
+    "2024S-A-42"
+   ]
+  },
+  {
+   "id": "CSR",
+   "abbr": "CSR",
+   "topic": "strat",
+   "full": "Corporate Social Responsibility",
+   "ru": "корпоративная социальная ответственность — экология, права, этика",
+   "note": "Ответственность компании перед обществом и стейкхолдерами. CSR procurement — стандарты закупок с учётом экологии и прав человека, обязательные для поставщиков. Green procurement — только экология.",
+   "decoys": [
+    "Corporate Strategy Review",
+    "Company Supplier Rating",
+    "Consumer Satisfaction Ranking"
+   ],
+   "qids": [
+    "2017A-A-67",
+    "2019S-A-65",
+    "2020S-A-65",
+    "2022S-A-64"
+   ]
+  },
+  {
+   "id": "DoS",
+   "abbr": "DoS",
+   "topic": "sec",
+   "full": "Denial of Service",
+   "ru": "отказ в обслуживании — перегрузка, делающая сервис недоступным",
+   "note": "Атака на доступность (availability): сервер заваливают запросами или используют уязвимость, пока он не перестанет отвечать легитимным пользователям. Атака с множества машин (ботнета) — DDoS.",
+   "decoys": [
+    "Distribution of Spam",
+    "Detection of Spoofing",
+    "Duplication of Segments"
+   ],
+   "qids": [
+    "2015A-A-38",
+    "2016A-A-37",
+    "2018S-A-37",
+    "2019A-A-37"
+   ]
+  },
+  {
+   "id": "ECC",
+   "abbr": "ECC",
+   "topic": "hw",
+   "full": "Error Correction Code",
+   "ru": "код исправления ошибок — избыточные биты для поиска и исправления ошибок",
+   "note": "В ECC-памяти обычно код Хэмминга: исправляет однобитную ошибку и обнаруживает двухбитную; RAID 2 тоже пишет ECC. Встречается и Error Checking and Correction. Не путать с Elliptic Curve Cryptography.",
+   "decoys": [
+    "Extended Cyclic Check",
+    "Encoded Checksum Counter",
+    "Error Capture Cache"
+   ],
+   "qids": [
+    "2016A-A-11",
+    "2019S-A-13",
+    "2020A-A-13",
+    "2023A-A-14"
+   ]
+  },
+  {
+   "id": "EDI",
+   "abbr": "EDI",
+   "topic": "strat",
+   "full": "Electronic Data Interchange",
+   "ru": "электронный обмен данными — деловые документы между компьютерами",
+   "note": "Обмен коммерческими документами (заказы, накладные, счета) между компьютерами компаний по стандартным протоколам и форматам. Не путать с VAN — сервисом хранения и конвертации передаваемых данных.",
+   "decoys": [
+    "Electronic Document Integration",
+    "Enterprise Data Infrastructure",
+    "External Delivery Interface"
+   ],
+   "qids": [
+    "2017A-A-67",
+    "2019A-A-74",
+    "2020S-A-65",
+    "2022S-A-64"
+   ]
+  },
+  {
+   "id": "FTP",
+   "abbr": "FTP",
+   "topic": "net",
+   "full": "File Transfer Protocol",
+   "ru": "протокол передачи файлов — обмен файлами по TCP (порты 20/21)",
+   "note": "Передаёт файлы поверх TCP: порт 21 — управление, 20 — данные. Логин, пароль и данные идут открытым текстом; защищённые замены — SFTP и FTPS. Не путать с TFTP (упрощённый, по UDP).",
+   "decoys": [
+    "Fast Transmission Protocol",
+    "File Tracking Protocol",
+    "Frame Transaction Protocol"
+   ],
+   "qids": [
+    "2015A-A-34",
+    "2017A-A-31",
+    "2021S-A-32",
+    "2023A-A-32"
+   ]
+  },
+  {
+   "id": "MHS",
+   "abbr": "MHS",
+   "topic": "net",
+   "full": "Message Handling System",
+   "ru": "система обработки сообщений — модель электронной почты X.400",
+   "note": "Модель электронной почты по рекомендации ITU-T X.400 (агенты UA, MTA, хранилище MS). В вопросах о расширении формата письма для аудио и изображений — дистрактор, верный ответ MIME.",
+   "decoys": [
+    "Mail Header Standard",
+    "Multimedia Handling Service",
+    "Message Hosting Server"
+   ],
+   "qids": [
+    "2020A-A-34",
+    "2020S-A-35",
+    "2023S-A-35",
+    "2025A-A-26"
+   ]
+  },
+  {
+   "id": "NAT",
+   "abbr": "NAT",
+   "topic": "net",
+   "full": "Network Address Translation",
+   "ru": "трансляция сетевых адресов — замена частного IP на глобальный",
+   "note": "Маршрутизатор заменяет частный IP-адрес в пакете на глобальный по принципу «один к одному». Вариант NAPT (IP masquerade) меняет ещё и номера портов, чтобы многие ПК делили один глобальный адрес.",
+   "decoys": [
+    "Network Access Table",
+    "Node Address Tracking",
+    "Network Allocation Transfer"
+   ],
+   "qids": [
+    "2015A-A-43",
+    "2019S-A-31",
+    "2021A-A-42",
+    "2026S-A-24"
+   ]
+  },
+  {
+   "id": "NTP",
+   "abbr": "NTP",
+   "topic": "net",
+   "full": "Network Time Protocol",
+   "ru": "протокол сетевого времени — синхронизация часов с сервером времени",
+   "note": "Синхронизирует часы компьютеров с сервером времени, вычисляя задержку по меткам времени запроса и ответа (UDP, порт 123). Не путать с NNTP (новости Usenet) и RTP (потоковое аудио и видео).",
+   "decoys": [
+    "Network Transfer Protocol",
+    "Node Tracking Protocol",
+    "Network Tunneling Protocol"
+   ],
+   "qids": [
+    "2017A-A-34",
+    "2021S-A-32",
+    "2023S-A-34",
+    "2024A-A-25"
+   ]
+  },
+  {
+   "id": "PERT",
+   "abbr": "PERT",
+   "topic": "mgmt",
+   "full": "Program Evaluation and Review Technique",
+   "ru": "метод оценки и пересмотра программ — сетевой (стрелочный) график работ",
+   "note": "Стрелочная диаграмма работ с длительностями: считают ранние и поздние сроки и критический путь; оценка времени (O + 4M + P) / 6. В вопросе 2015 г. расшифровано как Project Evaluation and Review Technique.",
+   "decoys": [
+    "Process Estimation and Resource Tracking",
+    "Progress Evaluation and Reporting Tool",
+    "Plan Execution and Risk Timeline"
+   ],
+   "qids": [
+    "2015A-A-53",
+    "2019S-A-51",
+    "2022S-A-52",
+    "2025A-A-42"
+   ]
+  },
+  {
+   "id": "RSS",
+   "abbr": "RSS",
+   "topic": "net",
+   "full": "Really Simple Syndication",
+   "ru": "лента обновлений сайта — XML-формат для подписки на новости",
+   "note": "XML-формат лент: сайт публикует заголовки и ссылки на новые материалы, а RSS-ридер собирает их. Другие расшифровки — Rich Site Summary и RDF Site Summary. В вопросах — дистрактор к CSS и Ajax.",
+   "decoys": [
+    "Remote Site Synchronization",
+    "Rapid Syndication Service",
+    "Rich Style Sheet"
+   ],
+   "qids": [
+    "2015A-A-24",
+    "2017A-A-24",
+    "2021S-A-10",
+    "2022A-A-10"
+   ]
+  },
+  {
+   "id": "SNMP",
+   "abbr": "SNMP",
+   "topic": "net",
+   "full": "Simple Network Management Protocol",
+   "ru": "простой протокол управления сетью — мониторинг и настройка устройств",
+   "note": "Менеджер опрашивает агентов на маршрутизаторах, коммутаторах и серверах (данные в MIB), агенты сами шлют уведомления trap; работает по UDP, порты 161/162. На вопрос «что работает по TCP» SNMP — неверный ответ.",
+   "decoys": [
+    "Secure Network Monitoring Protocol",
+    "Standard Node Management Protocol",
+    "Simple Network Messaging Protocol"
+   ],
+   "qids": [
+    "2017S-A-46",
+    "2019S-A-35",
+    "2023A-A-42",
+    "2024A-A-25"
+   ]
+  },
+  {
+   "id": "SSH",
+   "abbr": "SSH",
+   "topic": "net",
+   "full": "Secure Shell",
+   "ru": "защищённая оболочка — шифрованный удалённый вход и передача файлов",
+   "note": "Шифрованный канал для удалённого входа и обслуживания серверов через публичную сеть (порт 22); поддерживает вход по паре ключей, туннелирование, SFTP/SCP. Замена Telnet; не путать с TLS, который используется в HTTPS.",
+   "decoys": [
+    "Secure Share",
+    "Session Shield",
+    "System Shell"
+   ],
+   "qids": [
+    "2021A-A-44",
+    "2021S-A-42",
+    "2022A-A-39",
+    "2025A-A-24"
+   ]
+  },
+  {
+   "id": "TCO",
+   "abbr": "TCO",
+   "topic": "strat",
+   "full": "Total Cost of Ownership",
+   "ru": "совокупная стоимость владения — все затраты за жизненный цикл",
+   "note": "TCO = начальные затраты (покупка, внедрение) + эксплуатация, сопровождение, обучение и утилизация за весь срок (в задачах часто 5 лет). Для SaaS сюда входят подписка и миграция данных.",
+   "decoys": [
+    "Total Capacity of Output",
+    "Technical Cost of Outsourcing",
+    "Tiered Cost of Overhead"
+   ],
+   "qids": [
+    "2018S-A-62",
+    "2019S-A-56",
+    "2020A-A-55",
+    "2021A-A-57"
+   ]
+  },
+  {
+   "id": "ANSI",
+   "abbr": "ANSI",
+   "topic": "dev",
+   "full": "American National Standards Institute",
+   "ru": "Американский национальный институт стандартов — орган стандартизации США",
+   "note": "Национальный орган США и член ISO; известны ANSI C, ANSI SQL, ASCII. По соглашению ВТО госорганы применяют международные стандарты (ISO), а не национальные (ANSI, BSI) или правила FCC.",
+   "decoys": [
+    "American Network Standards Institute",
+    "Advanced Network Systems Institute",
+    "American National Security Initiative"
+   ],
+   "qids": [
+    "2020A-A-80",
+    "2023S-A-80",
+    "2026S-A-60"
+   ]
+  },
+  {
+   "id": "BCP",
+   "abbr": "BCP",
+   "topic": "mgmt",
+   "full": "Business Continuity Plan",
+   "ru": "план обеспечения непрерывности бизнеса при авариях и катастрофах",
+   "note": "Как продолжать и восстанавливать критичные операции при катастрофах, отказах и атаках; строится на BIA с приоритетами, RTO и RPO, регулярно тестируется и пересматривается. Восстановление ИТ — DRP.",
+   "decoys": [
+    "Backup Control Procedure",
+    "Business Change Policy",
+    "Breach Containment Plan"
+   ],
+   "qids": [
+    "2017A-A-61",
+    "2021A-A-78",
+    "2022A-A-58"
+   ]
+  },
+  {
+   "id": "BI",
+   "abbr": "BI",
+   "topic": "strat",
+   "full": "Business Intelligence",
+   "ru": "бизнес-аналитика — анализ накопленных данных для решений",
+   "note": "Анализ больших объёмов данных бизнес-систем (DWH, OLAP, data mining, дашборды) для оценки результатов и поддержки управленческих решений. Не путать с BPM (улучшение процессов).",
+   "decoys": [
+    "Business Integration",
+    "Benchmark Index",
+    "Business Infrastructure"
+   ],
+   "qids": [
+    "2018A-A-65",
+    "2020A-A-63",
+    "2023A-A-64"
+   ]
+  },
+  {
+   "id": "BOM",
+   "abbr": "BOM",
+   "topic": "strat",
+   "full": "Bill of Materials",
+   "ru": "спецификация изделия — перечень компонентов и их количеств",
+   "note": "Иерархический список деталей, узлов и материалов для изделия с количествами. Вместе с графиком производства и данными о запасах BOM — вход для MRP. В кодировках BOM — Byte Order Mark, другой смысл.",
+   "decoys": [
+    "Balance of Merchandise",
+    "Basis of Manufacturing",
+    "Budget of Maintenance"
+   ],
+   "qids": [
+    "2015A-A-74",
+    "2019A-A-72",
+    "2023A-A-72"
+   ]
+  },
+  {
+   "id": "BPO",
+   "abbr": "BPO",
+   "topic": "strat",
+   "full": "Business Process Outsourcing",
+   "ru": "аутсорсинг бизнес-процессов — передача целых функций подрядчику",
+   "note": "Внешнему провайдеру передают все процессы отдела (бухгалтерия, кадры, колл-центр) вместе с работой системы. Не путать с хостингом (аренда сервера), SaaS (аренда ПО) и временным персоналом.",
+   "decoys": [
+    "Business Planning Office",
+    "Business Partner Onboarding",
+    "Business Performance Overview"
+   ],
+   "qids": [
+    "2015A-A-63",
+    "2021A-A-63",
+    "2021S-A-62"
+   ]
+  },
+  {
+   "id": "BPR",
+   "abbr": "BPR",
+   "topic": "strat",
+   "full": "Business Process Reengineering",
+   "ru": "реинжиниринг бизнес-процессов — радикальная перестройка процессов",
+   "note": "Коренное перепроектирование бизнес-процессов, часто с опорой на ИТ, ради резкого улучшения затрат, качества, сервиса и скорости. BPR — разовая радикальная перестройка, BPM — непрерывный цикл улучшения.",
+   "decoys": [
+    "Business Performance Review",
+    "Business Planning Report",
+    "Budget Process Revision"
+   ],
+   "qids": [
+    "2015S-A-64",
+    "2022A-A-62",
+    "2026S-A-46"
+   ]
+  },
+  {
+   "id": "CMS",
+   "abbr": "CMS",
+   "topic": "net",
+   "full": "Content Management System",
+   "ru": "система управления контентом — создание и публикация сайта без кода",
+   "note": "Платформа для создания и публикации содержимого сайта (WordPress, Drupal); уязвимые плагины — частый вектор атак. В вопросах о стилях HTML — дистрактор (верно CSS). В ITIL CMS — Configuration Management System.",
+   "decoys": [
+    "Content Markup Standard",
+    "Centralized Media Server",
+    "Cached Metadata Service"
+   ],
+   "qids": [
+    "2015A-A-24",
+    "2017A-A-24",
+    "2025A-B-18"
+   ]
+  },
+  {
+   "id": "CPI#cycles",
+   "abbr": "CPI",
+   "topic": "hw",
+   "full": "Cycles Per Instruction",
+   "ru": "тактов на инструкцию — среднее число тактов на одну команду",
+   "note": "CPI = частота / число инструкций в секунду; время CPU = инструкции × CPI / частота; MIPS = частота (МГц) / CPI. Не путать с CPI = Cost Performance Index (EVM, CPI = EV / AC).",
+   "decoys": [
+    "Cycles Per Interrupt",
+    "Core Performance Index",
+    "Commands Per Interval"
+   ],
+   "qids": [
+    "2019A-A-11",
+    "2021A-A-19",
+    "2022S-A-11"
+   ]
+  },
+  {
+   "id": "CRP",
+   "abbr": "CRP",
+   "topic": "strat",
+   "full": "Capacity Requirements Planning",
+   "ru": "планирование потребности в мощностях — хватит ли станков и людей",
+   "note": "Проверяет, хватит ли производственных мощностей (оборудование, персонал, часы) для плана, полученного из MRP. MRP считает материалы, CRP — мощности; про сроки заказа компонентов ответ — MRP.",
+   "decoys": [
+    "Capacity Reservation Process",
+    "Component Release Plan",
+    "Critical Routing Procedure"
+   ],
+   "qids": [
+    "2017S-A-74",
+    "2019A-A-73",
+    "2021A-A-72"
+   ]
+  },
+  {
+   "id": "DFD",
+   "abbr": "DFD",
+   "topic": "dev",
+   "full": "Data Flow Diagram",
+   "ru": "диаграмма потоков данных — процессы, потоки, хранилища, внешние сущности",
+   "note": "Инструмент структурного анализа: показывает, как данные движутся между процессами, хранилищами и внешними сущностями, но не порядок и не условия выполнения (это блок-схема). Не путать с ER-диаграммой.",
+   "decoys": [
+    "Data Format Diagram",
+    "Design Flow Document",
+    "Data Function Definition"
+   ],
+   "qids": [
+    "2021S-A-46",
+    "2023S-A-46",
+    "2025A-A-48"
+   ]
+  },
+  {
+   "id": "EC",
+   "abbr": "EC",
+   "topic": "strat",
+   "full": "Electronic Commerce",
+   "ru": "электронная коммерция — продажа товаров и услуг через интернет",
+   "note": "Торговля через сети: B2B, B2C, C2C. EC-сайт в схеме affiliate — рекламодатель, который платит владельцу сайта комиссию с продаж, пришедших по рекламной ссылке.",
+   "decoys": [
+    "Enterprise Catalog",
+    "Electronic Checkout",
+    "Express Courier"
+   ],
+   "qids": [
+    "2018A-A-75",
+    "2023S-A-66",
+    "2025S-A-55"
+   ]
+  },
+  {
+   "id": "EEPROM",
+   "abbr": "EEPROM",
+   "topic": "hw",
+   "full": "Electrically Erasable Programmable Read-Only Memory",
+   "ru": "электрически стираемое ПЗУ — энергонезависимое, перезаписываемое",
+   "note": "Энергонезависимая память: данные стираются и перезаписываются электрически побайтно (flash — блоками). EPROM стирается ультрафиолетом. На flip-flop не строится — это SRAM.",
+   "decoys": [
+    "Embedded Erasable Partitioned Read-Only Memory",
+    "Electrically Encrypted Protected Read-Only Memory",
+    "Extended Electronic Programmable Read-Only Memory"
+   ],
+   "qids": [
+    "2015S-A-25",
+    "2017A-A-23",
+    "2022A-A-22"
+   ]
+  },
+  {
+   "id": "ERP",
+   "abbr": "ERP",
+   "topic": "strat",
+   "full": "Enterprise Resource Planning",
+   "ru": "планирование ресурсов предприятия — единая система для всех функций",
+   "note": "Интегрированный пакет, где производство, логистика, продажи, финансы и кадры работают с общей базой данных ради общей оптимизации ресурсов компании. Развился из MRP и MRP II.",
+   "decoys": [
+    "Enterprise Revenue Projection",
+    "Enterprise Reporting Platform",
+    "Electronic Resource Procurement"
+   ],
+   "qids": [
+    "2019S-A-64",
+    "2023A-A-63",
+    "2025A-A-51"
+   ]
+  },
+  {
+   "id": "GUI",
+   "abbr": "GUI",
+   "topic": "algo",
+   "full": "Graphical User Interface",
+   "ru": "графический интерфейс пользователя — окна, кнопки, меню",
+   "note": "В экзамене спрашивают про элементы GUI: радиокнопка — выбор ровно одного варианта из группы, флажок (check box) — нескольких, список (list box) — выбор из длинного перечня.",
+   "decoys": [
+    "General User Integration",
+    "Graphic Utility Interpreter",
+    "Guided User Input"
+   ],
+   "qids": [
+    "2020A-A-23",
+    "2020S-A-24",
+    "2022A-A-10"
+   ],
+   "spellings": [
+    "UI"
+   ]
+  },
+  {
+   "id": "IaaS",
+   "abbr": "IaaS",
+   "topic": "dev",
+   "full": "Infrastructure as a Service",
+   "ru": "инфраструктура как услуга — виртуальные серверы, хранилище, сеть",
+   "note": "Провайдер отвечает за виртуализацию, серверы, хранилище и сеть; ОС, middleware и приложения ставит и сопровождает клиент. Поэтому «пользователь сам ставит образы ОС» на экзамене — это IaaS.",
+   "decoys": [
+    "Installation as a Service",
+    "Interface as a Service",
+    "Instance as a Service"
+   ],
+   "qids": [
+    "2015A-A-64",
+    "2016S-A-67",
+    "2025S-A-11"
+   ]
+  },
+  {
+   "id": "JIT",
+   "abbr": "JIT",
+   "topic": "strat",
+   "full": "Just in Time",
+   "ru": "«точно вовремя» — производство и поставка без лишних запасов",
+   "note": "Нужная деталь поступает в нужном количестве точно к моменту использования, запасы минимальны; вытягивающая система Toyota на основе kanban. В программировании JIT — компиляция во время выполнения.",
+   "decoys": [
+    "Joint Inventory Transfer",
+    "Jobs in Transit",
+    "Job Inspection Timing"
+   ],
+   "qids": [
+    "2017S-A-74",
+    "2019A-A-73",
+    "2021A-A-72"
+   ]
+  },
+  {
+   "id": "MIMD",
+   "abbr": "MIMD",
+   "topic": "hw",
+   "full": "Multiple Instruction Multiple Data",
+   "ru": "много потоков команд, много потоков данных — мультипроцессоры",
+   "note": "Каждый процессор независимо выполняет свою программу над своими данными: многоядерные CPU, SMP, кластеры. Ответ на вопрос про «multiple instruction streams on multiple data streams».",
+   "decoys": [
+    "Memory Interleaved Multiple Data",
+    "Multiple Interrupt Memory Dispatch",
+    "Modular Instruction Mapping Design"
+   ],
+   "qids": [
+    "2016S-A-12",
+    "2017S-A-11",
+    "2023A-A-13"
+   ]
+  },
+  {
+   "id": "MISD",
+   "abbr": "MISD",
+   "topic": "hw",
+   "full": "Multiple Instruction Single Data",
+   "ru": "много потоков команд, один поток данных — редкий класс Флинна",
+   "note": "Несколько процессоров выполняют разные инструкции над одним потоком данных; на практике почти не встречается (например, отказоустойчивые системы со взаимной проверкой). В вариантах ответа обычно дистрактор.",
+   "decoys": [
+    "Memory Instruction Sequence Decoder",
+    "Multiple Interrupt Shared Device",
+    "Modular Instruction Set Design"
+   ],
+   "qids": [
+    "2016S-A-12",
+    "2017S-A-11",
+    "2023A-A-13"
+   ]
+  },
+  {
+   "id": "NAPT",
+   "abbr": "NAPT",
+   "topic": "net",
+   "full": "Network Address Port Translation",
+   "ru": "трансляция адресов и портов — много ПК через один глобальный IP",
+   "note": "Расширение NAT: подменяет и IP-адрес, и номер порта, поэтому многие ПК локальной сети выходят в Интернет через один глобальный адрес. Другие названия — IP masquerade и PAT (Port Address Translation).",
+   "decoys": [
+    "Network Access Point Tunneling",
+    "Node Address Packet Translation",
+    "Network Allocation Protocol Table"
+   ],
+   "qids": [
+    "2018A-A-36",
+    "2021A-A-31",
+    "2022S-A-30"
+   ]
+  },
+  {
+   "id": "NFC",
+   "abbr": "NFC",
+   "topic": "hw",
+   "full": "Near Field Communication",
+   "ru": "связь ближнего поля — бесконтактный обмен на расстоянии ~10 см",
+   "note": "Радиосвязь 13,56 МГц на несколько сантиметров: бесконтактная оплата, проездные, IC-карты. Это не стандарт широкополосной мобильной связи — на такой вопрос ответ LTE.",
+   "decoys": [
+    "Narrowband Frequency Coupling",
+    "Network Frame Control",
+    "Near Frequency Channel"
+   ],
+   "qids": [
+    "2019A-A-35",
+    "2023A-A-33",
+    "2026S-A-27"
+   ]
+  },
+  {
+   "id": "OC",
+   "abbr": "OC",
+   "topic": "strat",
+   "full": "Operating Characteristic",
+   "ru": "оперативная характеристика — кривая выборочного контроля качества",
+   "note": "OC-кривая: по оси X — доля брака в партии, по Y — вероятность приёмки. Чем меньше допустимое число дефектных C, тем ниже и круче кривая. Не путать с bathtub curve и кривыми Gompertz/logistic.",
+   "decoys": [
+    "Output Capacity",
+    "Operational Conformance",
+    "Observed Capability"
+   ],
+   "qids": [
+    "2017A-A-80",
+    "2021S-A-77",
+    "2025A-A-58"
+   ]
+  },
+  {
+   "id": "PC#program",
+   "abbr": "PC",
+   "topic": "hw",
+   "full": "Program Counter",
+   "ru": "счётчик команд — регистр с адресом следующей инструкции",
+   "note": "После выборки команды PC увеличивается на её длину, переход записывает в PC новый адрес. PC-относительная адресация: эффективный адрес = PC + смещение. Не путать с PC = Personal Computer.",
+   "decoys": [
+    "Pipeline Controller",
+    "Pointer Cache",
+    "Prefetch Counter"
+   ],
+   "qids": [
+    "2016S-A-13",
+    "2017A-A-10",
+    "2021S-A-11"
+   ]
+  },
+  {
+   "id": "PCM",
+   "abbr": "PCM",
+   "topic": "hw",
+   "full": "Pulse Code Modulation",
+   "ru": "импульсно-кодовая модуляция — оцифровка звука",
+   "note": "Шаги: sampling (замер через равные интервалы) → quantization → encoding. Пример: 8 бит × 8000 выборок/с = 64 000 бит/с, интервал выборки 125 мкс. Не путать с Phase Change Memory.",
+   "decoys": [
+    "Phase Carrier Modulation",
+    "Pulse Count Multiplexing",
+    "Packet Coding Method"
+   ],
+   "qids": [
+    "2017A-A-04",
+    "2018S-A-25",
+    "2023A-A-24"
+   ]
+  },
+  {
+   "id": "PPM",
+   "abbr": "PPM",
+   "topic": "strat",
+   "full": "Product Portfolio Management",
+   "ru": "управление портфелем продуктов — матрица «доля рынка × рост рынка»",
+   "note": "Star — высокая доля и рост; Cash cow — высокая доля, низкий рост; Question mark — низкая доля, высокий рост, нужны инвестиции; Dog — уход. Иначе PPM — Project Portfolio Management.",
+   "decoys": [
+    "Product Pricing Model",
+    "Profit Positioning Matrix",
+    "Production Planning Method"
+   ],
+   "qids": [
+    "2015A-A-67",
+    "2016S-A-69",
+    "2021A-A-66"
+   ]
+  },
+  {
+   "id": "PPP",
+   "abbr": "PPP",
+   "topic": "net",
+   "full": "Point-to-Point Protocol",
+   "ru": "протокол «точка-точка» — канальный уровень для связи двух узлов",
+   "note": "Протокол канального уровня для прямой связи двух узлов (dial-up, выделенная линия): аутентификация PAP/CHAP, выдача IP-адреса через IPCP. В вопросах — дистрактор к DHCP; PPPoE переносит его поверх Ethernet.",
+   "decoys": [
+    "Port-to-Port Protocol",
+    "Packet-to-Packet Protocol",
+    "Peer-to-Provider Protocol"
+   ],
+   "qids": [
+    "2015A-A-35",
+    "2017A-A-31",
+    "2023A-A-32"
+   ]
+  },
+  {
+   "id": "PPPoE",
+   "abbr": "PPPoE",
+   "topic": "net",
+   "full": "Point-to-Point Protocol over Ethernet",
+   "ru": "PPP поверх Ethernet — аутентификация абонента у провайдера (FTTH, DSL)",
+   "note": "Переносит PPP-сессию в кадрах Ethernet: провайдер по логину и паролю аутентифицирует абонента FTTH/DSL и выдаёт IP. Чтобы многие ПК делили один глобальный IP, нужна NAPT, а не PPPoE.",
+   "decoys": [
+    "Port-to-Port Protocol over Ethernet",
+    "Packet-to-Packet Protocol over Ethernet",
+    "Peer-to-Provider Protocol over Ethernet"
+   ],
+   "qids": [
+    "2018A-A-36",
+    "2022S-A-30",
+    "2024A-A-26"
+   ]
+  },
+  {
+   "id": "RARP",
+   "abbr": "RARP",
+   "topic": "net",
+   "full": "Reverse Address Resolution Protocol",
+   "ru": "обратный ARP — узел узнаёт свой IP-адрес по MAC-адресу",
+   "note": "Обратная задача к ARP: бездисковый узел по своему MAC-адресу получает IP-адрес от RARP-сервера. Устарел, вытеснен BOOTP и DHCP; в вопросах служит дистрактором к ARP и DNS.",
+   "decoys": [
+    "Remote Address Routing Protocol",
+    "Recursive Address Resolution Protocol",
+    "Reserved Address Registration Protocol"
+   ],
+   "qids": [
+    "2017S-A-35",
+    "2022A-A-31",
+    "2022S-A-35"
+   ]
+  },
+  {
+   "id": "RIP",
+   "abbr": "RIP",
+   "topic": "net",
+   "full": "Routing Information Protocol",
+   "ru": "протокол маршрутной информации — дистанционно-векторная маршрутизация",
+   "note": "Дистанционно-векторный протокол маршрутизации: метрика — число переходов (hop count, максимум 15), таблицы рассылаются каждые 30 с. В FE обычно дистрактор к ARP, DHCP, NTP; не путать с OSPF (состояние каналов).",
+   "decoys": [
+    "Routing Interface Protocol",
+    "Remote Index Protocol",
+    "Route Identification Path"
+   ],
+   "qids": [
+    "2018S-A-31",
+    "2022S-A-35",
+    "2023S-A-34"
+   ]
+  },
+  {
+   "id": "SDRAM",
+   "abbr": "SDRAM",
+   "topic": "hw",
+   "full": "Synchronous Dynamic Random Access Memory",
+   "ru": "синхронная DRAM — работает по тактовому сигналу шины",
+   "note": "Вид DRAM, синхронизированный с тактом шины (DDR SDRAM — её развитие); тоже требует refresh. Ловушка: S здесь Synchronous, а не Static, поэтому на flip-flop построена SRAM, а не SDRAM.",
+   "decoys": [
+    "Serial Dynamic Random Access Memory",
+    "Static Direct Random Access Memory",
+    "Shared Data Register Access Memory"
+   ],
+   "qids": [
+    "2015S-A-25",
+    "2017A-A-23",
+    "2022A-A-22"
+   ]
+  },
+  {
+   "id": "SEO",
+   "abbr": "SEO",
+   "topic": "strat",
+   "full": "Search Engine Optimization",
+   "ru": "поисковая оптимизация — продвижение сайта в выдаче поисковика",
+   "note": "Настройка сайта, чтобы он стоял выше в результатах поиска. SEO poisoning — атака, при которой злоумышленник выводит вредоносный сайт в топ выдачи по популярным запросам.",
+   "decoys": [
+    "Search Entry Override",
+    "Site Exposure Operation",
+    "Search Engine Obfuscation"
+   ],
+   "qids": [
+    "2018S-A-38",
+    "2024A-A-32",
+    "2024S-A-30"
+   ]
+  },
+  {
+   "id": "SIMD",
+   "abbr": "SIMD",
+   "topic": "hw",
+   "full": "Single Instruction Multiple Data",
+   "ru": "один поток команд, много потоков данных — векторная обработка",
+   "note": "Класс Флинна: одна инструкция одновременно обрабатывает много данных (векторные процессоры, GPU). Остальные классы: SISD — обычный однопроцессор, MISD — почти не встречается, MIMD — мультипроцессоры.",
+   "decoys": [
+    "Sequential Instruction Multiple Data",
+    "Shared Instruction Memory Dispatch",
+    "Synchronous Input Multiple Devices"
+   ],
+   "qids": [
+    "2016S-A-12",
+    "2017S-A-11",
+    "2023A-A-13"
+   ]
+  },
+  {
+   "id": "SISD",
+   "abbr": "SISD",
+   "topic": "hw",
+   "full": "Single Instruction Single Data",
+   "ru": "один поток команд, один поток данных — обычный однопроцессор",
+   "note": "Класс Флинна для классического последовательного процессора фон Неймана: одна инструкция обрабатывает один элемент данных за раз. На экзамене стоит в вариантах рядом с SIMD, MISD и MIMD.",
+   "decoys": [
+    "Sequential Instruction Stream Decoding",
+    "Shared Instruction Single Data",
+    "Serial Input Synchronous Data"
+   ],
+   "qids": [
+    "2016S-A-12",
+    "2017S-A-11",
+    "2023A-A-13"
+   ]
+  },
+  {
+   "id": "SPD",
+   "abbr": "SPD",
+   "topic": "hw",
+   "full": "Surge Protection Device",
+   "ru": "устройство защиты от импульсных перенапряжений (грозозащита)",
+   "note": "Отводит в землю кратковременные выбросы напряжения и тока, например от удара молнии в линию связи или питания. Ответ на вопросы о защите от молнии. В стандартах IEC — Surge Protective Device.",
+   "decoys": [
+    "Static Power Distributor",
+    "Supply Phase Detector",
+    "Standby Power Device"
+   ],
+   "qids": [
+    "2017A-A-57",
+    "2018A-A-58",
+    "2020S-A-57"
+   ]
+  },
+  {
+   "id": "SPF",
+   "abbr": "SPF",
+   "topic": "sec",
+   "full": "Sender Policy Framework",
+   "ru": "проверка, что письмо отправлено с сервера, разрешённого доменом",
+   "note": "Владелец домена публикует в DNS (SPF-запись) IP-адреса своих почтовых серверов; получатель сверяет с ними IP отправителя и выявляет подделку адреса отправителя. Родственные методы — DKIM и DMARC.",
+   "decoys": [
+    "Spam Prevention Filter",
+    "Secure Protocol Forwarding",
+    "Server Permission File"
+   ],
+   "qids": [
+    "2021S-A-43",
+    "2024A-B-20",
+    "2025S-A-33"
+   ]
+  },
+  {
+   "id": "UWB",
+   "abbr": "UWB",
+   "topic": "hw",
+   "full": "Ultra Wide Band",
+   "ru": "сверхширокополосная связь — короткие импульсы в широкой полосе",
+   "note": "Радиосвязь на малые расстояния короткими импульсами в полосе от 500 МГц: точное позиционирование в помещениях. Несмотря на «wide band», это не мобильная широкополосная связь — там LTE.",
+   "decoys": [
+    "Universal Wireless Broadband",
+    "Unlicensed Wave Band",
+    "Uplink Wireless Bridge"
+   ],
+   "qids": [
+    "2019A-A-35",
+    "2023A-A-33",
+    "2026S-A-27"
+   ]
+  },
+  {
+   "id": "VoIP",
+   "abbr": "VoIP",
+   "topic": "net",
+   "full": "Voice over Internet Protocol",
+   "ru": "IP-телефония — передача голоса по IP-сетям",
+   "note": "Голос оцифровывается, сжимается и передаётся IP-пакетами: сигнализация — SIP, медиапоток — RTP по UDP. Качество зависит от задержки и джиттера, поэтому для голосового трафика настраивают QoS.",
+   "decoys": [
+    "Video over Internet Protocol",
+    "Voice over Integrated Packet",
+    "Voice over Interconnect Path"
+   ],
+   "qids": [
+    "2017S-A-46",
+    "2023A-A-42",
+    "2024S-A-25"
+   ]
+  },
+  {
+   "id": "XML",
+   "abbr": "XML",
+   "topic": "net",
+   "full": "Extensible Markup Language",
+   "ru": "расширяемый язык разметки — свои теги для обмена данными",
+   "note": "Метаязык: позволяет определять собственные теги (DTD, XML Schema) для обмена данными между системами. Не основан на HTML — оба происходят от SGML; специальный редактор не нужен, оформление — XSL или CSS.",
+   "decoys": [
+    "Executable Markup Language",
+    "Exchangeable Metadata Language",
+    "Exclusive Modeling Language"
+   ],
+   "qids": [
+    "2016A-A-08",
+    "2021A-A-10",
+    "2023A-A-10"
+   ]
+  },
+  {
+   "id": "AC",
+   "abbr": "AC",
+   "topic": "mgmt",
+   "full": "Actual Cost",
+   "ru": "фактическая стоимость — реально потраченные на выполненную работу деньги",
+   "note": "CV = EV − AC, CPI = EV / AC; CPI < 1 — перерасход. Пример: BAC $100 000 на 4 месяца, прошёл 1 месяц, всё по плану → EV = 25 000; при AC = 20 000 CPI = 1,25.",
+   "decoys": [
+    "Allocated Cost",
+    "Approved Cost",
+    "Anticipated Cost"
+   ],
+   "qids": [
+    "2016A-A-53",
+    "2024S-A-42"
+   ]
+  },
+  {
+   "id": "AI",
+   "abbr": "AI",
+   "topic": "strat",
+   "full": "Artificial Intelligence",
+   "ru": "искусственный интеллект — машины, выполняющие интеллектуальные задачи",
+   "note": "Machine learning — раздел AI, где модель сама находит закономерности в данных. Ввод экспертных знаний вручную — это expert system, а не ML. Deep learning — ML на многослойных нейросетях.",
+   "decoys": [
+    "Automated Inference",
+    "Analytical Interface",
+    "Algorithmic Integration"
+   ],
+   "qids": [
+    "2025S-A-03",
+    "2025S-A-59"
+   ]
+  },
+  {
+   "id": "AR",
+   "abbr": "AR",
+   "topic": "strat",
+   "full": "Augmented Reality",
+   "ru": "дополненная реальность — цифровые объекты поверх реального мира",
+   "note": "Накладывает компьютерную информацию на изображение реального мира (камера смартфона, очки). VR — полное погружение в виртуальный мир через HMD; MR — смешанная реальность.",
+   "decoys": [
+    "Adaptive Rendering",
+    "Assisted Recognition",
+    "Ambient Representation"
+   ],
+   "qids": [
+    "2019A-A-26",
+    "2022A-A-24"
+   ]
+  },
+  {
+   "id": "ATA",
+   "abbr": "ATA",
+   "topic": "hw",
+   "full": "Advanced Technology Attachment",
+   "ru": "интерфейс (IDE) для подключения HDD и приводов к ПК",
+   "note": "Стандарт подключения накопителей: исходный параллельный ATA (IDE, PATA), последовательная версия — SATA. В вопросах про USB 3.0 вариант «serial version of ATA» описывает SATA. Также ATA = Analog Telephone Adapter.",
+   "decoys": [
+    "Advanced Transfer Architecture",
+    "Array Transport Adapter",
+    "Asynchronous Tape Attachment"
+   ],
+   "qids": [
+    "2018A-A-13",
+    "2021S-A-14"
+   ]
+  },
+  {
+   "id": "BEP",
+   "abbr": "BEP",
+   "topic": "strat",
+   "full": "Break-Even Point",
+   "ru": "точка безубыточности — выручка равна общим затратам",
+   "note": "Выручка в BEP = постоянные затраты / (1 − переменные затраты / выручка). В штуках: FC / (цена − переменные на ед.); с целевой прибылью: (FC + прибыль) / (цена − переменные на ед.).",
+   "decoys": [
+    "Balanced-Earnings Point",
+    "Budget Equilibrium Point",
+    "Base Expense Projection"
+   ],
+   "qids": [
+    "2020S-A-78",
+    "2021S-A-79"
+   ]
+  },
+  {
+   "id": "C&C",
+   "abbr": "C&C",
+   "topic": "sec",
+   "full": "Command and Control",
+   "ru": "сервер управления ботнетом — отдаёт команды заражённым машинам",
+   "note": "Сервер атакующего, с которого заражённые компьютеры получают команды и куда отправляют украденные данные; пишут и C2. Связь с C&C — признак заражения, её выявляют sandbox и SIEM.",
+   "decoys": [
+    "Collection and Correlation",
+    "Credential and Certificate",
+    "Compromise and Concealment"
+   ],
+   "qids": [
+    "2022S-A-39",
+    "2024A-A-33"
+   ]
+  },
+  {
+   "id": "CAPTCHA",
+   "abbr": "CAPTCHA",
+   "topic": "sec",
+   "full": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+   "ru": "тест, отличающий человека от программы (искажённые символы, картинки)",
+   "note": "Задание, которое легко решает человек и трудно программа: искажённые буквы, выбор картинок. Защищает формы от ботов — массовой регистрации, спама, онлайн-перебора паролей (online brute force).",
+   "decoys": [
+    "Continuous Access Prevention Test to tell Crawlers and Humans Apart",
+    "Cryptographic Authentication Protocol Test to tell Clients and Hosts Apart",
+    "Completely Automated Password Token test to tell Computers and Hackers Apart"
+   ],
+   "qids": [
+    "2018S-A-36",
+    "2024S-B-19"
+   ]
+  },
+  {
+   "id": "CCO",
+   "abbr": "CCO",
+   "topic": "strat",
+   "full": "Chief Compliance Officer",
+   "ru": "директор по комплаенсу — следит за соблюдением законов и норм",
+   "note": "Руководитель, отвечающий за соблюдение законов, требований регуляторов и внутренних правил. В ITPEC встречается как дистрактор к CISO; в других контекстах CCO бывает Chief Communications/Commercial Officer.",
+   "decoys": [
+    "Chief Continuity Officer",
+    "Chief Certification Officer",
+    "Central Contracts Office"
+   ],
+   "qids": [
+    "2020A-A-76",
+    "2023A-A-75"
+   ]
+  },
+  {
+   "id": "CG",
+   "abbr": "CG",
+   "topic": "hw",
+   "full": "Computer Graphics",
+   "ru": "компьютерная графика — создание и вывод изображений",
+   "note": "Этапы: моделирование → преобразования → отсечение (clipping) → rendering, последний этап, превращающий данные объектов в изображение на экране. Рядом в вопросах: anti-aliasing, shading, texture mapping.",
+   "decoys": [
+    "Color Gradient",
+    "Composite Geometry",
+    "Canvas Generator"
+   ],
+   "qids": [
+    "2017S-A-26",
+    "2021A-A-24"
+   ]
+  },
+  {
+   "id": "CI",
+   "abbr": "CI",
+   "topic": "dev",
+   "full": "Configuration Item",
+   "ru": "элемент конфигурации — объект, учитываемый в управлении конфигурацией",
+   "note": "Любой управляемый компонент услуги (оборудование, ПО, документ, сервис), записанный с атрибутами и связями в CMDB. В разработке CI — также Continuous Integration (непрерывная интеграция).",
+   "decoys": [
+    "Component Inventory",
+    "Change Indicator",
+    "Control Instance"
+   ],
+   "qids": [
+    "2015S-A-55",
+    "2018S-A-57"
+   ]
+  },
+  {
+   "id": "CISO",
+   "abbr": "CISO",
+   "topic": "strat",
+   "full": "Chief Information Security Officer",
+   "ru": "директор по ИБ — отвечает за защиту информации и данных компании",
+   "note": "Руководитель, отвечающий за безопасность информации и данных: политика ИБ, управление рисками, реагирование на инциденты. В вопросе с вариантами CCO/CIO/CISO/COO об ответственном за защиту данных ответ — CISO.",
+   "decoys": [
+    "Chief Infrastructure Safety Officer",
+    "Chief Incident Supervision Officer",
+    "Chief Internet Systems Officer"
+   ],
+   "qids": [
+    "2020A-A-76",
+    "2023A-A-75"
+   ]
+  },
+  {
+   "id": "COCOMO",
+   "abbr": "COCOMO",
+   "topic": "dev",
+   "full": "Constructive Cost Model",
+   "ru": "конструктивная модель стоимости — оценка трудозатрат по объёму кода",
+   "note": "Модель Боэма: трудозатраты = a × KLOC^b × поправочные коэффициенты (cost drivers). Intermediate COCOMO — одна модель по строкам кода, COCOMO II — три подмодели по стадиям проекта. Не путать с методом FP.",
+   "decoys": [
+    "Collaborative Cost Monitor",
+    "Complexity Control Model",
+    "Component Count Model"
+   ],
+   "qids": [
+    "2016S-A-58",
+    "2025S-A-42"
+   ]
+  },
+  {
+   "id": "COO",
+   "abbr": "COO",
+   "topic": "strat",
+   "full": "Chief Operating Officer",
+   "ru": "главный операционный директор — руководит текущей деятельностью",
+   "note": "Отвечает за исполнение бизнес-стратегии и повседневную операционную работу компании, обычно второй после CEO. В вопросе об ответственном за безопасность данных — дистрактор (правильно CISO).",
+   "decoys": [
+    "Chief Optimization Officer",
+    "Chief Outsourcing Officer",
+    "Corporate Oversight Office"
+   ],
+   "qids": [
+    "2020A-A-76",
+    "2023A-A-75"
+   ]
+  },
+  {
+   "id": "CPM",
+   "abbr": "CPM",
+   "topic": "mgmt",
+   "full": "Critical Path Method",
+   "ru": "метод критического пути — самая длинная цепочка работ без резерва",
+   "note": "Критический путь — самый длинный путь сетевого графика; у его работ нулевой резерв (float), и задержка любой из них сдвигает весь проект. В вопросе 2015 г. написано Critical Path Management.",
+   "decoys": [
+    "Cost Planning Matrix",
+    "Concurrent Process Model",
+    "Critical Phase Monitoring"
+   ],
+   "qids": [
+    "2015A-A-53",
+    "2022S-A-52"
+   ]
+  },
+  {
+   "id": "CRC",
+   "abbr": "CRC",
+   "topic": "net",
+   "full": "Cyclic Redundancy Check",
+   "ru": "циклический избыточный код — обнаружение ошибок делением на полином",
+   "note": "Отправитель делит битовую строку на порождающий полином и дописывает остаток, получатель проверяет делимость. Ловит случайные ошибки передачи, но не защищает от намеренной подмены — нужны MAC или цифровая подпись.",
+   "decoys": [
+    "Continuous Recovery Check",
+    "Cyclic Retransmission Control",
+    "Checksum Reconstruction Code"
+   ],
+   "qids": [
+    "2017S-A-40",
+    "2023S-A-06"
+   ]
+  },
+  {
+   "id": "CSIRT",
+   "abbr": "CSIRT",
+   "topic": "sec",
+   "full": "Computer Security Incident Response Team",
+   "ru": "группа реагирования на инциденты компьютерной безопасности",
+   "note": "Общее название группы в компании, госоргане или вузе, которая принимает сообщения об инцидентах, анализирует их и реагирует. Близкий термин — CERT; круглосуточный мониторинг обычно ведёт SOC.",
+   "decoys": [
+    "Cyber Security Intelligence Reporting Team",
+    "Corporate System Integrity Review Team",
+    "Critical Service Infrastructure Recovery Team"
+   ],
+   "qids": [
+    "2020A-A-41",
+    "2026S-A-33"
+   ]
+  },
+  {
+   "id": "CSMA/CD",
+   "abbr": "CSMA/CD",
+   "topic": "net",
+   "full": "Carrier Sense Multiple Access with Collision Detection",
+   "ru": "множественный доступ с контролем несущей и обнаружением коллизий",
+   "note": "Метод доступа классического Ethernet: узел слушает линию и передаёт, когда она свободна, а при коллизии прекращает передачу и повторяет её через случайное время. Не путать с CSMA/CA (Wi-Fi) и маркерным кольцом.",
+   "decoys": [
+    "Carrier Signal Multiplexed Access with Collision Deferral",
+    "Channel Sense Multiple Allocation with Contention Detection",
+    "Carrier Sync Media Access with Channel Division"
+   ],
+   "qids": [
+    "2016A-A-31",
+    "2021S-A-31"
+   ]
+  },
+  {
+   "id": "DH",
+   "abbr": "DH",
+   "topic": "sec",
+   "full": "Diffie-Hellman",
+   "ru": "Диффи–Хеллман — согласование общего ключа по открытому каналу",
+   "note": "Две стороны вырабатывают общий секретный ключ по незащищённому каналу; стойкость — задача дискретного логарифма, не факторизация (это RSA). Данные сам не шифрует; без аутентификации уязвим к MITM.",
+   "decoys": [
+    "Davies-Huffman",
+    "Dolev-Hastad",
+    "Daemen-Hellman"
+   ],
+   "qids": [
+    "2020A-A-36",
+    "2024S-A-29"
+   ]
+  },
+  {
+   "id": "DMA",
+   "abbr": "DMA",
+   "topic": "hw",
+   "full": "Direct Memory Access",
+   "ru": "прямой доступ к памяти — обмен I/O↔память без участия CPU",
+   "note": "DMA-контроллер (DMAC) пересылает данные между устройствами ввода-вывода и основной памятью напрямую, пока CPU выполняет другие операции; по окончании выдаёт прерывание. Не путать с MMU.",
+   "decoys": [
+    "Direct Module Addressing",
+    "Device Memory Arbitration",
+    "Dual Mapping Adapter"
+   ],
+   "qids": [
+    "2015A-A-12",
+    "2021S-A-13"
+   ]
+  },
+  {
+   "id": "DSA",
+   "abbr": "DSA",
+   "topic": "sec",
+   "full": "Digital Signature Algorithm",
+   "ru": "алгоритм цифровой подписи (стандарт DSS); основа — дискретный логарифм",
+   "note": "Стандарт NIST только для цифровой подписи, не для шифрования. Стойкость основана на задаче дискретного логарифма, а не на факторизации, как у RSA. Вариант на эллиптических кривых — ECDSA.",
+   "decoys": [
+    "Dynamic Symmetric Algorithm",
+    "Distributed Signing Authority",
+    "Data Sealing Architecture"
+   ],
+   "qids": [
+    "2020A-A-36",
+    "2024S-A-29"
+   ]
+  },
+  {
+   "id": "EA",
+   "abbr": "EA",
+   "topic": "strat",
+   "full": "Enterprise Architecture",
+   "ru": "архитектура предприятия — модель бизнеса и ИТ для общей оптимизации",
+   "note": "Описывает бизнес и ИС в четырёх слоях — business, data, application, technology — и пересматривает их ради общей оптимизации. Дистракторы: DFD (4 элемента потоков данных), UML, E-R.",
+   "decoys": [
+    "Enterprise Alignment",
+    "Engineering Assessment",
+    "Efficiency Audit"
+   ],
+   "qids": [
+    "2017A-A-62",
+    "2022S-A-61"
+   ]
+  },
+  {
+   "id": "FCC",
+   "abbr": "FCC",
+   "topic": "dev",
+   "full": "Federal Communications Commission",
+   "ru": "Федеральная комиссия связи США — регулятор радио, ТВ и связи",
+   "note": "Госрегулятор США: распределяет радиочастоты и сертифицирует радиоустройства (FCC ID). Это не международный орган стандартизации, поэтому в вопросе про ВТО ответ — стандарты ISO.",
+   "decoys": [
+    "Federal Computing Council",
+    "Federal Cybersecurity Center",
+    "Federal Certification Committee"
+   ],
+   "qids": [
+    "2023S-A-80",
+    "2026S-A-60"
+   ]
+  },
+  {
+   "id": "FQDN",
+   "abbr": "FQDN",
+   "topic": "net",
+   "full": "Fully Qualified Domain Name",
+   "ru": "полное доменное имя — имя хоста вместе со всеми доменами",
+   "note": "Полное имя узла со всеми доменами до корня (www.itpec.org.), однозначно задающее хост в DNS. В задачах про DNS cache poisoning в кэш попадает подложный IP-адрес для FQDN веб-сервера.",
+   "decoys": [
+    "Fully Qualified Device Number",
+    "Formally Queried Domain Node",
+    "Fixed Qualified Directory Name"
+   ],
+   "qids": [
+    "2019S-A-36",
+    "2025A-A-29"
+   ]
+  },
+  {
+   "id": "FTTH",
+   "abbr": "FTTH",
+   "topic": "net",
+   "full": "Fiber To The Home",
+   "ru": "оптоволокно до дома — оптическая линия прямо до абонента",
+   "note": "Оптический кабель доводится до квартиры или дома; у абонента ставится ONU, преобразующий оптический сигнал в Ethernet. Чтобы несколько ПК выходили через один глобальный IP, маршрутизатор использует NAPT.",
+   "decoys": [
+    "Fiber To The Hub",
+    "Frame Transfer To Host",
+    "Fiber Trunk Terminal Hub"
+   ],
+   "qids": [
+    "2018A-A-36",
+    "2022S-A-30"
+   ]
+  },
+  {
+   "id": "GCD",
+   "abbr": "GCD",
+   "topic": "algo",
+   "full": "Greatest Common Divisor",
+   "ru": "наибольший общий делитель — наибольшее число, делящее оба числа",
+   "note": "Считается алгоритмом Евклида: GCD(a, b) = GCD(b, a mod b), пока остаток не станет 0. Связь с НОК: LCM(a, b) = a × b / GCD(a, b).",
+   "decoys": [
+    "Greatest Common Digit",
+    "Generalized Cyclic Division",
+    "Global Common Denominator"
+   ],
+   "qids": [
+    "2021S-A-03",
+    "2025S-B-03"
+   ]
+  },
+  {
+   "id": "HA",
+   "abbr": "HA",
+   "topic": "mgmt",
+   "full": "High Availability",
+   "ru": "высокая доступность — кластер с резервированием для минимума простоя",
+   "note": "HA-кластер с горячим резервом (hot standby): резервный сервер той же мощности сразу подхватывает работу, поэтому при сбое производительность сохраняется, но резерв простаивает. В кластере с балансировкой нагрузка делится.",
+   "decoys": [
+    "Host Allocation",
+    "Hybrid Architecture",
+    "Hardware Arbitration"
+   ],
+   "qids": [
+    "2018S-A-14",
+    "2022S-A-15"
+   ]
+  },
+  {
+   "id": "HDD",
+   "abbr": "HDD",
+   "topic": "hw",
+   "full": "Hard Disk Drive",
+   "ru": "жёсткий диск — магнитный накопитель с вращающимися пластинами",
+   "note": "Время доступа = среднее время поиска (seek) + средняя задержка вращения (полоборота) + время передачи. Например, при 6000 об/мин оборот 10 мс, средняя задержка вращения 5 мс.",
+   "decoys": [
+    "Hybrid Data Drive",
+    "High Density Disk",
+    "Host Disk Device"
+   ],
+   "qids": [
+    "2024S-A-09",
+    "2025A-A-09"
+   ]
+  },
+  {
+   "id": "HEMS",
+   "abbr": "HEMS",
+   "topic": "strat",
+   "full": "Home Energy Management System",
+   "ru": "домашняя система управления энергией — контроль потребления техники",
+   "note": "Объединяет бытовые приборы, солнечные панели и аккумуляторы в сеть, визуализирует потребление и оптимально им управляет. Аналоги: BEMS — для зданий, FEMS — для заводов.",
+   "decoys": [
+    "Household Electricity Metering Service",
+    "Home Equipment Monitoring System",
+    "Hybrid Energy Monitoring Service"
+   ],
+   "qids": [
+    "2021S-A-73",
+    "2022S-A-73"
+   ]
+  },
+  {
+   "id": "IDS",
+   "abbr": "IDS",
+   "topic": "sec",
+   "full": "Intrusion Detection System",
+   "ru": "система обнаружения вторжений — выявляет атаки и оповещает",
+   "note": "Анализирует трафик или журналы хоста и при признаках атаки оповещает администратора, но сам трафик не блокирует. IPS (Intrusion Prevention System) стоит в линии и блокирует атаку автоматически.",
+   "decoys": [
+    "Integrated Defense Service",
+    "Incident Diagnosis System",
+    "Internal Directory Service"
+   ],
+   "qids": [
+    "2024A-B-17",
+    "2025A-A-31"
+   ]
+  },
+  {
+   "id": "IMAP",
+   "abbr": "IMAP",
+   "topic": "net",
+   "full": "Internet Message Access Protocol",
+   "ru": "протокол доступа к сообщениям — письма хранятся и управляются на сервере",
+   "note": "Письма хранятся на сервере, клиент управляет папками удалённо и с разных устройств (порт 143). В отличие от POP3 письма остаются после загрузки; оба по TCP. Ранняя расшифровка — Interactive Mail Access Protocol.",
+   "decoys": [
+    "Internet Mail Authentication Protocol",
+    "Indexed Message Archive Protocol",
+    "Integrated Mailbox Access Protocol"
+   ],
+   "qids": [
+    "2016A-A-34",
+    "2016S-A-36"
+   ]
+  },
+  {
+   "id": "IMC",
+   "abbr": "IMC",
+   "topic": "mgmt",
+   "full": "Incident Management Center",
+   "ru": "центр управления инцидентами — приём и обработка инцидентов",
+   "note": "На экзамене — дистрактор рядом с NOC и SOC: команда, которая постоянно следит за безопасностью и реагирует на инциденты с помощью технологий и процедур, — это SOC. В маркетинге IMC — Integrated Marketing Communications.",
+   "decoys": [
+    "Information Monitoring Center",
+    "Incident Mitigation Console",
+    "Infrastructure Maintenance Center"
+   ],
+   "qids": [
+    "2017A-A-43",
+    "2024S-A-32"
+   ]
+  },
+  {
+   "id": "IPS",
+   "abbr": "IPS",
+   "topic": "sec",
+   "full": "Intrusion Prevention System",
+   "ru": "система предотвращения вторжений — обнаруживает и блокирует атаки",
+   "note": "Ставится в разрыв линии (inline) и при обнаружении атаки сразу блокирует трафик; IDS только обнаруживает и оповещает. Изолированный запуск подозрительной программы — это sandbox, не IPS.",
+   "decoys": [
+    "Integrated Protection Service",
+    "Internet Packet Scanner",
+    "Incident Prioritization System"
+   ],
+   "qids": [
+    "2023S-A-43",
+    "2024A-B-17"
+   ]
+  },
+  {
+   "id": "IRR",
+   "abbr": "IRR",
+   "topic": "strat",
+   "full": "Internal Rate of Return",
+   "ru": "внутренняя норма доходности — ставка, при которой NPV = 0",
+   "note": "IRR — ставка дисконтирования, при которой NPV проекта равна нулю. Проект принимают, если IRR выше требуемой доходности (стоимости капитала). Часто стоит в одном вопросе с NPV, PBP и ROI.",
+   "decoys": [
+    "Interest Rate of Repayment",
+    "Investment Ratio of Revenue",
+    "Inflation Rate of Reinvestment"
+   ],
+   "qids": [
+    "2016A-A-71",
+    "2019S-A-79"
+   ]
+  },
+  {
+   "id": "JPEG",
+   "abbr": "JPEG",
+   "topic": "net",
+   "full": "Joint Photographic Experts Group",
+   "ru": "группа экспертов по фотографии — формат сжатия фото с потерями",
+   "note": "Стандарт сжатия фотографий с потерями (на основе DCT) для полноцветных изображений. Сравни: GIF — до 256 цветов и анимация, PNG — без потерь с прозрачностью, TIFF — полиграфия, MPEG — видео.",
+   "decoys": [
+    "Joint Picture Encoding Group",
+    "Joint Pixel Exchange Grid",
+    "Joint Photographic Encoding Guideline"
+   ],
+   "qids": [
+    "2015S-A-27",
+    "2016A-A-33"
+   ]
+  },
+  {
+   "id": "LCD",
+   "abbr": "LCD",
+   "topic": "hw",
+   "full": "Liquid Crystal Display",
+   "ru": "жидкокристаллический дисплей — экран на жидких кристаллах с подсветкой",
+   "note": "Пиксельный экран: жидкие кристаллы управляют прохождением света подсветки. В вопросе о сглаживании «зубчатых» наклонных линий на экране вроде LCD ответ — anti-aliasing.",
+   "decoys": [
+    "Linear Color Display",
+    "Layered Crystal Diode",
+    "Light Contrast Display"
+   ],
+   "qids": [
+    "2020A-A-24",
+    "2025A-A-17"
+   ]
+  },
+  {
+   "id": "LFU",
+   "abbr": "LFU",
+   "topic": "algo",
+   "full": "Least Frequently Used",
+   "ru": "«наименее часто используемая» — вытесняется страница с меньшим числом обращений",
+   "note": "Алгоритм замены страниц: у каждой страницы счётчик обращений, выгружается страница с наименьшим значением. Не путать с LRU (дольше всех без обращений) и FIFO (раньше всех загружена).",
+   "decoys": [
+    "Last Fetched Unit",
+    "Lowest Frame Utilization",
+    "Least Fragmented Unit"
+   ],
+   "qids": [
+    "2017S-A-19",
+    "2022A-A-17"
+   ]
+  },
+  {
+   "id": "LMS",
+   "abbr": "LMS",
+   "topic": "strat",
+   "full": "Labor Management System",
+   "ru": "система управления трудом — планирование и учёт работы персонала склада",
+   "note": "В логистике LMS планирует и измеряет работу персонала склада (нормы, выработка). В вопросе про маршруты, отслеживание и загрузку ответ — TMS. Вне логистики LMS — Learning Management System.",
+   "decoys": [
+    "Load Monitoring System",
+    "Lot Movement Scheduler",
+    "Lading Matching Service"
+   ],
+   "qids": [
+    "2015A-A-71",
+    "2021A-A-70"
+   ]
+  },
+  {
+   "id": "LSB",
+   "abbr": "LSB",
+   "topic": "hw",
+   "full": "Least Significant Bit",
+   "ru": "младший бит — бит с наименьшим весом (крайний правый)",
+   "note": "Крайний правый бит с весом 2^0; по нему видна чётность числа. Противоположность — MSB. В задачах на 7-сегментный индикатор порядок битов задают явно: P0 — LSB. Бывает и Least Significant Byte.",
+   "decoys": [
+    "Logical Shift Bit",
+    "Low Status Byte",
+    "Last Sign Bit"
+   ],
+   "qids": [
+    "2016S-A-26",
+    "2018A-A-24"
+   ]
+  },
+  {
+   "id": "MDM",
+   "abbr": "MDM",
+   "topic": "sec",
+   "full": "Mobile Device Management",
+   "ru": "управление мобильными устройствами — централизованная настройка и защита",
+   "note": "Централизованно настраивает смартфоны по политике безопасности, раздаёт приложения, блокирует и удалённо стирает утерянное устройство; типичный ответ про контроль BYOD. Другое MDM — Master Data Management.",
+   "decoys": [
+    "Mobile Data Monitoring",
+    "Managed Device Mirroring",
+    "Multi-Device Messaging"
+   ],
+   "qids": [
+    "2015S-A-46",
+    "2024S-A-25"
+   ]
+  },
+  {
+   "id": "MSB",
+   "abbr": "MSB",
+   "topic": "hw",
+   "full": "Most Significant Bit",
+   "ru": "старший бит — бит с наибольшим весом (крайний левый)",
+   "note": "Крайний левый бит с весом 2^(n−1); в дополнительном коде это знаковый бит. Противоположность — LSB. В задачах порядок битов задают явно, например P7 — MSB. Бывает и Most Significant Byte.",
+   "decoys": [
+    "Main Sign Bit",
+    "Memory Status Byte",
+    "Maximum Shift Bit"
+   ],
+   "qids": [
+    "2016S-A-26",
+    "2018A-A-24"
+   ]
+  },
+  {
+   "id": "MTD",
+   "abbr": "MTD",
+   "topic": "mgmt",
+   "full": "Maximum Tolerable Downtime",
+   "ru": "максимально допустимое время простоя — дольше бизнес не выдержит",
+   "note": "Верхняя граница простоя по итогам анализа влияния на бизнес (BIA); целевое RTO должно быть меньше: RTO < MTD. Синонимы — MTO (Maximum Tolerable Outage) и MTPD.",
+   "decoys": [
+    "Maximum Transfer Delay",
+    "Minimum Tolerance Duration",
+    "Mandatory Testing Deadline"
+   ],
+   "qids": [
+    "2025A-B-18",
+    "2025S-A-44"
+   ]
+  },
+  {
+   "id": "NOC",
+   "abbr": "NOC",
+   "topic": "mgmt",
+   "full": "Network Operations Center",
+   "ru": "центр управления сетью — круглосуточный мониторинг сети",
+   "note": "Следит за доступностью и производительностью сети и инфраструктуры. За безопасность (обнаружение и реагирование на кибератаки) отвечает SOC — Security Operations Center, его и выбирают на экзамене.",
+   "decoys": [
+    "Network Optimization Console",
+    "Node Operations Controller",
+    "Network Outage Coordinator"
+   ],
+   "qids": [
+    "2017A-A-43",
+    "2024S-A-32"
+   ]
+  },
+  {
+   "id": "NoSQL",
+   "abbr": "NoSQL",
+   "topic": "db",
+   "full": "Not Only SQL",
+   "ru": "«не только SQL» — нереляционные БД: ключ-значение, документы, графы",
+   "note": "БД без жёсткой табличной схемы, легко масштабируются горизонтально и часто жертвуют строгой согласованностью (BASE вместо ACID). Иногда расшифровывают как non-SQL или non-relational.",
+   "decoys": [
+    "Non-Optimized SQL",
+    "Network-Oriented SQL",
+    "Native Object SQL"
+   ],
+   "qids": [
+    "2021A-A-29",
+    "2025A-A-20"
+   ]
+  },
+  {
+   "id": "OJT",
+   "abbr": "OJT",
+   "topic": "mgmt",
+   "full": "On-the-Job Training",
+   "ru": "обучение на рабочем месте — в ходе реальной работы под руководством",
+   "note": "Наставник обучает в процессе работы: практично и дёшево, но качество зависит от наставника. Обучение вне рабочего места (курсы, семинары) — Off-JT; вариант «вдали от работы» на экзамене — это Off-JT.",
+   "decoys": [
+    "Off-the-Job Training",
+    "Online Job Tutorial",
+    "Organizational Job Transfer"
+   ],
+   "qids": [
+    "2019S-A-76",
+    "2023S-A-75"
+   ]
+  },
+  {
+   "id": "OMS",
+   "abbr": "OMS",
+   "topic": "strat",
+   "full": "Order Management System",
+   "ru": "система управления заказами — приём, резервирование и исполнение заказов",
+   "note": "Принимает заказы из всех каналов, проверяет наличие, резервирует товар и передаёт заказ на склад (WMS) и в доставку (TMS). Маршруты и загрузку транспорта анализирует TMS, а не OMS.",
+   "decoys": [
+    "Outbound Movement Scheduler",
+    "Online Merchandising Service",
+    "Operational Mileage System"
+   ],
+   "qids": [
+    "2015A-A-71",
+    "2021A-A-70"
+   ]
+  },
+  {
+   "id": "ONU",
+   "abbr": "ONU",
+   "topic": "net",
+   "full": "Optical Network Unit",
+   "ru": "оптический сетевой блок — абонентский терминал оптической линии",
+   "note": "Абонентское устройство в FTTH/PON: преобразует оптический сигнал в электрический (Ethernet). Близкий термин — ONT (Optical Network Terminal); со стороны провайдера стоит OLT.",
+   "decoys": [
+    "Optical Node Uplink",
+    "Online Network Unit",
+    "Outbound Network Utility"
+   ],
+   "qids": [
+    "2018A-A-36",
+    "2022S-A-30"
+   ]
+  },
+  {
+   "id": "OSS",
+   "abbr": "OSS",
+   "topic": "dev",
+   "full": "Open Source Software",
+   "ru": "ПО с открытым исходным кодом — можно изучать, менять, распространять",
+   "note": "Условия задаёт лицензия (GPL, BSD, MIT, Apache); OSS не значит «без авторских прав» и не обязательно бесплатно. Примеры: Linux, Apache, Eclipse (IDE), GCC. В телекоме OSS — Operations Support System.",
+   "decoys": [
+    "Open Standard Specification",
+    "Operating System Software",
+    "Online Software Store"
+   ],
+   "qids": [
+    "2019A-A-21",
+    "2024S-A-60"
+   ]
+  },
+  {
+   "id": "PEST",
+   "abbr": "PEST",
+   "topic": "strat",
+   "full": "Political, Economic, Social and Technological",
+   "ru": "анализ внешней среды: политика, экономика, общество, технологии",
+   "note": "Анализ макроокружения: политические, экономические, социальные и технологические факторы вне контроля компании. Расширенные версии — PESTEL/PESTLE (+ Environmental, Legal). Внутренние факторы оценивает SWOT.",
+   "decoys": [
+    "Product, Environmental, Strategic and Technical",
+    "Public, Ecological, Statutory and Territorial",
+    "Promotional, Educational, Structural and Tactical"
+   ],
+   "qids": [
+    "2017S-A-70",
+    "2022A-A-67"
+   ]
+  },
+  {
+   "id": "POP3",
+   "abbr": "POP3",
+   "topic": "net",
+   "full": "Post Office Protocol version 3",
+   "ru": "протокол почтового отделения v3 — получение писем с сервера на клиент",
+   "note": "Клиент забирает письма из почтового ящика на сервере (порт 110) и обычно удаляет их там. В отличие от IMAP письма на сервере не остаются; оба работают по TCP. Отправка — SMTP; APOP защищает пароль хешированием.",
+   "decoys": [
+    "Primary Outbox Protocol version 3",
+    "Personal Offline Protocol version 3",
+    "Pull Operation Protocol version 3"
+   ],
+   "qids": [
+    "2015A-A-35",
+    "2016A-A-34"
+   ]
+  },
+  {
+   "id": "POS",
+   "abbr": "POS",
+   "topic": "strat",
+   "full": "Point of Sale",
+   "ru": "точка продаж — касса, фиксирующая каждую продажу в момент покупки",
+   "note": "POS-система записывает товар, количество, время и магазин при каждой продаже. POS-данные используют для анализа продаж, рейтингов товаров, заказов и управления запасами.",
+   "decoys": [
+    "Proof of Sale",
+    "Price on Shelf",
+    "Purchase of Stock"
+   ],
+   "qids": [
+    "2015S-A-73",
+    "2020A-A-64"
+   ]
+  },
+  {
+   "id": "PaaS",
+   "abbr": "PaaS",
+   "topic": "dev",
+   "full": "Platform as a Service",
+   "ru": "платформа как услуга — ОС, middleware и среда для своих приложений",
+   "note": "Провайдер управляет оборудованием, ОС и middleware, включая их обновления; клиент разворачивает свои приложения и данные. Между IaaS (ОС у клиента) и SaaS (готовое приложение).",
+   "decoys": [
+    "Processing as a Service",
+    "Provisioning as a Service",
+    "Programming as a Service"
+   ],
+   "qids": [
+    "2015A-A-64",
+    "2025S-A-11"
+   ]
+  },
+  {
+   "id": "R&D",
+   "abbr": "R&D",
+   "topic": "strat",
+   "full": "Research and Development",
+   "ru": "НИОКР — исследования и разработка новых продуктов и технологий",
+   "note": "Работы по созданию новых технологий и продуктов. Технологической стратегией и планами R&D руководит CTO, а не CIO. В задачах на безубыточность затраты на R&D относят к постоянным.",
+   "decoys": [
+    "Requirements and Design",
+    "Revenue and Depreciation",
+    "Recruitment and Development"
+   ],
+   "qids": [
+    "2019A-A-78",
+    "2021A-A-77"
+   ]
+  },
+  {
+   "id": "RISC",
+   "abbr": "RISC",
+   "topic": "hw",
+   "full": "Reduced Instruction Set Computer",
+   "ru": "компьютер с сокращённым набором команд — простые команды",
+   "note": "Простые команды фиксированной длины, большинство за 1 такт, аппаратное (wired logic) управление, удобно для конвейера. Противоположность — CISC: сложные команды и микропрограммное управление (micro-code).",
+   "decoys": [
+    "Register Instruction Set Computer",
+    "Rapid Instruction Scheduling Core",
+    "Reduced Interrupt Service Controller"
+   ],
+   "qids": [
+    "2020S-A-09",
+    "2021A-A-13"
+   ]
+  },
+  {
+   "id": "RPO",
+   "abbr": "RPO",
+   "topic": "mgmt",
+   "full": "Recovery Point Objective",
+   "ru": "целевая точка восстановления — допустимая потеря данных во времени",
+   "note": "До какого момента в прошлом можно откатить данные, то есть сколько данных допустимо потерять; задаёт частоту резервного копирования. RTO — за какое время восстановить сервис; RTO < MTD.",
+   "decoys": [
+    "Recovery Process Objective",
+    "Restore Priority Order",
+    "Risk Prevention Objective"
+   ],
+   "qids": [
+    "2016S-A-60",
+    "2025S-A-44"
+   ]
+  },
+  {
+   "id": "RTO",
+   "abbr": "RTO",
+   "topic": "mgmt",
+   "full": "Recovery Time Objective",
+   "ru": "целевое время восстановления — за сколько нужно вернуть сервис",
+   "note": "Целевое время от сбоя до восстановления услуги; должно быть меньше MTD (RTO < MTD). Не путать с RPO — допустимой потерей данных. В TCP RTO — Retransmission Timeout.",
+   "decoys": [
+    "Recovery Task Order",
+    "Response Time Objective",
+    "Risk Tolerance Objective"
+   ],
+   "qids": [
+    "2016S-A-60",
+    "2025S-A-44"
+   ]
+  },
+  {
+   "id": "RTP",
+   "abbr": "RTP",
+   "topic": "net",
+   "full": "Real-Time Transport Protocol",
+   "ru": "транспортный протокол реального времени — потоковое аудио и видео",
+   "note": "Передаёт аудио и видео в реальном времени (VoIP, видеоконференции) обычно поверх UDP, с номерами пакетов и метками времени; контроль качества — RTCP. Не путать с NTP (часы) и QoS (приоритизация трафика).",
+   "decoys": [
+    "Real-Time Tunneling Protocol",
+    "Round-Trip Timing Protocol",
+    "Real-Time Telemetry Protocol"
+   ],
+   "qids": [
+    "2021S-A-32",
+    "2025A-A-23"
+   ]
+  },
+  {
+   "id": "S/MIME",
+   "abbr": "S/MIME",
+   "topic": "sec",
+   "full": "Secure/Multipurpose Internet Mail Extensions",
+   "ru": "стандарт шифрования и электронной подписи писем на основе сертификатов",
+   "note": "Шифрует тело письма и подписывает его с помощью сертификатов X.509 (PKI): конфиденциальность и подтверждение отправителя от конца до конца. Канал между ПК и веб-сервисом защищают TLS или VPN.",
+   "decoys": [
+    "Signed/Multimedia Internet Message Exchange",
+    "Secure/Managed Internet Mail Encryption",
+    "Standard/Multipart Inbound Message Envelope"
+   ],
+   "qids": [
+    "2021A-A-44",
+    "2023S-A-45"
+   ]
+  },
+  {
+   "id": "SDLC",
+   "abbr": "SDLC",
+   "topic": "dev",
+   "full": "Software Development Life Cycle",
+   "ru": "жизненный цикл разработки ПО — этапы от требований до сопровождения",
+   "note": "Порядок шести фаз в экзамене: анализ требований → проектирование → программирование → тестирование → развёртывание → сопровождение. Также расшифровывают как System Development Life Cycle.",
+   "decoys": [
+    "Structured Design Logic Chart",
+    "Software Defect Lifecycle Control",
+    "Standard Design Layer Concept"
+   ],
+   "qids": [
+    "2016A-A-50",
+    "2024S-A-40"
+   ]
+  },
+  {
+   "id": "SDN",
+   "abbr": "SDN",
+   "topic": "net",
+   "full": "Software-Defined Networking",
+   "ru": "программно-определяемая сеть — управление отделено от пересылки",
+   "note": "Управление сетью (контроллер) логически отделено от пересылки данных (коммутаторы) и задаётся программно; OpenFlow — протокол между контроллером и коммутаторами. Именно это разделение — суть верного ответа.",
+   "decoys": [
+    "Service-Driven Networking",
+    "Switch-Distributed Networking",
+    "Security-Domain Networking"
+   ],
+   "qids": [
+    "2018A-A-35",
+    "2021A-A-34"
+   ]
+  },
+  {
+   "id": "SFA",
+   "abbr": "SFA",
+   "topic": "strat",
+   "full": "Sales Force Automation",
+   "ru": "автоматизация работы торгового персонала — визиты, сделки, отчёты",
+   "note": "ИТ-поддержка продавцов: контакты, история визитов, сделки, прогнозы, отчёты — сокращает подготовку и рутину. В задачах считают, сколько визитов в день добавится после внедрения SFA. Часть CRM.",
+   "decoys": [
+    "Sales Forecast Analysis",
+    "Store Front Application",
+    "Sales Funnel Assessment"
+   ],
+   "qids": [
+    "2016A-A-63",
+    "2018A-A-62"
+   ]
+  },
+  {
+   "id": "SIEM",
+   "abbr": "SIEM",
+   "topic": "sec",
+   "full": "Security Information and Event Management",
+   "ru": "управление информацией и событиями безопасности — сбор и корреляция логов",
+   "note": "Централизованно собирает журналы с firewall, IDS, серверов и ПК, коррелирует их и в реальном времени выявляет инциденты. Не путать с honeypot (ловушка для атакующего) и sandbox (изолированный запуск).",
+   "decoys": [
+    "System Integrity and Exception Monitoring",
+    "Secure Identity and Entitlement Management",
+    "Security Intrusion and Exploit Mitigation"
+   ],
+   "qids": [
+    "2022S-A-45",
+    "2024A-A-33"
+   ]
+  },
+  {
+   "id": "SOC",
+   "abbr": "SOC",
+   "topic": "sec",
+   "full": "Security Operations Center",
+   "ru": "центр мониторинга безопасности — круглосуточное наблюдение и анализ",
+   "note": "Подразделение, которое круглосуточно мониторит сети и устройства, анализирует события (часто через SIEM) и выявляет атаки. Сравни: NOC следит за работой сети, CSIRT реагирует на инциденты.",
+   "decoys": [
+    "Security Oversight Committee",
+    "System Operations Console",
+    "Secure Outsourcing Contract"
+   ],
+   "qids": [
+    "2017A-A-43",
+    "2024S-A-32"
+   ]
+  },
+  {
+   "id": "SRTF",
+   "abbr": "SRTF",
+   "topic": "algo",
+   "full": "Shortest Remaining Time First",
+   "ru": "«кратчайшее оставшееся время первым» — вытесняющий вариант SJF",
+   "note": "При прибытии или завершении процесса CPU получает тот, у кого осталось меньше всего времени выполнения; новый короткий процесс вытесняет текущий. Встречается и короткое SRT (Shortest Remaining Time).",
+   "decoys": [
+    "Smallest Response Time First",
+    "Shared Resource Time Frame",
+    "Static Run Time Factor"
+   ],
+   "qids": [
+    "2015S-A-19",
+    "2023S-A-18"
+   ],
+   "spellings": [
+    "SRT"
+   ]
+  },
+  {
+   "id": "SSD",
+   "abbr": "SSD",
+   "topic": "hw",
+   "full": "Solid State Drive",
+   "ru": "твердотельный накопитель — на flash-памяти, без движущихся частей",
+   "note": "Хранит данные во flash-памяти (обычно NAND): нет головок и вращения, поэтому нет задержек seek и rotation, доступ быстрее HDD. Частый вопрос: память типов NAND/NOR для SSD — это flash.",
+   "decoys": [
+    "Serial Storage Drive",
+    "Static Storage Disk",
+    "Secure Storage Device"
+   ],
+   "qids": [
+    "2015A-A-21",
+    "2020A-A-20"
+   ]
+  },
+  {
+   "id": "SSL-VPN",
+   "abbr": "SSL-VPN",
+   "topic": "sec",
+   "full": "Secure Sockets Layer Virtual Private Network",
+   "ru": "VPN поверх SSL/TLS — удалённый доступ к сети компании через браузер",
+   "note": "Удалённый сотрудник подключается к внутренней сети через браузер или лёгкий клиент, канал шифруется SSL/TLS (без IPsec). От SQL injection веб-сервер не защищает — для этого нужен WAF.",
+   "decoys": [
+    "Secure Server Login Virtual Proxy Node",
+    "Secure Sockets Layer Verified Port Negotiation",
+    "Signed Session Link Virtual Private Network"
+   ],
+   "qids": [
+    "2018A-A-45",
+    "2021S-A-41"
+   ]
+  },
+  {
+   "id": "TKIP",
+   "abbr": "TKIP",
+   "topic": "sec",
+   "full": "Temporal Key Integrity Protocol",
+   "ru": "протокол целостности временного ключа — шифрование Wi-Fi в WPA",
+   "note": "Протокол шифрования Wi-Fi из WPA, заменивший WEP: ключ меняется для каждого пакета. Устарел, в WPA2/WPA3 используется AES (CCMP). В экзамене — лишний вариант в вопросе про rootkit.",
+   "decoys": [
+    "Trusted Key Interchange Protocol",
+    "Transient Key Inspection Process",
+    "Token Key Issuance Protocol"
+   ],
+   "qids": [
+    "2020S-A-41",
+    "2024S-A-28"
+   ]
+  },
+  {
+   "id": "TMS",
+   "abbr": "TMS",
+   "topic": "strat",
+   "full": "Transportation Management System",
+   "ru": "система управления перевозками — маршруты, отслеживание, загрузка",
+   "note": "Планирует маршруты доставки, выбирает перевозчика, отслеживает грузы и анализирует загрузку транспорта — ответ на вопрос про routes, tracking и load tendency. Склад ведёт WMS, заказы — OMS.",
+   "decoys": [
+    "Truck Monitoring System",
+    "Transit Mapping Service",
+    "Terminal Movement Scheduler"
+   ],
+   "qids": [
+    "2015A-A-71",
+    "2021A-A-70"
+   ]
+  },
+  {
+   "id": "VLAN",
+   "abbr": "VLAN",
+   "topic": "net",
+   "full": "Virtual Local Area Network",
+   "ru": "виртуальная локальная сеть — логическое деление сети на сегменты",
+   "note": "Логически делит одну физическую сеть на изолированные широковещательные домены (например, по отделам) без перекладки кабелей; кадры помечаются тегом IEEE 802.1Q. Не путать с VPN (защищённый туннель) и DMZ.",
+   "decoys": [
+    "Virtual Link Aggregation Network",
+    "Verified Local Access Network",
+    "Variable Logical Area Network"
+   ],
+   "qids": [
+    "2015A-A-43",
+    "2021A-A-42"
+   ]
+  },
+  {
+   "id": "WAN",
+   "abbr": "WAN",
+   "topic": "net",
+   "full": "Wide Area Network",
+   "ru": "глобальная сеть — связывает удалённые площадки и локальные сети",
+   "note": "Сеть на больших расстояниях — между городами и странами, через линии операторов или Интернет. WAN-интерфейс домашнего маршрутизатора получает глобальный IP-адрес, а ПК из LAN выходят через него с помощью NAPT.",
+   "decoys": [
+    "Wired Access Network",
+    "Wideband Aggregation Network",
+    "Web Access Network"
+   ],
+   "qids": [
+    "2018A-A-36",
+    "2022S-A-30"
+   ]
+  },
+  {
+   "id": "WMS",
+   "abbr": "WMS",
+   "topic": "strat",
+   "full": "Warehouse Management System",
+   "ru": "система управления складом — приёмка, хранение, отбор, отгрузка",
+   "note": "Управляет операциями склада: приёмкой, размещением по ячейкам, учётом остатков, отбором и отгрузкой. Маршруты доставки — задача TMS. В ГИС WMS — Web Map Service, это другой смысл.",
+   "decoys": [
+    "Wholesale Merchandise System",
+    "Waybill Matching Service",
+    "Wave Monitoring Scheduler"
+   ],
+   "qids": [
+    "2015A-A-71",
+    "2021A-A-70"
+   ]
+  },
+  {
+   "id": "XBRL",
+   "abbr": "XBRL",
+   "topic": "strat",
+   "full": "Extensible Business Reporting Language",
+   "ru": "язык деловой отчётности на базе XML — машиночитаемые финансовые отчёты",
+   "note": "XML-язык для финансовой и деловой отчётности: отчёты становятся машиночитаемыми для регуляторов, бирж и инвесторов. В вопросе о сервисе «только нужные функции по мере надобности» — дистрактор (ответ SaaS).",
+   "decoys": [
+    "Extensible Budget Reconciliation Language",
+    "Extended Business Rules Language",
+    "Exchangeable Balance Record Layout"
+   ],
+   "qids": [
+    "2019S-A-64",
+    "2023A-A-63"
+   ]
+  },
+  {
+   "id": "ACID",
+   "abbr": "ACID",
+   "topic": "db",
+   "full": "Atomicity, Consistency, Isolation, Durability",
+   "ru": "атомарность, согласованность, изолированность, долговечность транзакций",
+   "note": "Атомарность — всё или ничего; согласованность — данные остаются корректными; изолированность — параллельные транзакции не мешают друг другу; долговечность — зафиксированное не теряется при сбое.",
+   "decoys": [
+    "Availability, Concurrency, Integrity, Durability",
+    "Atomicity, Concurrency, Isolation, Distribution",
+    "Accuracy, Consistency, Integrity, Dependability"
+   ],
+   "qids": [
+    "2015S-A-30"
+   ]
+  },
+  {
+   "id": "APOP",
+   "abbr": "APOP",
+   "topic": "sec",
+   "full": "Authenticated Post Office Protocol",
+   "ru": "POP3 с аутентификацией по хешу вместо открытого пароля",
+   "note": "Сервер присылает строку-вызов (challenge), клиент возвращает MD5-хеш от неё вместе с паролем, так что пароль не идёт открытым текстом. Это проверка при получении почты; отправителя проверяет SMTP-AUTH.",
+   "decoys": [
+    "Asymmetric Post Office Protocol",
+    "Authorized Proxy Outbound Protocol",
+    "Anonymous Packet Origin Protocol"
+   ],
+   "qids": [
+    "2023S-A-45"
+   ]
+  },
+  {
+   "id": "APT",
+   "abbr": "APT",
+   "topic": "sec",
+   "full": "Advanced Persistent Threat",
+   "ru": "целевая длительная скрытая атака на конкретную организацию",
+   "note": "Атака на выбранную организацию, длящаяся месяцами: проникновение (часто через целевое письмо), закрепление, скрытое расширение доступа и вывод данных через C&C-сервер. Признаки — конкретная цель и длительность.",
+   "decoys": [
+    "Adaptive Phishing Technique",
+    "Anonymous Proxy Tunnel",
+    "Automated Patch Tracking"
+   ],
+   "qids": [
+    "2022S-A-40"
+   ]
+  },
+  {
+   "id": "ASCII",
+   "abbr": "ASCII",
+   "topic": "hw",
+   "full": "American Standard Code for Information Interchange",
+   "ru": "американский стандартный код обмена информацией — 7-битная кодировка",
+   "note": "7-битный код на 128 символов: латиница, цифры, управляющие символы. Для писем с не-ASCII текстом, аудио и изображениями применяют MIME; UTF-8 совпадает с ASCII в первых 128 кодах.",
+   "decoys": [
+    "Alphanumeric Symbol Code for Information Input",
+    "American Standard Character for International Interchange",
+    "Automated System Coding for Interface Integration"
+   ],
+   "qids": [
+    "2020S-A-35"
+   ]
+  },
+  {
+   "id": "ATM",
+   "abbr": "ATM",
+   "topic": "hw",
+   "full": "Automated Teller Machine",
+   "ru": "банкомат — автомат для выдачи наличных и банковских операций",
+   "note": "В FE банковская ATM-система — пример soft real-time: задержка неприятна, но не опасна; hard real-time — подушка безопасности. В сетях ATM = Asynchronous Transfer Mode (ячейки по 53 байта).",
+   "decoys": [
+    "Account Transfer Machine",
+    "Authorized Transaction Monitor",
+    "Automated Terminal Manager"
+   ],
+   "qids": [
+    "2021S-A-74"
+   ]
+  },
+  {
+   "id": "AVR",
+   "abbr": "AVR",
+   "topic": "hw",
+   "full": "Automatic Voltage Regulator",
+   "ru": "автоматический регулятор напряжения — стабилизирует напряжение",
+   "note": "Компенсирует колебания напряжения сети и выдаёт стабильное напряжение. На вопрос о защите от перенапряжения и сверхтока при ударе молнии ответ SPD; AVR, CVCF и UPS — дистракторы.",
+   "decoys": [
+    "Adaptive Voltage Relay",
+    "Alternating Voltage Rectifier",
+    "Active Variable Resistor"
+   ],
+   "qids": [
+    "2017A-A-57"
+   ]
+  },
+  {
+   "id": "BAC",
+   "abbr": "BAC",
+   "topic": "mgmt",
+   "full": "Budget at Completion",
+   "ru": "бюджет по завершении — весь плановый бюджет проекта",
+   "note": "Прогноз при неизменном CPI: EAC = BAC / CPI, остаток ETC = EAC − AC. Пример: BAC 100 000, потрачено 60 000 при 40% → CPI ≈ 0,67, EAC = 150 000, осталось 90 000.",
+   "decoys": [
+    "Budget After Contingency",
+    "Balance at Closing",
+    "Baseline Allocated Cost"
+   ],
+   "qids": [
+    "2024S-A-42"
+   ]
+  },
+  {
+   "id": "BCNF",
+   "abbr": "BCNF",
+   "topic": "db",
+   "full": "Boyce-Codd Normal Form",
+   "ru": "нормальная форма Бойса–Кодда — усиленная 3NF",
+   "note": "Каждый детерминант функциональной зависимости должен быть потенциальным (candidate) ключом. Строже 3NF: убирает и зависимость ключевых атрибутов от неключевых.",
+   "decoys": [
+    "Bachman-Chen Normal Form",
+    "Backus-Codd Normal Form",
+    "Basic Candidate Normal Form"
+   ],
+   "qids": [
+    "2017S-A-29"
+   ]
+  },
+  {
+   "id": "BIOS",
+   "abbr": "BIOS",
+   "topic": "hw",
+   "full": "Basic Input/Output System",
+   "ru": "базовая система ввода-вывода — прошивка, запускающая ПК до ОС",
+   "note": "Firmware во flash/ROM материнской платы: тестирует оборудование (POST) и загружает ОС; современная замена — UEFI. Вредонос в BIOS переживает переустановку ОС и затрагивает все ОС при multi-boot.",
+   "decoys": [
+    "Boot Input/Output Sequence",
+    "Binary Input/Output Service",
+    "Bus Interrupt/Operation Scheduler"
+   ],
+   "qids": [
+    "2022S-A-40"
+   ]
+  },
+  {
+   "id": "BNF",
+   "abbr": "BNF",
+   "topic": "dev",
+   "full": "Backus-Naur Form",
+   "ru": "форма Бэкуса — Наура — нотация для описания синтаксиса языков",
+   "note": "Правила вида <digit> ::= 0 | 1 | …: «::=» — «определяется как», «|» — «или», повторение задаётся рекурсией. На экзамене проверяют, какая строка подходит под правило. Иногда — Backus Normal Form.",
+   "decoys": [
+    "Bracketed Notation Form",
+    "Block Nesting Format",
+    "Binary Node Formula"
+   ],
+   "qids": [
+    "2023S-A-05"
+   ]
+  },
+  {
+   "id": "BSC",
+   "abbr": "BSC",
+   "topic": "strat",
+   "full": "Balanced Scorecard",
+   "ru": "сбалансированная система показателей — 4 перспективы с целями и KPI",
+   "note": "Четыре перспективы: финансы, клиенты, внутренние бизнес-процессы, обучение и развитие; для каждой задают цели, KPI и мероприятия. В вопросах просят отнести цель и KPI к нужной перспективе.",
+   "decoys": [
+    "Benchmark Scorecard",
+    "Brand Scorecard",
+    "Business Showcase"
+   ],
+   "qids": [
+    "2026S-A-51"
+   ]
+  },
+  {
+   "id": "BSI",
+   "abbr": "BSI",
+   "topic": "dev",
+   "full": "British Standards Institution",
+   "ru": "Британский институт стандартов — национальный орган стандартизации UK",
+   "note": "Его стандарт BS 7799 стал основой ISO/IEC 27001/27002. Для ВТО выбирают международные стандарты ISO, а не национальные. В немецкой ИБ BSI — федеральное ведомство по информационной безопасности.",
+   "decoys": [
+    "British Software Institution",
+    "Business Standards Institute",
+    "British Security Inspectorate"
+   ],
+   "qids": [
+    "2026S-A-60"
+   ]
+  },
+  {
+   "id": "BST",
+   "abbr": "BST",
+   "topic": "algo",
+   "full": "Binary Search Tree",
+   "ru": "двоичное дерево поиска — слева ключи меньше узла, справа больше",
+   "note": "Поиск идёт от корня влево или вправо: в среднем O(log n), в вырожденном дереве O(n). Симметричный обход (in-order) выдаёт ключи по возрастанию.",
+   "decoys": [
+    "Balanced Sort Tree",
+    "Binary Sequence Table",
+    "Block Storage Tree"
+   ],
+   "qids": [
+    "2025A-B-13"
+   ]
+  },
+  {
+   "id": "BYOT",
+   "abbr": "BYOT",
+   "topic": "sec",
+   "full": "Bring Your Own Technology",
+   "ru": "«принеси свою технологию» — шире BYOD: свои устройства и ПО",
+   "note": "Сотрудник использует для работы не только свои устройства, но и своё ПО и сервисы. В вопросе о централизованной настройке мобильных устройств по политике безопасности правильный ответ — MDM, а не BYOT.",
+   "decoys": [
+    "Build Your Own Toolkit",
+    "Backup Your Own Terminal",
+    "Bind Your Own Token"
+   ],
+   "qids": [
+    "2015S-A-46"
+   ]
+  },
+  {
+   "id": "CA",
+   "abbr": "CA",
+   "topic": "sec",
+   "full": "Certification Authority",
+   "ru": "удостоверяющий центр — выпускает и подписывает цифровые сертификаты",
+   "note": "Доверенная третья сторона: проверяет личность владельца и подписывает своим закрытым ключом сертификат с его открытым ключом, ведёт CRL. Пишут и Certificate Authority; в одном вопросе — certificate agency.",
+   "decoys": [
+    "Credential Administrator",
+    "Cryptographic Archive",
+    "Compliance Auditor"
+   ],
+   "qids": [
+    "2018S-A-40"
+   ]
+  },
+  {
+   "id": "CISC",
+   "abbr": "CISC",
+   "topic": "hw",
+   "full": "Complex Instruction Set Computer",
+   "ru": "компьютер со сложным набором команд — много сложных команд",
+   "note": "Много сложных команд переменной длины, выполняемых за несколько тактов; управление микропрограммное (micro-code). Пример — x86. В вопросах противопоставляется RISC: wired logic и фиксированная длина.",
+   "decoys": [
+    "Compact Instruction Set Computer",
+    "Compound Instruction Sequence Controller",
+    "Central Interrupt Scheduling Core"
+   ],
+   "qids": [
+    "2020S-A-09"
+   ]
+  },
+  {
+   "id": "CMDB",
+   "abbr": "CMDB",
+   "topic": "mgmt",
+   "full": "Configuration Management Database",
+   "ru": "база данных управления конфигурацией — CI, их атрибуты и связи",
+   "note": "Хранит все элементы конфигурации (CI) с атрибутами и связями; ей пользуются управление инцидентами, проблемами и изменениями. Управление конфигурацией — идентификация, контроль, учёт и проверка CI.",
+   "decoys": [
+    "Change Management Dashboard",
+    "Capacity Monitoring Database",
+    "Component Maintenance Databank"
+   ],
+   "qids": [
+    "2018S-A-57"
+   ]
+  },
+  {
+   "id": "CORS",
+   "abbr": "CORS",
+   "topic": "sec",
+   "full": "Cross-Origin Resource Sharing",
+   "ru": "совместное использование ресурсов разными источниками — ослабление SOP",
+   "note": "Сервер заголовками (Access-Control-Allow-Origin) разрешает запросы со страниц других origin. Изолирует ресурсы разных источников не CORS, а Same-Origin Policy — CORS лишь делает в ней исключения.",
+   "decoys": [
+    "Cross-Origin Request Signing",
+    "Client-Owned Resource Security",
+    "Cross-Object Routing Service"
+   ],
+   "qids": [
+    "2017A-A-41"
+   ]
+  },
+  {
+   "id": "CSA",
+   "abbr": "CSA",
+   "topic": "mgmt",
+   "full": "Configuration Status Accounting",
+   "ru": "учёт состояния конфигурации — запись и отчёты по истории каждого CI",
+   "note": "Запись и отчётность о текущих и прошлых данных каждого CI за весь жизненный цикл (версии, статус, изменения). В вопросе 2015S·Q55 верный ответ — Performing integrated change control. Также — Cloud Security Alliance.",
+   "decoys": [
+    "Change Status Analysis",
+    "Component Service Audit",
+    "Configuration Scope Approval"
+   ],
+   "qids": [
+    "2015S-A-55"
+   ]
+  },
+  {
+   "id": "CSRF",
+   "abbr": "CSRF",
+   "topic": "sec",
+   "full": "Cross-Site Request Forgery",
+   "ru": "межсайтовая подделка запроса — действие от имени вошедшего пользователя",
+   "note": "Жертва, вошедшая на сайт, открывает страницу злоумышленника, и браузер сам шлёт на сайт запрос с её cookie (перевод, смена пароля). Защита — CSRF-токен, SameSite cookie. Не путать с XSS.",
+   "decoys": [
+    "Cross-Server Resource Fetching",
+    "Client-Side Response Filtering",
+    "Cross-Session Replay Fraud"
+   ],
+   "qids": [
+    "2017A-A-41"
+   ]
+  },
+  {
+   "id": "CVCF",
+   "abbr": "CVCF",
+   "topic": "hw",
+   "full": "Constant Voltage Constant Frequency",
+   "ru": "постоянное напряжение и частота — стабилизированный источник питания",
+   "note": "Инверторное устройство (основа UPS), выдающее переменный ток со стабильными напряжением и частотой при колебаниях сети. От грозовых перенапряжений не защищает — это задача SPD.",
+   "decoys": [
+    "Controlled Voltage Current Filter",
+    "Continuous Voltage Conversion Feed",
+    "Constant Variable Current Flow"
+   ],
+   "qids": [
+    "2017A-A-57"
+   ]
+  },
+  {
+   "id": "DDoS",
+   "abbr": "DDoS",
+   "topic": "sec",
+   "full": "Distributed Denial of Service",
+   "ru": "распределённый отказ в обслуживании — атака с множества узлов (ботнет)",
+   "note": "DoS-атака одновременно с множества заражённых машин, поэтому блокировка одного IP не помогает. Нарушает доступность, а не целостность: в вопросе про integrity ответ — подмена (defacement) сайта.",
+   "decoys": [
+    "Directed Distribution of Spam",
+    "Delayed Detection of Spoofing",
+    "Distributed Duplication of Segments"
+   ],
+   "qids": [
+    "2022A-A-35"
+   ]
+  },
+  {
+   "id": "DES",
+   "abbr": "DES",
+   "topic": "sec",
+   "full": "Data Encryption Standard",
+   "ru": "стандарт шифрования данных — устаревший симметричный блочный шифр",
+   "note": "Симметричный блочный шифр: блок 64 бита, ключ 56 бит, поэтому взламывается перебором. Заменён на AES; промежуточное решение — Triple DES (3DES).",
+   "decoys": [
+    "Digital Exchange Standard",
+    "Dynamic Encryption Scheme",
+    "Distributed Encoding System"
+   ],
+   "qids": [
+    "2017S-A-41"
+   ]
+  },
+  {
+   "id": "DMAC",
+   "abbr": "DMAC",
+   "topic": "hw",
+   "full": "Direct Memory Access Controller",
+   "ru": "контроллер прямого доступа к памяти — ведёт DMA вместо CPU",
+   "note": "Аппаратный контроллер: по заданию CPU сам пересылает блок данных между устройством ввода-вывода и памятью и по завершении выдаёт прерывание. Логические адреса в физические не переводит — это MMU.",
+   "decoys": [
+    "Dynamic Memory Allocation Controller",
+    "Data Mapping Address Converter",
+    "Device Module Access Channel"
+   ],
+   "qids": [
+    "2016S-A-14"
+   ]
+  },
+  {
+   "id": "DaaS",
+   "abbr": "DaaS",
+   "topic": "dev",
+   "full": "Desktop as a Service",
+   "ru": "рабочий стол как услуга — виртуальный рабочий стол из облака",
+   "note": "Провайдер размещает виртуальные рабочие столы (VDI) в облаке, пользователь подключается с любого устройства. Свои образы ОС ставят в IaaS, а не в DaaS. Вне этой темы DaaS — также Data as a Service.",
+   "decoys": [
+    "Deployment as a Service",
+    "Display as a Service",
+    "Diagnostics as a Service"
+   ],
+   "qids": [
+    "2015A-A-64"
+   ]
+  },
+  {
+   "id": "ECM",
+   "abbr": "ECM",
+   "topic": "strat",
+   "full": "Enterprise Content Management",
+   "ru": "управление корпоративным контентом — документы и записи организации",
+   "note": "Хранение, поиск и управление жизненным циклом неструктурированного контента: документов, изображений, писем, записей. Не путать с MDM — централизованным управлением смартфонами сотрудников.",
+   "decoys": [
+    "Enterprise Compliance Monitoring",
+    "Enterprise Communication Middleware",
+    "Electronic Catalog Management"
+   ],
+   "qids": [
+    "2015S-A-46"
+   ]
+  },
+  {
+   "id": "EFT",
+   "abbr": "EFT",
+   "topic": "mgmt",
+   "full": "Earliest Finish Time",
+   "ru": "самое раннее время окончания работы — EST + длительность",
+   "note": "Прямой проход по сетевому графику: EFT = EST + длительность; EST следующей работы = max EFT предшественников. Резерв = LST − EST. В финансах EFT — Electronic Funds Transfer.",
+   "decoys": [
+    "Extended Float Time",
+    "Estimated Finish Tolerance",
+    "Effective Flow Time"
+   ],
+   "qids": [
+    "2017S-A-54"
+   ]
+  },
+  {
+   "id": "EMS",
+   "abbr": "EMS",
+   "topic": "strat",
+   "full": "Electronics Manufacturing Service",
+   "ru": "контрактное производство электроники по заказу других компаний",
+   "note": "Подрядчик выпускает электронику по заказам других производителей (пример — Foxconn). Противоположность — fabless: проектирование без своих заводов. В других темах EMS — Energy/Environmental Management System.",
+   "decoys": [
+    "Equipment Maintenance Service",
+    "Electronics Marketing Service",
+    "Electronic Merchandise Sourcing"
+   ],
+   "qids": [
+    "2017S-A-65"
+   ]
+  },
+  {
+   "id": "EV",
+   "abbr": "EV",
+   "topic": "mgmt",
+   "full": "Earned Value",
+   "ru": "освоенный объём — плановая стоимость фактически выполненной работы",
+   "note": "EV = BAC × доля выполнения: 40% проекта с бюджетом $100 000 → EV = $40 000. Не путать с потраченными деньгами (AC): CPI = EV / AC, SPI = EV / PV.",
+   "decoys": [
+    "Estimated Value",
+    "Effort Variance",
+    "Expended Value"
+   ],
+   "qids": [
+    "2016A-A-53"
+   ]
+  },
+  {
+   "id": "EVM",
+   "abbr": "EVM",
+   "topic": "mgmt",
+   "full": "Earned Value Management",
+   "ru": "управление освоенным объёмом — контроль сроков и бюджета через PV, EV, AC",
+   "note": "CPI = EV / AC, SPI = EV / PV; CV = EV − AC, SV = EV − PV. Пример: бюджет $10 000, выполнено 30% за $4 200 → EV = 3 000, CPI = 3 000 / 4 200 ≈ 0,714 (меньше 1 — перерасход).",
+   "decoys": [
+    "Estimated Value Measurement",
+    "Effort Variance Monitoring",
+    "Expected Value Method"
+   ],
+   "qids": [
+    "2017S-A-55"
+   ]
+  },
+  {
+   "id": "FP",
+   "abbr": "FP",
+   "topic": "dev",
+   "full": "Function Point",
+   "ru": "функциональная точка — единица функционального размера ПО",
+   "note": "Размер считают по вводам, выводам, запросам и файлам с весами сложности, независимо от языка (в отличие от LOC). Трудозатраты = FP / производительность: 500 FP при 10 FP/чел.-мес. = 50 чел.-мес.",
+   "decoys": [
+    "Function Parameter",
+    "Feature Package",
+    "Functional Partition"
+   ],
+   "qids": [
+    "2020A-A-53"
+   ]
+  },
+  {
+   "id": "GCC",
+   "abbr": "GCC",
+   "topic": "dev",
+   "full": "GNU Compiler Collection",
+   "ru": "набор компиляторов GNU — свободные компиляторы C, C++ и других языков",
+   "note": "Это компилятор, а не IDE: в вопросе про OSS-среду разработки ответ — Eclipse (Apache Tomcat — контейнер сервлетов, Linux — ОС). Изначально расшифровывалось как GNU C Compiler.",
+   "decoys": [
+    "GNU Configuration Checker",
+    "GNU Command Console",
+    "GNU Component Container"
+   ],
+   "qids": [
+    "2019A-A-21"
+   ]
+  },
+  {
+   "id": "GIF",
+   "abbr": "GIF",
+   "topic": "net",
+   "full": "Graphics Interchange Format",
+   "ru": "формат обмена графикой — до 256 цветов, анимация, без потерь",
+   "note": "Растровый формат с палитрой до 256 цветов, сжатием LZW без потерь, прозрачностью и анимацией; хорош для логотипов и схем, плох для фото. Сравни с JPEG, PNG, TIFF.",
+   "decoys": [
+    "Graphics Image File",
+    "General Image Format",
+    "Graphics Indexed Frame"
+   ],
+   "qids": [
+    "2015S-A-27"
+   ]
+  },
+  {
+   "id": "GPL",
+   "abbr": "GPL",
+   "topic": "dev",
+   "full": "GNU General Public License",
+   "ru": "универсальная общественная лицензия GNU — копилефт-лицензия",
+   "note": "Копилефт: изменённую программу при распространении нужно выпускать под GPL и давать получателям исходный код; продавать копии можно. Разрешительные лицензии BSD и MIT этого не требуют.",
+   "decoys": [
+    "GNU General Purpose License",
+    "GNU Global Publishing License",
+    "GNU Generic Program License"
+   ],
+   "qids": [
+    "2024S-A-60"
+   ]
+  },
+  {
+   "id": "HDMI",
+   "abbr": "HDMI",
+   "topic": "hw",
+   "full": "High-Definition Multimedia Interface",
+   "ru": "мультимедийный интерфейс высокой чёткости — видео и звук одним кабелем",
+   "note": "Цифровой интерфейс для передачи видео и аудио на монитор или ТВ одним кабелем; аналог — DisplayPort. Это не шина для периферии: «до 127 устройств» подключает USB.",
+   "decoys": [
+    "High-Density Media Interconnect",
+    "Hybrid-Digital Monitor Interface",
+    "Host-Device Multimedia Interconnect"
+   ],
+   "qids": [
+    "2024S-A-10"
+   ]
+  },
+  {
+   "id": "I2C",
+   "abbr": "I2C",
+   "topic": "hw",
+   "full": "Inter-Integrated Circuit",
+   "ru": "шина I²C — два провода (SDA, SCL) для связи микросхем на плате",
+   "note": "Синхронная последовательная шина Philips: линии данных SDA и такта SCL, адресация ведомых устройств (master/slave). Раз есть такт, это не ответ на вопрос об асинхронной передаче — там UART.",
+   "decoys": [
+    "Intra-Integrated Channel",
+    "Inter-Interface Controller",
+    "Isolated-Input Circuit"
+   ],
+   "qids": [
+    "2020S-A-12"
+   ]
+  },
+  {
+   "id": "IBG",
+   "abbr": "IBG",
+   "topic": "hw",
+   "full": "Inter-Block Gap",
+   "ru": "межблочный промежуток — пустое место между блоками на носителе",
+   "note": "Промежуток между физическими блоками на магнитной ленте или диске; чем больше блокирующий фактор, тем меньше потерь на IBG. Дефрагментация IBG не удаляет — она собирает файл в непрерывные области.",
+   "decoys": [
+    "Index-Buffer Gap",
+    "Intra-Byte Guard",
+    "Input-Burst Group"
+   ],
+   "qids": [
+    "2024A-A-10"
+   ]
+  },
+  {
+   "id": "ICO",
+   "abbr": "ICO",
+   "topic": "strat",
+   "full": "Initial Coin Offering",
+   "ru": "первичное размещение токенов — сбор средств за выпущенные криптотокены",
+   "note": "Способ привлечения денег, чаще стартапами: выпуск собственных токенов в обмен на криптовалюту. Не путать с IPO (размещение акций) и краудфандингом с вознаграждениями.",
+   "decoys": [
+    "Initial Capital Offering",
+    "Investor Crowdfunding Option",
+    "Issued Currency Obligation"
+   ],
+   "qids": [
+    "2021A-A-73"
+   ]
+  },
+  {
+   "id": "IDF",
+   "abbr": "IDF",
+   "topic": "algo",
+   "full": "Inverse Document Frequency",
+   "ru": "обратная частота документа — насколько слово редко в коллекции",
+   "note": "IDF = log(N / df), где N — число документов, df — сколько из них содержат слово. Чем реже слово, тем выше IDF; TF × IDF (TF-IDF) оценивает важность слова в конкретном документе.",
+   "decoys": [
+    "Indexed Data Field",
+    "Inverse Data Filter",
+    "Integrated Document Format"
+   ],
+   "qids": [
+    "2025A-B-15"
+   ]
+  },
+  {
+   "id": "IETF",
+   "abbr": "IETF",
+   "topic": "dev",
+   "full": "Internet Engineering Task Force",
+   "ru": "Инженерный совет Интернета — разрабатывает протоколы и публикует RFC",
+   "note": "Открытое сообщество, стандартизирующее протоколы Интернета (IP, TCP, HTTP, TLS) в виде RFC. Не путать с IEEE (LAN, 802.x), W3C (HTML, веб) и ICANN (домены и IP-адреса).",
+   "decoys": [
+    "Internet Exchange Technology Forum",
+    "International Electronics Telecom Federation",
+    "Internet Encryption Task Force"
+   ],
+   "qids": [
+    "2020A-A-80"
+   ]
+  },
+  {
+   "id": "ISMS",
+   "abbr": "ISMS",
+   "topic": "sec",
+   "full": "Information Security Management System",
+   "ru": "система управления информационной безопасностью (ISO/IEC 27001)",
+   "note": "Система менеджмента по ISO/IEC 27001: оценка рисков, политика, меры контроля и улучшение по циклу PDCA. Внутренний аудит ISMS проверяет соответствие стандарту и собственным правилам организации.",
+   "decoys": [
+    "Integrated Service Monitoring Suite",
+    "Internal Security Measurement Standard",
+    "Information System Maintenance Schedule"
+   ],
+   "qids": [
+    "2020S-A-58"
+   ]
+  },
+  {
+   "id": "JDBC",
+   "abbr": "JDBC",
+   "topic": "db",
+   "full": "Java Database Connectivity",
+   "ru": "стандартный API Java для подключения к реляционным БД",
+   "note": "Через драйвер JDBC Java-программа подключается к СУБД, выполняет SQL и читает результат (ResultSet). Аналог для других языков — ODBC. Не путать с Java VM, которая исполняет байт-код.",
+   "decoys": [
+    "Java Database Controller",
+    "Java Database Cursor",
+    "Java Database Compiler"
+   ],
+   "qids": [
+    "2022A-A-19"
+   ]
+  },
+  {
+   "id": "KDF",
+   "abbr": "KDF",
+   "topic": "sec",
+   "full": "Key Derivation Function",
+   "ru": "функция формирования ключа — получает ключ шифрования из пароля",
+   "note": "Детерминированно получает криптографический ключ из пароля или секрета (PBKDF2, scrypt, Argon2), обычно с солью и многократным хешированием, чтобы затруднить перебор. В задаче файл шифруется ключом KDF(password).",
+   "decoys": [
+    "Key Distribution Framework",
+    "Key Decryption Filter",
+    "Keyed Digest Format"
+   ],
+   "qids": [
+    "2025S-B-18"
+   ]
+  },
+  {
+   "id": "LCS",
+   "abbr": "LCS",
+   "topic": "algo",
+   "full": "Longest Common Subsequence",
+   "ru": "наибольшая общая подпоследовательность двух строк",
+   "note": "Подпоследовательность сохраняет порядок символов, но не обязана быть непрерывной, в отличие от подстроки. Решается динамическим программированием по таблице (m+1)×(n+1).",
+   "decoys": [
+    "Linear Character Sequence",
+    "Least Cost Search",
+    "Lexical Comparison Score"
+   ],
+   "qids": [
+    "2024A-B-07"
+   ]
+  },
+  {
+   "id": "LED",
+   "abbr": "LED",
+   "topic": "hw",
+   "full": "Light-Emitting Diode",
+   "ru": "светодиод — полупроводник, светящийся при прямом токе",
+   "note": "В FE — 7-сегментный индикатор: при общем аноде сегмент горит, когда на выходе порта 0. Задача: перевести hex-значение в биты P7…P0 и определить горящие сегменты и символ.",
+   "decoys": [
+    "Low-Energy Display",
+    "Laser-Emitting Device",
+    "Light-Enhanced Diode"
+   ],
+   "qids": [
+    "2018A-A-24"
+   ]
+  },
+  {
+   "id": "LIFO",
+   "abbr": "LIFO",
+   "topic": "algo",
+   "full": "Last In, First Out",
+   "ru": "«последним пришёл — первым ушёл» — принцип стека",
+   "note": "Принцип стека (push/pop): первым извлекается последний добавленный элемент. В вопросах про замену страниц — лишний вариант; в учёте запасов LIFO списывает сначала поздние партии.",
+   "decoys": [
+    "Linear Input, Fixed Output",
+    "Last Indexed, First Ordered",
+    "Local Input, Fast Output"
+   ],
+   "qids": [
+    "2017S-A-19"
+   ]
+  },
+  {
+   "id": "LST",
+   "abbr": "LST",
+   "topic": "mgmt",
+   "full": "Latest Start Time",
+   "ru": "самое позднее время начала работы без сдвига срока проекта",
+   "note": "Обратный проход: LST = LFT − длительность; LFT работы = min LST последующих работ. Работы с LST = EST (нулевой резерв) лежат на критическом пути.",
+   "decoys": [
+    "Lead Slack Time",
+    "Logical Sequence Table",
+    "Linked Schedule Task"
+   ],
+   "qids": [
+    "2017S-A-54"
+   ]
+  },
+  {
+   "id": "MAC#message",
+   "abbr": "MAC",
+   "topic": "sec",
+   "full": "Message Authentication Code",
+   "ru": "код аутентификации сообщения — проверка целостности по общему ключу",
+   "note": "Короткий код из сообщения и общего секретного ключа (например, HMAC): получатель пересчитывает его и проверяет целостность и источник. Ключ общий, поэтому, в отличие от цифровой подписи, нет неотказуемости.",
+   "decoys": [
+    "Message Authorization Certificate",
+    "Mutual Authentication Channel",
+    "Message Archive Checksum"
+   ],
+   "qids": [
+    "2015S-A-39"
+   ]
+  },
+  {
+   "id": "MAR",
+   "abbr": "MAR",
+   "topic": "hw",
+   "full": "Memory Address Register",
+   "ru": "регистр адреса памяти — адрес ячейки для чтения или записи",
+   "note": "Регистр CPU, куда помещают адрес ячейки основной памяти перед обращением; сами данные идут через MDR (Memory Data Register). Адреса не транслирует — это делает MMU.",
+   "decoys": [
+    "Main Access Register",
+    "Memory Allocation Record",
+    "Machine Arithmetic Register"
+   ],
+   "qids": [
+    "2016S-A-14"
+   ]
+  },
+  {
+   "id": "MIMO",
+   "abbr": "MIMO",
+   "topic": "hw",
+   "full": "Multiple-Input Multiple-Output",
+   "ru": "много входов — много выходов: несколько антенн для роста скорости",
+   "note": "Несколько передающих и приёмных антенн передают параллельные пространственные потоки, повышая скорость и устойчивость связи. Используется в Wi-Fi (IEEE 802.11n и новее) и LTE.",
+   "decoys": [
+    "Multiplexed-Input Mixed-Output",
+    "Multi-Interface Mobile-Operation",
+    "Modulated-Input Multiplexed-Output"
+   ],
+   "qids": [
+    "2024S-A-25"
+   ]
+  },
+  {
+   "id": "MITM",
+   "abbr": "MITM",
+   "topic": "sec",
+   "full": "Man-in-the-Middle",
+   "ru": "«человек посередине» — перехват и подмена трафика между сторонами",
+   "note": "Атакующий незаметно встаёт между клиентом и сервером, читает и подменяет данные, выдавая себя за каждую из сторон. Защита — взаимная аутентификация и проверка сертификатов (TLS).",
+   "decoys": [
+    "Message-in-Transit Manipulation",
+    "Malicious Insider Threat Model",
+    "Multi-Interface Traffic Monitoring"
+   ],
+   "qids": [
+    "2020S-A-39"
+   ]
+  },
+  {
+   "id": "MMU",
+   "abbr": "MMU",
+   "topic": "hw",
+   "full": "Memory Management Unit",
+   "ru": "блок управления памятью — переводит логические адреса в физические",
+   "note": "Аппаратный блок, который по таблице страниц транслирует виртуальные (логические) адреса в физические и проверяет права доступа; TLB — его кэш трансляций. Ответ на вопрос о трансляции адресов.",
+   "decoys": [
+    "Main Memory Unit",
+    "Memory Monitoring Unit",
+    "Multiple Module Unit"
+   ],
+   "qids": [
+    "2016S-A-14"
+   ]
+  },
+  {
+   "id": "MPEG",
+   "abbr": "MPEG",
+   "topic": "net",
+   "full": "Moving Picture Experts Group",
+   "ru": "группа экспертов по движущимся изображениям — стандарты сжатия видео",
+   "note": "Семейство стандартов сжатия видео и аудио (MPEG-1, MPEG-2, MPEG-4; MP3 — MPEG-1 Audio Layer III) с межкадровым сжатием с потерями. Для вложений в письмо ответ — MIME, для фото — JPEG.",
+   "decoys": [
+    "Multimedia Picture Encoding Group",
+    "Media Playback Encoding Guideline",
+    "Motion Pixel Exchange Group"
+   ],
+   "qids": [
+    "2016A-A-33"
+   ]
+  },
+  {
+   "id": "MPU",
+   "abbr": "MPU",
+   "topic": "hw",
+   "full": "Micro Processing Unit",
+   "ru": "микропроцессор — CPU, выполненный на одной микросхеме",
+   "note": "В материалах IPA — по сути CPU на одном чипе. В задаче на подключение памяти считают адресные линии: для 2^n адресуемых ячеек нужно n линий. Не путать с MPU = Memory Protection Unit.",
+   "decoys": [
+    "Micro Peripheral Unit",
+    "Machine Program Unit",
+    "Memory Paging Unit"
+   ],
+   "qids": [
+    "2018A-A-12"
+   ]
+  },
+  {
+   "id": "MTO",
+   "abbr": "MTO",
+   "topic": "mgmt",
+   "full": "Maximum Tolerable Outage",
+   "ru": "максимально допустимый перерыв в работе — синоним MTD",
+   "note": "Самый долгий простой, который бизнес переживёт; RTO должен в него укладываться. В вопросе о допустимой потере данных это дистрактор — правильно RPO. В производстве MTO — Make To Order.",
+   "decoys": [
+    "Minimum Throughput Objective",
+    "Maximum Transaction Overload",
+    "Managed Timeout Override"
+   ],
+   "qids": [
+    "2016S-A-60"
+   ]
+  },
+  {
+   "id": "MUX",
+   "abbr": "MUX",
+   "topic": "hw",
+   "full": "Multiplexer",
+   "ru": "мультиплексор — пропускает на выход один из входов по сигналу выбора",
+   "note": "2-to-1 MUX: два входа данных, вход выбора и один выход; значение сигнала выбора решает, какой вход попадёт на выход. Обратное устройство — демультиплексор (DEMUX).",
+   "decoys": [
+    "Mutual Exclusion",
+    "Multi-User Exchange",
+    "Multi-Unit Extender"
+   ],
+   "qids": [
+    "2024A-A-16"
+   ]
+  },
+  {
+   "id": "NAS",
+   "abbr": "NAS",
+   "topic": "hw",
+   "full": "Network Attached Storage",
+   "ru": "сетевое хранилище — файловое хранилище, подключённое к LAN",
+   "note": "Подключается к LAN и раздаёт файлы по NFS/SMB; в отличие от SAN, отдельной сети блочного доступа. Для NAS из двух одинаковых дисков максимум надёжности даёт RAID 1. Не путать с Network Access Server.",
+   "decoys": [
+    "Network Archive System",
+    "Node Allocated Storage",
+    "Network Array Service"
+   ],
+   "qids": [
+    "2026S-A-12"
+   ]
+  },
+  {
+   "id": "NF",
+   "abbr": "NF",
+   "topic": "db",
+   "full": "Normal Form",
+   "ru": "нормальная форма — уровень нормализации таблицы (первая, вторая, третья…)",
+   "note": "1NF — атомарные значения без повторяющихся групп; 2NF — нет частичной зависимости от составного ключа; 3NF — нет транзитивной зависимости неключевых атрибутов; BCNF — каждый детерминант является ключом.",
+   "decoys": [
+    "Normalized Field",
+    "Nested Format",
+    "Null Filter"
+   ],
+   "qids": [
+    "2017S-A-29"
+   ]
+  },
+  {
+   "id": "NIST",
+   "abbr": "NIST",
+   "topic": "dev",
+   "full": "National Institute of Standards and Technology",
+   "ru": "Национальный институт стандартов и технологий США",
+   "note": "Агентство США: стандарты FIPS (AES, SHA), серия SP 800, Cybersecurity Framework, определение облака SP 800-145 (SaaS/PaaS/IaaS). RFC выпускает не NIST, а IETF.",
+   "decoys": [
+    "National Institute of Security and Telecommunications",
+    "National Inspectorate of Software and Testing",
+    "National Initiative for Security and Trust"
+   ],
+   "qids": [
+    "2020A-A-80"
+   ]
+  },
+  {
+   "id": "NNTP",
+   "abbr": "NNTP",
+   "topic": "net",
+   "full": "Network News Transfer Protocol",
+   "ru": "протокол передачи сетевых новостей — группы новостей Usenet",
+   "note": "Распространяет и читает статьи новостных групп Usenet (TCP, порт 119). В FE встречается только как дистрактор, например в вопросе о синхронизации часов, где верно NTP.",
+   "decoys": [
+    "Network Node Timing Protocol",
+    "Network Name Translation Protocol",
+    "Network Notification Transport Protocol"
+   ],
+   "qids": [
+    "2021S-A-32"
+   ]
+  },
+  {
+   "id": "NPV",
+   "abbr": "NPV",
+   "topic": "strat",
+   "full": "Net Present Value",
+   "ru": "чистая приведённая стоимость — дисконтированные потоки минус вложения",
+   "note": "NPV = Σ CF_t / (1 + r)^t − начальные инвестиции; NPV > 0 — проект выгоден. Метод «по сумме будущих денежных потоков, дисконтированных по ставке» — это NPV, а не IRR или ROI.",
+   "decoys": [
+    "Net Projected Value",
+    "Nominal Price Variance",
+    "Net Profit Volume"
+   ],
+   "qids": [
+    "2019S-A-79"
+   ]
+  },
+  {
+   "id": "OECD",
+   "abbr": "OECD",
+   "topic": "dev",
+   "full": "Organisation for Economic Co-operation and Development",
+   "ru": "Организация экономического сотрудничества и развития (ОЭСР)",
+   "note": "Её принципы защиты приватности (1980): ограничение сбора, качество данных, указание цели, ограничение использования, защита, открытость, участие субъекта, подотчётность. Сбор без уведомления их нарушает.",
+   "decoys": [
+    "Organisation for Electronic Commerce and Data",
+    "Office of European Co-operation and Development",
+    "Organisation for Ethical Computing and Disclosure"
+   ],
+   "qids": [
+    "2016A-A-80"
+   ]
+  },
+  {
+   "id": "OGNL",
+   "abbr": "OGNL",
+   "topic": "sec",
+   "full": "Object-Graph Navigation Language",
+   "ru": "язык выражений для доступа к свойствам Java-объектов (Apache Struts)",
+   "note": "Используется в Apache Struts 2 для чтения и записи свойств объектов. OGNL injection — внедрение выражения во ввод с удалённым выполнением кода на сервере; скрипт в браузер жертвы доставляет XSS.",
+   "decoys": [
+    "Object-Group Naming Language",
+    "Open-Graph Notation Library",
+    "Object-Gateway Network Layer"
+   ],
+   "qids": [
+    "2023A-A-35"
+   ]
+  },
+  {
+   "id": "OOP",
+   "abbr": "OOP",
+   "topic": "dev",
+   "full": "Object-Oriented Programming",
+   "ru": "объектно-ориентированное программирование — классы, объекты, наследование",
+   "note": "Основа — инкапсуляция, наследование, полиморфизм. Конструктор вызывается автоматически при создании объекта и инициализирует его поля; в классе может быть несколько перегруженных конструкторов.",
+   "decoys": [
+    "Object-Oriented Protocol",
+    "Operation-Oriented Programming",
+    "Object-Organized Processing"
+   ],
+   "qids": [
+    "2026S-A-08"
+   ]
+  },
+  {
+   "id": "OP25B",
+   "abbr": "OP25B",
+   "topic": "sec",
+   "full": "Outbound Port 25 Blocking",
+   "ru": "блокировка исходящих соединений на порт 25 из сети провайдера",
+   "note": "Провайдер не пускает клиентов на порт 25 (SMTP) чужих серверов, чтобы заражённые ПК не рассылали спам напрямую. Легальная почта идёт через сервер провайдера или порт 587 (submission) с SMTP-AUTH.",
+   "decoys": [
+    "Open Port 25 Bridging",
+    "Outbound Protocol 25 Buffering",
+    "Operator Policy 25 Bypass"
+   ],
+   "qids": [
+    "2021S-A-44"
+   ]
+  },
+  {
+   "id": "PBP",
+   "abbr": "PBP",
+   "topic": "strat",
+   "full": "PayBack Period",
+   "ru": "срок окупаемости — за сколько лет прибыль вернёт вложения",
+   "note": "При равных потоках PBP = инвестиции / годовой денежный поток, иначе — год, когда накопленный поток покрывает вложения. Простой метод: не учитывает дисконтирование и потоки после окупаемости.",
+   "decoys": [
+    "PayBack Projection",
+    "PayBack Percentage",
+    "PriceBreak Period"
+   ],
+   "qids": [
+    "2019S-A-79"
+   ]
+  },
+  {
+   "id": "PCI",
+   "abbr": "PCI",
+   "topic": "hw",
+   "full": "Peripheral Component Interconnect",
+   "ru": "шина для подключения карт расширения к материнской плате",
+   "note": "Шина расширения ПК; PCI Express (PCIe) — её последовательная версия с линиями точка-точка. На вопрос об асинхронной последовательной передаче ответ UART, не PCIe. Не путать с PCI DSS (Payment Card Industry).",
+   "decoys": [
+    "Parallel Communication Interface",
+    "Peripheral Control Interface",
+    "Processor Channel Interconnect"
+   ],
+   "qids": [
+    "2020S-A-12"
+   ]
+  },
+  {
+   "id": "PNG",
+   "abbr": "PNG",
+   "topic": "net",
+   "full": "Portable Network Graphics",
+   "ru": "переносимая сетевая графика — сжатие без потерь и прозрачность",
+   "note": "Растровый формат со сжатием без потерь, полноцветный, с альфа-каналом прозрачности; создан на замену GIF (анимации в базовом стандарте нет). Для фото со сжатием с потерями — JPEG.",
+   "decoys": [
+    "Pixel Network Graphics",
+    "Portable Native Graphics",
+    "Packed Network Grid"
+   ],
+   "qids": [
+    "2015S-A-27"
+   ]
+  },
+  {
+   "id": "POP3S",
+   "abbr": "POP3S",
+   "topic": "sec",
+   "full": "Post Office Protocol 3 over SSL/TLS",
+   "ru": "POP3 поверх SSL/TLS — получение почты по зашифрованному каналу",
+   "note": "POP3, защищённый SSL/TLS (порт 995): при получении почты шифруются пароль и письма. Защищает канал между клиентом и почтовым сервером, но не аутентифицирует отправителя письма.",
+   "decoys": [
+    "Post Office Protocol 3 over SMTP",
+    "Proxy Outbound Protocol 3 over SSH",
+    "Public Outbox Protocol 3 over SSL/TLS"
+   ],
+   "qids": [
+    "2023S-A-45"
+   ]
+  },
+  {
+   "id": "PV",
+   "abbr": "PV",
+   "topic": "mgmt",
+   "full": "Planned Value",
+   "ru": "плановый объём — бюджет работ, запланированных к текущей дате",
+   "note": "Сколько работы в деньгах по плану должно быть сделано к дате. SV = EV − PV, SPI = EV / PV; SPI < 1 — отставание от графика. В финансах PV — Present Value (приведённая стоимость).",
+   "decoys": [
+    "Performance Value",
+    "Progress Variance",
+    "Payment Volume"
+   ],
+   "qids": [
+    "2016A-A-53"
+   ]
+  },
+  {
+   "id": "PWM",
+   "abbr": "PWM",
+   "topic": "hw",
+   "full": "Pulse Width Modulation",
+   "ru": "широтно-импульсная модуляция — управление шириной импульса",
+   "note": "Средняя мощность (яркость LED, скорость мотора) задаётся долей включённого состояния (duty cycle) при постоянной частоте. На вопрос об управлении для «немного/довольно много» ответ fuzzy control, не PWM.",
+   "decoys": [
+    "Phase Wave Modulation",
+    "Pulse Wave Multiplexing",
+    "Power Watt Management"
+   ],
+   "qids": [
+    "2020S-A-74"
+   ]
+  },
+  {
+   "id": "PoE",
+   "abbr": "PoE",
+   "topic": "net",
+   "full": "Power over Ethernet",
+   "ru": "питание по Ethernet — подача электропитания по сетевому кабелю",
+   "note": "Коммутатор подаёт электропитание по тому же кабелю витой пары, что и данные (IEEE 802.3af/at): удобно для IP-камер, точек доступа Wi-Fi, IP-телефонов. К приоритизации трафика (QoS) отношения не имеет.",
+   "decoys": [
+    "Packet over Ethernet",
+    "Priority over Ethernet",
+    "Provisioning over Ethernet"
+   ],
+   "qids": [
+    "2025A-A-23"
+   ]
+  },
+  {
+   "id": "QR",
+   "abbr": "QR",
+   "topic": "net",
+   "full": "Quick Response",
+   "ru": "двумерный матричный штрихкод («быстрый отклик»)",
+   "note": "Двумерный штрихкод (Denso Wave, ISO/IEC 18004) с коррекцией ошибок, читается камерой смартфона. В вопросе о различении человека и программы по искажённой картинке верный ответ — CAPTCHA, не QR code.",
+   "decoys": [
+    "Quick Recognition",
+    "Quantized Raster",
+    "Query Reference"
+   ],
+   "qids": [
+    "2018S-A-36"
+   ]
+  },
+  {
+   "id": "QoS",
+   "abbr": "QoS",
+   "topic": "net",
+   "full": "Quality of Service",
+   "ru": "качество обслуживания — приоритизация трафика, полоса и задержка",
+   "note": "Механизмы, которые классифицируют трафик и дают приоритет важному (голос, видео), резервируют полосу и снижают задержку и потери. Дистракторы: AAA (аутентификация), PoE (питание по кабелю), RTP (медиапоток).",
+   "decoys": [
+    "Quota of Service",
+    "Quality of Signal",
+    "Queue of Sessions"
+   ],
+   "qids": [
+    "2025A-A-23"
+   ]
+  },
+  {
+   "id": "RADIUS",
+   "abbr": "RADIUS",
+   "topic": "sec",
+   "full": "Remote Authentication Dial-In User Service",
+   "ru": "протокол централизованной аутентификации удалённых пользователей (AAA)",
+   "note": "Точки доступа, VPN-шлюзы и коммутаторы передают учётные данные на RADIUS-сервер для проверки (Wi-Fi WPA2-Enterprise, IEEE 802.1X). Адреса не раздаёт (DHCP) и не транслирует (NAPT).",
+   "decoys": [
+    "Remote Access Directory Interface for User Sessions",
+    "Routed Authentication Data Interchange User Service",
+    "Remote Authorization Dial-In Unified Server"
+   ],
+   "qids": [
+    "2021A-A-31"
+   ]
+  },
+  {
+   "id": "REST",
+   "abbr": "REST",
+   "topic": "net",
+   "full": "Representational State Transfer",
+   "ru": "передача состояния представления — архитектурный стиль веб-API на HTTP",
+   "note": "Стиль API: ресурсы адресуются URL, операции — методы HTTP (GET, POST, PUT, DELETE), сервер не хранит состояние клиента между запросами (stateless), данные обычно в JSON. Альтернатива — SOAP.",
+   "decoys": [
+    "Resource Session Transfer",
+    "Remote Service Transaction",
+    "Request Status Tracking"
+   ],
+   "qids": [
+    "2026S-B-20"
+   ]
+  },
+  {
+   "id": "RFC",
+   "abbr": "RFC",
+   "topic": "dev",
+   "full": "Request for Comments",
+   "ru": "«запрос комментариев» — документы IETF со стандартами Интернета",
+   "note": "Нумерованные документы IETF со спецификациями протоколов (RFC 791 — IP, RFC 9110 — HTTP). В ITIL та же аббревиатура означает Request for Change — запрос на изменение.",
+   "decoys": [
+    "Review for Compliance",
+    "Release for Certification",
+    "Reference for Conformance"
+   ],
+   "qids": [
+    "2020A-A-80"
+   ]
+  },
+  {
+   "id": "RPA",
+   "abbr": "RPA",
+   "topic": "strat",
+   "full": "Robotic Process Automation",
+   "ru": "роботизация процессов — программные роботы делают рутинную офисную работу",
+   "note": "Программные «роботы» повторяют действия сотрудника на ПК: ввод данных, сверку между системами, типовые операции. Это не физические роботы на конвейере или складе — частый дистрактор.",
+   "decoys": [
+    "Remote Process Administration",
+    "Resource Planning Automation",
+    "Routine Pattern Analysis"
+   ],
+   "qids": [
+    "2023S-A-61"
+   ]
+  },
+  {
+   "id": "RS-232C",
+   "abbr": "RS-232C",
+   "topic": "hw",
+   "full": "Recommended Standard 232C",
+   "ru": "стандарт последовательного порта (COM) для периферии",
+   "note": "Старый стандарт EIA (сейчас TIA-232) для последовательной асинхронной связи точка-точка через COM-порт, обычно через UART. В FE — пример подключения измерительного прибора к ПК рядом с USB.",
+   "decoys": [
+    "Remote Serial 232C",
+    "Routing Signal 232C",
+    "Reference Specification 232C"
+   ],
+   "qids": [
+    "2021A-A-14"
+   ]
+  },
+  {
+   "id": "SATA",
+   "abbr": "SATA",
+   "topic": "hw",
+   "full": "Serial Advanced Technology Attachment",
+   "ru": "последовательный ATA — интерфейс накопителей внутри ПК",
+   "note": "Последовательная версия ATA (IDE) для подключения HDD/SSD к материнской плате: одно устройство на порт. В вопросе про USB вариант «serialized ATA specification» описывает SATA; 127 устройств — это USB.",
+   "decoys": [
+    "Storage Access Transfer Adapter",
+    "Serial Array Transmission Architecture",
+    "System Attached Tape Array"
+   ],
+   "qids": [
+    "2024S-A-10"
+   ]
+  },
+  {
+   "id": "SDO",
+   "abbr": "SDO",
+   "topic": "mgmt",
+   "full": "Service Delivery Objective",
+   "ru": "целевой уровень услуги в аварийном режиме до полного восстановления",
+   "note": "Уровень обслуживания, который нужно держать в альтернативном режиме, пока не восстановлена нормальная работа (термин ISACA). На экзамене — дистрактор рядом с RPO, RTO и MTO.",
+   "decoys": [
+    "System Downtime Objective",
+    "Service Disruption Order",
+    "Storage Duplication Objective"
+   ],
+   "qids": [
+    "2016S-A-60"
+   ]
+  },
+  {
+   "id": "SGML",
+   "abbr": "SGML",
+   "topic": "net",
+   "full": "Standard Generalized Markup Language",
+   "ru": "стандартный обобщённый язык разметки (ISO 8879) — предок HTML и XML",
+   "note": "Метаязык ISO 8879 для описания языков разметки через DTD. HTML построен на SGML, а XML — упрощённое подмножество SGML, поэтому утверждение «XML основан на HTML» неверно.",
+   "decoys": [
+    "Structured Graphics Modeling Language",
+    "Semantic Generalized Metadata Language",
+    "Standard Graphical Media Language"
+   ],
+   "qids": [
+    "2016A-A-08"
+   ]
+  },
+  {
+   "id": "SIM",
+   "abbr": "SIM",
+   "topic": "hw",
+   "full": "Subscriber Identity Module",
+   "ru": "модуль идентификации абонента — карта оператора в телефоне",
+   "note": "Смарт-карта с идентификатором абонента (IMSI) и ключами аутентификации. Телефон без SIM-lock работает с SIM-картой другого оператора. Не путать с SIM = Security Information Management (часть SIEM).",
+   "decoys": [
+    "Subscriber Interface Module",
+    "Secure Identification Module",
+    "Signal Integration Module"
+   ],
+   "qids": [
+    "2016A-A-73"
+   ]
+  },
+  {
+   "id": "SJF",
+   "abbr": "SJF",
+   "topic": "algo",
+   "full": "Shortest Job First",
+   "ru": "«кратчайшая задача первой» — сначала процесс с наименьшим временем",
+   "note": "Невытесняющий: из ожидающих выбирается процесс с наименьшим временем выполнения; даёт минимальное среднее время ожидания, но длинные задачи могут «голодать». Вытесняющая версия — SRTF.",
+   "decoys": [
+    "Sequential Job Flow",
+    "Scheduled Job Forwarding",
+    "Slowest Job First"
+   ],
+   "qids": [
+    "2017A-A-16"
+   ]
+  },
+  {
+   "id": "SLCP",
+   "abbr": "SLCP",
+   "topic": "dev",
+   "full": "Software Life Cycle Processes",
+   "ru": "процессы жизненного цикла ПО — стандарт ISO/IEC 12207",
+   "note": "ISO/IEC 12207 описывает процессы от заключения договора до вывода из эксплуатации; японский аналог — Common Frame (SLCP-JCF). Реализация ПО: анализ требований → проектирование → конструирование → интеграция и тестирование.",
+   "decoys": [
+    "Software Library Configuration Plan",
+    "Software License Compliance Procedures",
+    "System Level Change Process"
+   ],
+   "qids": [
+    "2017A-A-50"
+   ]
+  },
+  {
+   "id": "SMP",
+   "abbr": "SMP",
+   "topic": "hw",
+   "full": "Symmetric Multiprocessing",
+   "ru": "симметричная многопроцессорность — равноправные ядра с общей памятью",
+   "note": "Все процессоры равноправны, делят общую память и одну ОС, любая задача идёт на любом ядре. Противоположность — асимметричная (AMP): master раздаёт работу slave-ядрам. Иначе: shared-memory multiprocessing.",
+   "decoys": [
+    "Selective Multiprocessing",
+    "Sequential Multiprogramming",
+    "Static Multiprogramming"
+   ],
+   "qids": [
+    "2017A-A-09"
+   ]
+  },
+  {
+   "id": "SMS",
+   "abbr": "SMS",
+   "topic": "mgmt",
+   "full": "Service Management System",
+   "ru": "система управления услугами — по ISO/IEC 20000-1",
+   "note": "Система менеджмента для планирования, предоставления и улучшения ИТ-услуг по циклу PDCA; в фазу Plan входит распределение полномочий, обязанностей и ролей. Не путать с Short Message Service.",
+   "decoys": [
+    "Service Monitoring Standard",
+    "System Maintenance Schedule",
+    "Supplier Management Strategy"
+   ],
+   "qids": [
+    "2018S-A-56"
+   ]
+  },
+  {
+   "id": "SMTP-AUTH",
+   "abbr": "SMTP-AUTH",
+   "topic": "sec",
+   "full": "Simple Mail Transfer Protocol Authentication",
+   "ru": "аутентификация пользователя на SMTP-сервере при отправке письма",
+   "note": "Перед отправкой клиент входит на SMTP-сервер по имени и паролю, и сервер принимает почту только от своих пользователей. Ответ на вопрос про аутентификацию отправителя; APOP и POP3S — про получение.",
+   "decoys": [
+    "Secure Mail Transport Protocol Authorization",
+    "Simple Message Tunneling Protocol Authority",
+    "Standard Mail Transmission Protocol Authenticity"
+   ],
+   "qids": [
+    "2023S-A-45"
+   ]
+  },
+  {
+   "id": "SPI",
+   "abbr": "SPI",
+   "topic": "hw",
+   "full": "Serial Peripheral Interface",
+   "ru": "последовательный периферийный интерфейс — синхронная шина с тактом",
+   "note": "Синхронная полнодуплексная шина master/slave (SCLK, MOSI, MISO, SS) для датчиков и flash-памяти. Асинхронной передаче соответствует UART. Другие SPI: Stateful Packet Inspection, Security Parameter Index.",
+   "decoys": [
+    "Synchronous Port Interconnect",
+    "System Peripheral Integration",
+    "Shared Parallel Interface"
+   ],
+   "qids": [
+    "2020S-A-12"
+   ]
+  },
+  {
+   "id": "SQuaRE",
+   "abbr": "SQuaRE",
+   "topic": "dev",
+   "full": "Systems and Software Quality Requirements and Evaluation",
+   "ru": "серия ISO/IEC 25000 — требования к качеству ПО и его оценка",
+   "note": "Сменила ISO/IEC 9126. Модель ISO/IEC 25010 (2011): 8 характеристик — функциональная пригодность, производительность, совместимость, удобство, надёжность, защищённость, сопровождаемость, переносимость.",
+   "decoys": [
+    "Systems and Software Quality Review and Enhancement",
+    "Software and Systems Quality Rating and Engineering",
+    "Systems and Services Quality Reliability and Efficiency"
+   ],
+   "qids": [
+    "2016S-A-49"
+   ]
+  },
+  {
+   "id": "TDD",
+   "abbr": "TDD",
+   "topic": "dev",
+   "full": "Test-Driven Development",
+   "ru": "разработка через тестирование — сначала тест, потом код",
+   "note": "Цикл red–green–refactor: пишем тест, который падает, затем минимум кода, чтобы он прошёл, потом рефакторинг. Тесты прогоняются автоматически при каждом изменении; одна из практик XP.",
+   "decoys": [
+    "Test-Defined Design",
+    "Task-Driven Deployment",
+    "Test-Driven Debugging"
+   ],
+   "qids": [
+    "2016A-A-47"
+   ]
+  },
+  {
+   "id": "TFTP",
+   "abbr": "TFTP",
+   "topic": "net",
+   "full": "Trivial File Transfer Protocol",
+   "ru": "упрощённый протокол передачи файлов — по UDP, без аутентификации",
+   "note": "Упрощённый FTP поверх UDP (порт 69) без входа по паролю; применяется для загрузки прошивок и сетевой загрузки. В вопросе «какой протокол работает поверх TCP» TFTP — неверный вариант, верно TELNET.",
+   "decoys": [
+    "Temporary File Transfer Protocol",
+    "Terminal File Transmission Protocol",
+    "Tunneled File Transport Protocol"
+   ],
+   "qids": [
+    "2019S-A-35"
+   ]
+  },
+  {
+   "id": "TIFF",
+   "abbr": "TIFF",
+   "topic": "net",
+   "full": "Tagged Image File Format",
+   "ru": "теговый формат файлов изображений — обмен графикой в полиграфии",
+   "note": "Гибкий растровый формат с тегами: сжатие без потерь, многостраничные файлы, большая глубина цвета. Стандарт обмена изображениями между дизайнерами, фотографами и издательствами — так его и описывают в FE.",
+   "decoys": [
+    "Tiled Image Frame Format",
+    "Textured Image File Format",
+    "Transparent Image Fill Format"
+   ],
+   "qids": [
+    "2015S-A-27"
+   ]
+  },
+  {
+   "id": "TLB",
+   "abbr": "TLB",
+   "topic": "hw",
+   "full": "Translation Lookaside Buffer",
+   "ru": "буфер ассоциативной трансляции — кэш преобразований адресов",
+   "note": "Небольшой быстрый кэш в MMU с недавними парами «виртуальная страница → физический кадр»: при попадании таблицу страниц читать не нужно. На вопрос «что транслирует адрес» ответ MMU.",
+   "decoys": [
+    "Translation Lookahead Block",
+    "Transfer Latency Buffer",
+    "Table Load Buffer"
+   ],
+   "qids": [
+    "2016S-A-14"
+   ]
+  },
+  {
+   "id": "TPS",
+   "abbr": "TPS",
+   "topic": "hw",
+   "full": "Transactions Per Second",
+   "ru": "транзакций в секунду — пропускная способность системы",
+   "note": "Мера производительности OLTP-систем. TPS = MIPS × 10^6 × загрузка CPU / число инструкций на транзакцию; у цепочки серверов общий TPS равен TPS самого медленного. Не путать с Transaction Processing System.",
+   "decoys": [
+    "Throughput Per Server",
+    "Tasks Per Session",
+    "Traffic Per Segment"
+   ],
+   "qids": [
+    "2022A-A-15"
+   ]
+  },
+  {
+   "id": "UART",
+   "abbr": "UART",
+   "topic": "hw",
+   "full": "Universal Asynchronous Receiver-Transmitter",
+   "ru": "универсальный асинхронный приёмопередатчик — последовательный порт",
+   "note": "Преобразует параллельные данные в последовательный поток и обратно без общего тактового сигнала: синхронизация старт- и стоп-битами. Ответ на вопрос об асинхронной последовательной передаче (I2C, SPI — синхронные).",
+   "decoys": [
+    "Unified Asynchronous Relay-Transfer",
+    "Universal Address Register-Translator",
+    "Uniform Analog Receiver-Terminal"
+   ],
+   "qids": [
+    "2020S-A-12"
+   ]
+  },
+  {
+   "id": "UPS",
+   "abbr": "UPS",
+   "topic": "hw",
+   "full": "Uninterruptible Power Supply",
+   "ru": "источник бесперебойного питания (ИБП) — батарея на время сбоя сети",
+   "note": "При отключении или провале напряжения питает оборудование от батареи, давая время на корректное выключение или запуск генератора. От перенапряжения при грозе защищает SPD, не UPS.",
+   "decoys": [
+    "Unified Power Switch",
+    "Utility Power Stabilizer",
+    "Undervoltage Protection System"
+   ],
+   "qids": [
+    "2017A-A-57"
+   ]
+  },
+  {
+   "id": "UPnP",
+   "abbr": "UPnP",
+   "topic": "net",
+   "full": "Universal Plug and Play",
+   "ru": "универсальный Plug and Play — автообнаружение устройств в локальной сети",
+   "note": "Протоколы, по которым устройства в локальной сети сами находят друг друга и настраиваются; умеют открывать порты на маршрутизаторе, что создаёт риск. В вопросе о раздаче Интернета со смартфона ответ — tethering.",
+   "decoys": [
+    "Universal Port and Protocol",
+    "Unified Pairing and Provisioning",
+    "User Profile and Policy"
+   ],
+   "qids": [
+    "2024A-A-26"
+   ]
+  },
+  {
+   "id": "UTF-8",
+   "abbr": "UTF-8",
+   "topic": "hw",
+   "full": "Unicode Transformation Format 8-bit",
+   "ru": "формат преобразования Unicode — от 1 до 4 байт на символ",
+   "note": "Кодирует code point Unicode 1–4 байтами: U+0000–007F — 1 байт (как ASCII), U+0080–07FF — 2 байта по шаблону 110xxxxx 10xxxxxx. Официально также UCS Transformation Format.",
+   "decoys": [
+    "Universal Text Format 8-bit",
+    "Unified Translation Framework 8-bit",
+    "Unicode Transfer Function 8-bit"
+   ],
+   "qids": [
+    "2026S-B-16"
+   ]
+  },
+  {
+   "id": "VLIW",
+   "abbr": "VLIW",
+   "topic": "hw",
+   "full": "Very Long Instruction Word",
+   "ru": "очень длинное командное слово — несколько операций в одной команде",
+   "note": "Компилятор заранее упаковывает несколько независимых операций в одно длинное слово, и они выполняются параллельно. Не путать с pipeline: там инструкции выполняются со сдвигом стадий.",
+   "decoys": [
+    "Variable Length Instruction Word",
+    "Vector Logic Instruction Window",
+    "Virtual Linked Instruction Word"
+   ],
+   "qids": [
+    "2021A-A-13"
+   ]
+  },
+  {
+   "id": "VM",
+   "abbr": "VM",
+   "topic": "algo",
+   "full": "Virtual Machine",
+   "ru": "виртуальная машина — программная эмуляция компьютера",
+   "note": "Java VM (JVM) исполняет байт-код, поэтому Java-программа работает на любой ОС. Не путать с JDBC (доступ к БД) и с virtual memory (виртуальная память), которую тоже иногда сокращают VM.",
+   "decoys": [
+    "Virtual Module",
+    "Validation Monitor",
+    "Variable Mapper"
+   ],
+   "qids": [
+    "2022A-A-19"
+   ]
+  },
+  {
+   "id": "XHTML",
+   "abbr": "XHTML",
+   "topic": "net",
+   "full": "Extensible HyperText Markup Language",
+   "ru": "расширяемый HTML — HTML, переписанный по строгим правилам XML",
+   "note": "HTML, переопределённый как приложение XML: строгий синтаксис — все теги закрыты, имена в нижнем регистре, атрибуты в кавычках. Оформление, как и у HTML, задаётся через CSS.",
+   "decoys": [
+    "Executable HyperText Markup Layer",
+    "Exchangeable HyperText Modeling Language",
+    "Exclusive HyperTable Markup Language"
+   ],
+   "qids": [
+    "2015A-A-24"
+   ]
+  },
+  {
+   "id": "XNOR",
+   "abbr": "XNOR",
+   "topic": "hw",
+   "full": "Exclusive NOR",
+   "ru": "исключающее ИЛИ-НЕ (эквивалентность) — 1, если входы равны",
+   "note": "Инверсия XOR: выход 1 при одинаковых входах (0,0 и 1,1), поэтому работает как схема сравнения битов. Вместе с NOR даёт 1 при обоих входах 0.",
+   "decoys": [
+    "Extended NOR",
+    "Expanded NOR",
+    "Exact NOR"
+   ],
+   "qids": [
+    "2017A-A-22"
+   ]
+  },
+  {
+   "id": "XSL",
+   "abbr": "XSL",
+   "topic": "net",
+   "full": "Extensible Stylesheet Language",
+   "ru": "расширяемый язык стилей — преобразование и оформление XML (XSLT)",
+   "note": "Семейство языков для XML: XSLT преобразует XML в другой XML или HTML, XSL-FO задаёт оформление для печати. К XML можно применять и XSL, и CSS.",
+   "decoys": [
+    "Extensible Schema Language",
+    "Executable Script Language",
+    "Exchangeable Syntax Library"
+   ],
+   "qids": [
+    "2016A-A-08"
+   ]
+  },
+  {
+   "id": "XSS",
+   "abbr": "XSS",
+   "topic": "sec",
+   "full": "Cross-Site Scripting",
+   "ru": "межсайтовый скриптинг — внедрение вредоносного скрипта в веб-страницу",
+   "note": "Скрипт атакующего попадает в страницу уязвимого сайта и выполняется в браузере жертвы (кража cookie и сессии). Защита — экранирование (escaping) выводимых данных: < > & \" ' заменяются сущностями HTML.",
+   "decoys": [
+    "Cross-Server Spoofing",
+    "Cross-Session Sniffing",
+    "Cross-Socket Snooping"
+   ],
+   "qids": [
+    "2020S-A-42"
+   ]
+  }
+ ]
+}

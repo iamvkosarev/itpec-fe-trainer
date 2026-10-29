@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ITPEC FE — тренажёр</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#/" data-nav>
+    <span class="brand__mark">FE</span>
+    <span class="brand__text">
+      <b>ITPEC Fundamental IT Engineer</b>
+      <small id="brandCountdown">—</small>
+    </span>
+  </a>
+  <nav class="topnav">
+    <a href="#/" data-nav>Обзор</a>
+    <a href="#/exam" data-nav>Экзамен</a>
+    <a href="#/practice" data-nav>Практика</a>
+    <a href="#/words" data-nav>Слова</a>
+    <a href="#/history" data-nav>История</a>
+    <a href="#/docs" data-nav>Шпаргалка</a>
+    <button id="themeToggle" class="icon-btn" title="Тема оформления" aria-label="Сменить тему">◐</button>
+  </nav>
+</header>
+
+<button id="toTop" class="totop" type="button" title="Наверх" hidden>↑ Наверх</button>
+
+<main id="screen" class="screen" aria-live="polite">
+  <div class="boot">Загрузка банка вопросов…</div>
+</main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal__head">
+      <h2 id="modalTitle">Справка</h2>
+      <button class="icon-btn" data-close aria-label="Закрыть">✕</button>
+    </div>
+    <div id="modalBody" class="modal__body"></div>
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

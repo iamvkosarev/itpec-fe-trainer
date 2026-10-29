@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+
+# Official ITPEC archives and PDFs: always downloaded by tools/fetch_exams.py.
+raw/
+
+# Each user's own dictionary, written by start.sh and tools/vocab.py.
+vocab/
+
+# Compiled helpers (swiftc -O tools/apple_nlp.swift -o tools/.bin/apple_nlp).
+tools/.bin/
+
+# Generated reports (tools/topics.py --report).
+analysis/
+
+.claude/
